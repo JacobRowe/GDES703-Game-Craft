@@ -2507,3 +2507,1701 @@ Please see Output Log for details.
 [2022.12.28-20.55.12:863][204]AssetCheck: New page: Asset Save: multiple assets
 [2022.12.28-20.55.12:863][204]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData
 [2022.12.28-20.55.12:863][204]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2022.12.28-20.57.30:143][874]LogTemp: Repeating last play command: Selected Viewport
+[2022.12.28-20.57.30:148][874]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.12.28-20.57.30:148][874]PIE: New page: PIE session: ThirdPersonExampleMap (28 Dec 2022, 20:57:30)
+[2022.12.28-20.57.30:176][874]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2022.12.28-20.57.30:186][874]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009812s)
+[2022.12.28-20.57.30:187][874]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2022.12.28-20.57.30:187][874]LogPlayLevel: PIE: World Init took: (0.001149s)
+[2022.12.28-20.57.30:187][874]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.011094s)
+[2022.12.28-20.57.30:207][874]LogUObjectHash: Compacting FUObjectHashTables data took   2.57ms
+[2022.12.28-20.57.30:211][874]LogAudio: Display: Creating Audio Device:                 Id: 10, Scope: Unique, Realtime: True
+[2022.12.28-20.57.30:211][874]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.12.28-20.57.30:211][874]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.12.28-20.57.30:211][874]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.12.28-20.57.30:211][874]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.12.28-20.57.30:211][874]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.12.28-20.57.30:211][874]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.12.28-20.57.30:211][874]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.12.28-20.57.30:211][874]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.12.28-20.57.30:212][874]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.12.28-20.57.30:212][874]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.12.28-20.57.30:212][874]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.12.28-20.57.30:212][874]LogAudioMixer: Display: Initializing audio mixer.
+[2022.12.28-20.57.30:215][874]LogAudioMixer: Display: 0: FrontLeft
+[2022.12.28-20.57.30:215][874]LogAudioMixer: Display: 1: FrontRight
+[2022.12.28-20.57.30:221][874]LogAudioMixer: Display: Using Audio Device Speakers (2- USB Audio CODEC )
+[2022.12.28-20.57.30:221][874]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.12.28-20.57.30:221][874]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.12.28-20.57.30:221][874]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.12.28-20.57.30:222][874]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.12.28-20.57.30:222][874]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.12.28-20.57.30:222][874]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.12.28-20.57.30:223][874]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.12.28-20.57.30:223][874]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.12.28-20.57.30:223][874]LogInit: FAudioDevice initialized.
+[2022.12.28-20.57.30:223][874]LogAudio: Display: Audio Device (ID: 10) registered with world 'ThirdPersonExampleMap'.
+[2022.12.28-20.57.30:229][874]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2022.12.28-20.57.30:231][874]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2022.12.28-20.57.30
+[2022.12.28-20.57.30:232][874]LogWorld: Bringing up level for play took: 0.002707
+[2022.12.28-20.57.30:232][874]LogOnline: OSS: Creating online subsystem instance for: :Context_73
+[2022.12.28-20.57.30:234][874]PIE: Server logged in
+[2022.12.28-20.57.30:235][874]PIE: Play in editor total start time 0.088 seconds.
+[2022.12.28-20.57.31:908][ 70]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.12.28-20.57.31:908][ 70]LogWorld: BeginTearingDown for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2022.12.28-20.57.31:908][ 70]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2022.12.28-20.57.31:908][ 70]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.12.28-20.57.31:916][ 70]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.12.28-20.57.31:950][ 70]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.12.28-20.57.31:965][ 70]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.12.28-20.57.31:965][ 70]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.12.28-20.57.31:966][ 70]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.12.28-20.57.31:968][ 70]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.12.28-20.57.31:971][ 70]LogUObjectHash: Compacting FUObjectHashTables data took   2.04ms
+[2022.12.28-20.57.32:004][ 71]LogPlayLevel: Display: Destroying online subsystem :Context_73
+[2022.12.28-20.57.33:897][281]LogAssetEditorSubsystem: Opening Asset editor for AnimSequence /Game/Enemy/Imp/Animations/Walking_Anim_mixamo_com.Walking_Anim_mixamo_com
+[2022.12.28-20.57.33:901][281]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_64:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2022.12.28-20.57.34:177][281]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2022.12.28-20.57.55:813][136]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/Imp/ImpTest" FILE="../../../../../repos/GDES703-Game-Craft/TimelessParadox/Content/Enemy/Imp/ImpTest.uasset" SILENT=true
+[2022.12.28-20.57.55:820][136]LogSavePackage: Moving '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Saved/ImpTest76F7EF7146A3ED94F8C46B9F7AA78AD5.tmp' to '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Content/Enemy/Imp/ImpTest.uasset'
+[2022.12.28-20.57.55:832][136]AssetCheck: New page: Asset Save: ImpTest
+[2022.12.28-20.57.55:832][136]LogContentValidation: Display: Validating Blueprint /Game/Enemy/Imp/ImpTest.ImpTest
+[2022.12.28-20.58.00:799][499]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/Imp/ImpTest" FILE="../../../../../repos/GDES703-Game-Craft/TimelessParadox/Content/Enemy/Imp/ImpTest.uasset" SILENT=true
+[2022.12.28-20.58.00:807][499]LogSavePackage: Moving '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Saved/ImpTestEF08BD8A4A20101F4E4D438D612C1F5C.tmp' to '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Content/Enemy/Imp/ImpTest.uasset'
+[2022.12.28-20.58.00:817][499]AssetCheck: New page: Asset Save: ImpTest
+[2022.12.28-20.58.00:817][499]LogContentValidation: Display: Validating Blueprint /Game/Enemy/Imp/ImpTest.ImpTest
+[2022.12.28-20.58.13:130][387]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/Imp/ImpTest" FILE="../../../../../repos/GDES703-Game-Craft/TimelessParadox/Content/Enemy/Imp/ImpTest.uasset" SILENT=true
+[2022.12.28-20.58.13:137][387]LogSavePackage: Moving '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Saved/ImpTest37FEC019485690AC297A9D87791F4B9B.tmp' to '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Content/Enemy/Imp/ImpTest.uasset'
+[2022.12.28-20.58.13:148][387]AssetCheck: New page: Asset Save: ImpTest
+[2022.12.28-20.58.13:148][387]LogContentValidation: Display: Validating Blueprint /Game/Enemy/Imp/ImpTest.ImpTest
+[2022.12.28-20.58.16:030][683]LogTemp: Repeating last play command: Selected Viewport
+[2022.12.28-20.58.16:035][683]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.12.28-20.58.16:035][683]PIE: New page: PIE session: ThirdPersonExampleMap (28 Dec 2022, 20:58:16)
+[2022.12.28-20.58.16:064][683]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2022.12.28-20.58.16:074][683]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009270s)
+[2022.12.28-20.58.16:075][683]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2022.12.28-20.58.16:075][683]LogPlayLevel: PIE: World Init took: (0.001045s)
+[2022.12.28-20.58.16:075][683]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.010444s)
+[2022.12.28-20.58.16:092][683]LogUObjectHash: Compacting FUObjectHashTables data took   2.03ms
+[2022.12.28-20.58.16:099][683]LogAudio: Display: Creating Audio Device:                 Id: 11, Scope: Unique, Realtime: True
+[2022.12.28-20.58.16:099][683]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.12.28-20.58.16:099][683]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.12.28-20.58.16:099][683]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.12.28-20.58.16:099][683]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.12.28-20.58.16:099][683]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.12.28-20.58.16:099][683]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.12.28-20.58.16:099][683]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.12.28-20.58.16:099][683]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.12.28-20.58.16:099][683]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.12.28-20.58.16:099][683]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.12.28-20.58.16:099][683]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.12.28-20.58.16:099][683]LogAudioMixer: Display: Initializing audio mixer.
+[2022.12.28-20.58.16:102][683]LogAudioMixer: Display: 0: FrontLeft
+[2022.12.28-20.58.16:102][683]LogAudioMixer: Display: 1: FrontRight
+[2022.12.28-20.58.16:109][683]LogAudioMixer: Display: Using Audio Device Speakers (2- USB Audio CODEC )
+[2022.12.28-20.58.16:109][683]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.12.28-20.58.16:109][683]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.12.28-20.58.16:109][683]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.12.28-20.58.16:109][683]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.12.28-20.58.16:109][683]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.12.28-20.58.16:109][683]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.12.28-20.58.16:110][683]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.12.28-20.58.16:110][683]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.12.28-20.58.16:110][683]LogInit: FAudioDevice initialized.
+[2022.12.28-20.58.16:110][683]LogAudio: Display: Audio Device (ID: 11) registered with world 'ThirdPersonExampleMap'.
+[2022.12.28-20.58.16:116][683]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2022.12.28-20.58.16:118][683]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2022.12.28-20.58.16
+[2022.12.28-20.58.16:119][683]LogWorld: Bringing up level for play took: 0.002749
+[2022.12.28-20.58.16:119][683]LogOnline: OSS: Creating online subsystem instance for: :Context_77
+[2022.12.28-20.58.16:121][683]PIE: Server logged in
+[2022.12.28-20.58.16:122][683]PIE: Play in editor total start time 0.087 seconds.
+[2022.12.28-20.58.43:954][351]LogAnimMontage: Warning: Playing a Montage (Sword_And_Shield_Slash_mixamo_com_Montage) for the wrong Skeleton (SoniaOrc_Skeleton) instead of (UE4_Mannequin_Skeleton).
+[2022.12.28-20.58.54:894][112]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.12.28-20.58.54:894][112]LogWorld: BeginTearingDown for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2022.12.28-20.58.54:894][112]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2022.12.28-20.58.54:894][112]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.12.28-20.58.54:902][112]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.12.28-20.58.54:938][112]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.12.28-20.58.54:953][112]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.12.28-20.58.54:954][112]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.12.28-20.58.54:955][112]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.12.28-20.58.54:957][112]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.12.28-20.58.54:960][112]LogUObjectHash: Compacting FUObjectHashTables data took   2.08ms
+[2022.12.28-20.58.54:991][113]LogPlayLevel: Display: Destroying online subsystem :Context_77
+[2022.12.28-20.58.55:685][192]LogUObjectHash: Compacting FUObjectHashTables data took   2.05ms
+[2022.12.28-20.58.55:703][192]LogSavePackage: Moving '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Saved/ThirdPersonExampleMapAC091FF146DC212ED0A10788AC5666F1.tmp' to '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2022.12.28-20.58.55:756][192]LogSavePackage: Moving '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Saved/ThirdPersonExampleMap_BuiltData4D70793343905C75673938AA219E940B.tmp' to '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2022.12.28-20.58.55:772][192]AssetCheck: New page: Asset Save: multiple assets
+[2022.12.28-20.58.55:772][192]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData
+[2022.12.28-20.58.55:772][192]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2022.12.28-20.59.15:999][511]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2022.12.28-20.59.18:765][832]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2022.12.28-20.59.18:785][832]LogSavePackage: Moving '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Saved/ThirdPersonExampleMap442BB1E847C3E7851FEFD1B4374B4381.tmp' to '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2022.12.28-20.59.18:837][832]LogSavePackage: Moving '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Saved/ThirdPersonExampleMap_BuiltData9850B46C49EACC847609E686B087EF5C.tmp' to '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2022.12.28-20.59.18:851][832]AssetCheck: New page: Asset Save: multiple assets
+[2022.12.28-20.59.18:851][832]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData
+[2022.12.28-20.59.18:851][832]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2022.12.28-20.59.48:695][480]LogUObjectHash: Compacting FUObjectHashTables data took   2.08ms
+[2022.12.28-20.59.50:106][480]LogSlate: Window 'Delete Assets' being destroyed
+[2022.12.28-20.59.50:151][480]LogWorld: UWorld::CleanupWorld for World_66, bSessionEnded=true, bCleanupResources=true
+[2022.12.28-20.59.50:151][480]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.12.28-20.59.50:188][480]LogWorld: UWorld::CleanupWorld for World_65, bSessionEnded=true, bCleanupResources=true
+[2022.12.28-20.59.50:188][480]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.12.28-20.59.50:204][480]LogWorld: UWorld::CleanupWorld for World_64, bSessionEnded=true, bCleanupResources=true
+[2022.12.28-20.59.50:204][480]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.12.28-20.59.50:210][480]LogUObjectGlobals: Force Deleting 5 Package(s):
+	Asset Name: /Game/Enemy/Imp/Animations/PolySphere1_10.PolySphere1_10
+	Asset Name: /Game/Enemy/Imp/Animations/Walking.Walking
+	Asset Name: /Game/Enemy/Imp/Animations/Walking_Anim_mixamo_com.Walking_Anim_mixamo_com
+	Asset Name: /Game/Enemy/Imp/Animations/Walking_Anim_Take_001.Walking_Anim_Take_001
+	Asset Name: /Game/Enemy/Imp/Animations/Walking_PhysicsAsset.Walking_PhysicsAsset
+[2022.12.28-20.59.50:597][480]LogUObjectHash: Compacting FUObjectHashTables data took   2.12ms
+[2022.12.28-20.59.50:614][480]LogUObjectHash: Compacting FUObjectHashTables data took   2.03ms
+[2022.12.28-20.59.50:629][480]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2022.12.28-20.59.59:854][973]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 E:\UNI\Masters\Game Craft\Exports_MoCap\Exports\Timeless\IMP_IDLEWALK_001.fbx)
+[2022.12.28-20.59.59:869][973]LogFbx: Loading FBX Scene from E:\UNI\Masters\Game Craft\Exports_MoCap\Exports\Timeless\IMP_IDLEWALK_001.fbx
+[2022.12.28-20.59.59:937][973]LogFbx: FBX Scene Loaded Succesfully
+[2022.12.28-21.00.22:870][973]LogSlate: Window 'FBX Import Options' being destroyed
+[2022.12.28-21.00.22:886][973]FBXImport: FBX File Loading: Found name clash, node 'IMP:Position' was renamed to 'IMP:Position1' 
+[2022.12.28-21.00.22:887][973]FBXImport: Error: Mesh contains QuickRigCharacter_Reference bone as root but animation doesn't contain the root track.
+Import failed. 
+[2022.12.28-21.00.22:887][973]FBXImport: Error: Import failed. 
+[2022.12.28-21.00.24:335][973]LogSlate: Window 'Message' being destroyed
+[2022.12.28-21.00.24:338][973]Message dialog closed, result: Ok, title: Message, text: Failed to import 'E:\UNI\Masters\Game Craft\Exports_MoCap\Exports\Timeless\IMP_IDLEWALK_001.fbx'. Failed to create asset '/Game/Enemy/Imp/Animations/IMP_IDLEWALK_001'.
+Please see Output Log for details.
+[2022.12.28-21.00.24:338][973]LogAssetTools: Warning: Failed to import 'E:\UNI\Masters\Game Craft\Exports_MoCap\Exports\Timeless\IMP_IDLEWALK_001.fbx'. Failed to create asset '/Game/Enemy/Imp/Animations/IMP_IDLEWALK_001'.
+Please see Output Log for details.
+[2022.12.28-21.00.26:260][198]LogSlate: Window 'Message Log' being destroyed
+[2022.12.28-21.00.26:264][198]LogSlate: Window 'Message Log' being destroyed
+[2022.12.28-21.00.34:530][744]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 E:\UNI\Masters\Game Craft\Exports_MoCap\Exports\Timeless\IMP_IDLEWALK_.fbx)
+[2022.12.28-21.00.34:544][744]LogFbx: Loading FBX Scene from E:\UNI\Masters\Game Craft\Exports_MoCap\Exports\Timeless\IMP_IDLEWALK_.fbx
+[2022.12.28-21.00.34:607][744]LogFbx: FBX Scene Loaded Succesfully
+[2022.12.28-21.00.46:241][744]LogSlate: Window 'FBX Import Options' being destroyed
+[2022.12.28-21.00.46:264][744]FBXImport: FBX File Loading: Found name clash, node 'IMP:Position' was renamed to 'IMP:Position1' 
+[2022.12.28-21.00.46:264][744]FBXImport: Error: Mesh contains QuickRigCharacter_Reference bone as root but animation doesn't contain the root track.
+Import failed. 
+[2022.12.28-21.00.46:264][744]FBXImport: Error: Import failed. 
+[2022.12.28-21.00.48:792][744]LogSlate: Window 'Message' being destroyed
+[2022.12.28-21.00.48:795][744]Message dialog closed, result: Ok, title: Message, text: Failed to import 'E:\UNI\Masters\Game Craft\Exports_MoCap\Exports\Timeless\IMP_IDLEWALK_.fbx'. Failed to create asset '/Game/Enemy/Imp/Animations/IMP_IDLEWALK_'.
+Please see Output Log for details.
+[2022.12.28-21.00.48:795][744]LogAssetTools: Warning: Failed to import 'E:\UNI\Masters\Game Craft\Exports_MoCap\Exports\Timeless\IMP_IDLEWALK_.fbx'. Failed to create asset '/Game/Enemy/Imp/Animations/IMP_IDLEWALK_'.
+Please see Output Log for details.
+[2022.12.28-21.00.58:649][923]LogSlate: Window 'Message Log' being destroyed
+[2022.12.28-21.00.58:652][923]LogSlate: Window 'Message Log' being destroyed
+[2022.12.28-21.01.03:525][264]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 E:\UNI\Masters\Game Craft\Exports_MoCap\Exports\Timeless\IMP_BACKJUMP_.fbx)
+[2022.12.28-21.01.03:536][264]LogFbx: Loading FBX Scene from E:\UNI\Masters\Game Craft\Exports_MoCap\Exports\Timeless\IMP_BACKJUMP_.fbx
+[2022.12.28-21.01.03:587][264]LogFbx: FBX Scene Loaded Succesfully
+[2022.12.28-21.01.17:186][264]LogSlate: Window 'FBX Import Options' being destroyed
+[2022.12.28-21.01.17:201][264]FBXImport: FBX File Loading: Found name clash, node 'IMP:Position' was renamed to 'IMP:Position1' 
+[2022.12.28-21.01.17:202][264]FBXImport: Error: Mesh contains QuickRigCharacter_Reference bone as root but animation doesn't contain the root track.
+Import failed. 
+[2022.12.28-21.01.17:202][264]FBXImport: Error: Import failed. 
+[2022.12.28-21.01.18:517][264]LogSlate: Window 'Message' being destroyed
+[2022.12.28-21.01.18:520][264]Message dialog closed, result: Ok, title: Message, text: Failed to import 'E:\UNI\Masters\Game Craft\Exports_MoCap\Exports\Timeless\IMP_BACKJUMP_.fbx'. Failed to create asset '/Game/Enemy/Imp/Animations/IMP_BACKJUMP_'.
+Please see Output Log for details.
+[2022.12.28-21.01.18:520][264]LogAssetTools: Warning: Failed to import 'E:\UNI\Masters\Game Craft\Exports_MoCap\Exports\Timeless\IMP_BACKJUMP_.fbx'. Failed to create asset '/Game/Enemy/Imp/Animations/IMP_BACKJUMP_'.
+Please see Output Log for details.
+[2022.12.28-21.01.25:030][714]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 E:\UNI\Masters\Game Craft\Exports_MoCap\Exports\Timeless\IMP_IDLEWALK_001.fbx)
+[2022.12.28-21.01.25:043][714]LogFbx: Loading FBX Scene from E:\UNI\Masters\Game Craft\Exports_MoCap\Exports\Timeless\IMP_IDLEWALK_001.fbx
+[2022.12.28-21.01.25:107][714]LogFbx: FBX Scene Loaded Succesfully
+[2022.12.28-21.01.51:968][714]LogSlate: Window 'FBX Import Options' being destroyed
+[2022.12.28-21.01.51:991][714]FBXImport: FBX File Loading: Found name clash, node 'IMP:Position' was renamed to 'IMP:Position1' 
+[2022.12.28-21.01.51:991][714]FBXImport: Error: Mesh contains QuickRigCharacter_Reference bone as root but animation doesn't contain the root track.
+Import failed. 
+[2022.12.28-21.01.51:991][714]FBXImport: Error: Import failed. 
+[2022.12.28-21.01.54:316][714]LogSlate: Window 'Message' being destroyed
+[2022.12.28-21.01.54:319][714]Message dialog closed, result: Ok, title: Message, text: Failed to import 'E:\UNI\Masters\Game Craft\Exports_MoCap\Exports\Timeless\IMP_IDLEWALK_001.fbx'. Failed to create asset '/Game/Enemy/Imp/Animations/IMP_IDLEWALK_001'.
+Please see Output Log for details.
+[2022.12.28-21.01.54:319][714]LogAssetTools: Warning: Failed to import 'E:\UNI\Masters\Game Craft\Exports_MoCap\Exports\Timeless\IMP_IDLEWALK_001.fbx'. Failed to create asset '/Game/Enemy/Imp/Animations/IMP_IDLEWALK_001'.
+Please see Output Log for details.
+[2022.12.28-21.02.02:802][670]LogWindows: LaunchURL https://docs.unrealengine.com/4.27/en//Shared/Editor/FbxErrors/index.html?utm_source=editor&utm_medium=docs&utm_campaign=msg_log
+[2022.12.28-21.02.35:306][886]LogSlate: Window 'Message Log' being destroyed
+[2022.12.28-21.02.35:310][886]LogSlate: Window 'Message Log' being destroyed
+[2022.12.28-21.02.42:651][ 95]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 E:\UNI\Masters\Game Craft\Exports_MoCap\Exports\Timeless\IMP_SLASH.fbx)
+[2022.12.28-21.02.42:662][ 95]LogFbx: Loading FBX Scene from E:\UNI\Masters\Game Craft\Exports_MoCap\Exports\Timeless\IMP_SLASH.fbx
+[2022.12.28-21.02.42:714][ 95]LogFbx: FBX Scene Loaded Succesfully
+[2022.12.28-21.02.46:499][ 95]LogSlate: Window 'FBX Import Options' being destroyed
+[2022.12.28-21.02.46:515][ 95]FBXImport: FBX File Loading: Found name clash, node 'IMP:Position' was renamed to 'IMP:Position1' 
+[2022.12.28-21.02.46:515][ 95]FBXImport: Error: Mesh contains Orc bone as root but animation doesn't contain the root track.
+Import failed. 
+[2022.12.28-21.02.46:515][ 95]FBXImport: Error: Import failed. 
+[2022.12.28-21.02.47:888][ 95]LogSlate: Window 'Message' being destroyed
+[2022.12.28-21.02.47:891][ 95]Message dialog closed, result: Ok, title: Message, text: Failed to import 'E:\UNI\Masters\Game Craft\Exports_MoCap\Exports\Timeless\IMP_SLASH.fbx'. Failed to create asset '/Game/Enemy/Imp/Animations/IMP_SLASH'.
+Please see Output Log for details.
+[2022.12.28-21.02.47:891][ 95]LogAssetTools: Warning: Failed to import 'E:\UNI\Masters\Game Craft\Exports_MoCap\Exports\Timeless\IMP_SLASH.fbx'. Failed to create asset '/Game/Enemy/Imp/Animations/IMP_SLASH'.
+Please see Output Log for details.
+[2022.12.28-21.02.53:668][784]LogSlate: Window 'Message Log' being destroyed
+[2022.12.28-21.02.53:672][784]LogSlate: Window 'Message Log' being destroyed
+[2022.12.28-21.04.59:559][916]LogEditorViewport: Clicking on Actor (LMB): ImpTest_C (ImpTest)
+[2022.12.28-21.05.23:435][552]BlueprintLog: New page: Compile ImpTest
+[2022.12.28-21.05.23:543][552]LogUObjectHash: Compacting FUObjectHashTables data took   2.47ms
+[2022.12.28-21.05.24:834][693]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/Imp/ImpTest" FILE="../../../../../repos/GDES703-Game-Craft/TimelessParadox/Content/Enemy/Imp/ImpTest.uasset" SILENT=true
+[2022.12.28-21.05.24:841][693]LogSavePackage: Moving '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Saved/ImpTest5915C2314F6D9E0A99C2D2B92CBA4F83.tmp' to '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Content/Enemy/Imp/ImpTest.uasset'
+[2022.12.28-21.05.24:851][693]AssetCheck: New page: Asset Save: ImpTest
+[2022.12.28-21.05.24:851][693]LogContentValidation: Display: Validating Blueprint /Game/Enemy/Imp/ImpTest.ImpTest
+[2022.12.28-21.05.40:657][218]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Enemy/Imp/ImpEnemy.ImpEnemy
+[2022.12.28-21.05.42:885][366]LogSlate: Window 'ImpEnemy' being destroyed
+[2022.12.28-21.05.42:888][366]LogSlate: Window 'ImpEnemy' being destroyed
+[2022.12.28-21.05.42:918][366]LogWorld: UWorld::CleanupWorld for World_63, bSessionEnded=true, bCleanupResources=true
+[2022.12.28-21.05.42:918][366]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.12.28-21.05.42:972][366]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2022.12.28-21.05.42:973][366]LogWorld: UWorld::CleanupWorld for World_67, bSessionEnded=true, bCleanupResources=true
+[2022.12.28-21.05.42:973][366]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.12.28-21.05.44:198][458]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Enemy/Imp/ImpEnemy.ImpEnemy
+[2022.12.28-21.05.48:281][696]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Enemy/Imp/ImpTest.ImpTest
+[2022.12.28-21.06.35:734][356]LogContentBrowser: Deferred new asset file creation: NewMaterial
+[2022.12.28-21.06.35:746][356]LogContentBrowser: Creating deferred item: NewMaterial
+[2022.12.28-21.06.37:800][602]LogContentBrowser: Attempting asset rename: NewMaterial -> Imp
+[2022.12.28-21.06.37:800][602]LogContentBrowser: End creating deferred item NewMaterial
+[2022.12.28-21.06.40:500][907]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/Enemy/Imp/Textures_Imp/Textures_Imp/Imp.Imp
+[2022.12.28-21.06.40:586][907]LogMaterial: Display: Missing cached shadermap for Imp in PCD3D_SM5, Default, SM5 (DDC key hash: 341938EBA39694677CA9020CF01FDD76EBA53110), compiling. 
+[2022.12.28-21.06.40:593][907]LogShaderCompilers: Display: Submitted 10 shader compile jobs with 'Normal' priority
+[2022.12.28-21.06.40:786][907]LogMaterial: Display: Missing cached shadermap for Imp in PCD3D_SM5, Default, SM5 (DDC key hash: C0390C4CD5AF3CE74BC6E91D5A02C9BB6B864AD6), compiling. 
+[2022.12.28-21.06.40:824][907]LogMaterial: Display: Missing cached shadermap for Imp in PCD3D_SM5, Default, SM5 (DDC key hash: E4BCABFAC605D11A055E83B0C9E3AEBD3708F41A), compiling. 
+[2022.12.28-21.06.40:853][907]MaterialEditorStats: Texture samplers: 0/16
+[2022.12.28-21.06.41:001][908]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2022.12.28-21.06.41:001][908]LogShaderCompilers: Display: Submitted 8 shader compile jobs with 'Normal' priority
+[2022.12.28-21.06.41:001][908]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 2
+[2022.12.28-21.06.41:001][908]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 1
+[2022.12.28-21.06.41:001][908]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 8
+[2022.12.28-21.06.41:001][908]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 6
+[2022.12.28-21.06.41:001][908]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 4
+[2022.12.28-21.06.41:001][908]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 2
+[2022.12.28-21.06.41:001][908]LogShaderCompilers: Display: Started 8 'Local' shader compile jobs with 'Normal' priority
+[2022.12.28-21.06.41:001][908]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'ForceLocal' priority
+[2022.12.28-21.06.41:412][929]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.12.28-21.06.41:412][929]LogShaderCompilers: Display: Total job queries 150, among them cache hits 34 (22.67%)
+[2022.12.28-21.06.41:412][929]LogShaderCompilers: Display: Tracking 65 distinct input hashes that result in 42 distinct outputs (64.62%)
+[2022.12.28-21.06.41:412][929]LogShaderCompilers: Display: RAM used: 0.24 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.03%
+[2022.12.28-21.06.41:412][929]LogShaderCompilers: Display: ================================================
+[2022.12.28-21.06.41:567][938]MaterialEditorStats: Texture samplers: 2/16
+[2022.12.28-21.06.41:953][966]MaterialEditorStats: Base pass shader: 117 instructions
+[2022.12.28-21.06.41:953][966]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 191 instructions
+[2022.12.28-21.06.41:953][966]MaterialEditorStats: Base pass vertex shader: 42 instructions
+[2022.12.28-21.06.41:953][966]MaterialEditorStats: Texture samplers: 2/16
+[2022.12.28-21.06.46:999][438]LogMaterial: Display: Missing cached shadermap for Imp in PCD3D_SM5, Default, SM5 (DDC key hash: 1F881B233F1E435DF432BAA9A1C419FE81E6C49B), compiling. 
+[2022.12.28-21.06.47:001][438]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 7B373C17B679F4820055E67046FF4FE412B47678), compiling. 
+[2022.12.28-21.06.47:004][438]MaterialEditorStats: Texture samplers: 0/16
+[2022.12.28-21.06.47:093][440]MaterialEditorStats: Base pass shader: 117 instructions
+[2022.12.28-21.06.47:093][440]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 191 instructions
+[2022.12.28-21.06.47:093][440]MaterialEditorStats: Base pass vertex shader: 42 instructions
+[2022.12.28-21.06.47:093][440]MaterialEditorStats: Texture samplers: 2/16
+[2022.12.28-21.06.53:663][ 37]LogMaterial: Display: Missing cached shadermap for Imp in PCD3D_SM5, Default, SM5 (DDC key hash: BE05DF1EE7E66E04688072B4BA9804D81AA7E310), compiling. 
+[2022.12.28-21.06.53:664][ 37]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureObject_0 in PCD3D_SM5, Default, SM5 (DDC key hash: D753D7D413C5CED6ADF4EFDFBAEFA2C73E203B82), compiling. 
+[2022.12.28-21.06.53:665][ 37]LogMaterial: Display: Missing cached shadermap for Imp in PCD3D_SM5, Default, SM5 (DDC key hash: B3678B972AF995D739EE8E63BC357A6B9A4E5EF1), compiling. 
+[2022.12.28-21.06.53:666][ 37]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 4B05176321D46B736BF4F4F94BBCA59FA784E687), compiling. 
+[2022.12.28-21.06.53:667][ 37]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureObject_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 750002E375AE28E1D1F25A57EE5AF3D65AA78C50), compiling. 
+[2022.12.28-21.06.53:670][ 37]MaterialEditorStats: Texture samplers: 0/16
+[2022.12.28-21.06.53:699][ 38]MaterialEditorStats: Base pass shader: 117 instructions
+[2022.12.28-21.06.53:699][ 38]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 191 instructions
+[2022.12.28-21.06.53:699][ 38]MaterialEditorStats: Base pass vertex shader: 42 instructions
+[2022.12.28-21.06.53:699][ 38]MaterialEditorStats: Texture samplers: 2/16
+[2022.12.28-21.06.53:712][ 39]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2022.12.28-21.06.53:714][ 39]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2022.12.28-21.06.53:728][ 40]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 4
+[2022.12.28-21.06.53:728][ 40]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 3
+[2022.12.28-21.06.53:728][ 40]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 2
+[2022.12.28-21.06.53:728][ 40]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 1
+[2022.12.28-21.06.53:728][ 40]LogShaderCompilers: Display: Started 4 'Local' shader compile jobs with 'ForceLocal' priority
+[2022.12.28-21.06.58:456][467]LogMaterial: Display: Missing cached shadermap for Imp in PCD3D_SM5, Default, SM5 (DDC key hash: 061B16789A9C120E0212DF56F1176321DD5ED9A8), compiling. 
+[2022.12.28-21.06.58:474][467]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 99CC042463A9F5C194BDE1C45E042669A1B21CB9), compiling. 
+[2022.12.28-21.06.58:478][467]MaterialEditorStats: Texture samplers: 0/16
+[2022.12.28-21.06.58:478][467]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2022.12.28-21.06.58:478][467]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.12.28-21.06.58:522][467]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2022.12.28-21.06.58:522][467]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 2
+[2022.12.28-21.06.58:522][467]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 1
+[2022.12.28-21.06.58:522][467]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'ForceLocal' priority
+[2022.12.28-21.06.58:522][467]LogShaderCompilers: Display: Submitted 8 shader compile jobs with 'Normal' priority
+[2022.12.28-21.06.58:522][467]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 8
+[2022.12.28-21.06.58:522][467]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 6
+[2022.12.28-21.06.58:522][467]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 4
+[2022.12.28-21.06.58:522][467]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 2
+[2022.12.28-21.06.58:522][467]LogShaderCompilers: Display: Started 8 'Local' shader compile jobs with 'Normal' priority
+[2022.12.28-21.06.58:958][488]MaterialEditorStats: Texture samplers: 3/16
+[2022.12.28-21.06.58:958][488]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2022.12.28-21.06.58:958][488]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.12.28-21.06.59:364][516]MaterialEditorStats: Base pass shader: 120 instructions
+[2022.12.28-21.06.59:364][516]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 194 instructions
+[2022.12.28-21.06.59:364][516]MaterialEditorStats: Base pass vertex shader: 46 instructions
+[2022.12.28-21.06.59:364][516]MaterialEditorStats: Texture samplers: 3/16
+[2022.12.28-21.06.59:364][516]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2022.12.28-21.06.59:364][516]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.12.28-21.06.59:587][537]LogMaterialEditor: Saving and Compiling material Imp
+[2022.12.28-21.06.59:884][537]LogMaterial: Display: Missing cached shadermap for Imp in PCD3D_SM5, Default, SM5 (DDC key hash: 9C368C028F7A37FAF40A07B95F27E83B260F9951), compiling. 
+[2022.12.28-21.06.59:908][537]LogMaterial: Display: Missing cached shadermap for Imp in PCD3D_SM5, Default, SM5 (DDC key hash: 150AF6EFEE2990E32097F94F59F61AFB98DD1559), compiling. 
+[2022.12.28-21.06.59:944][537]LogUObjectHash: Compacting FUObjectHashTables data took   2.81ms
+[2022.12.28-21.06.59:951][537]LogShaderCompilers: Display: Submitted 1 shader compile jobs with 'ForceLocal' priority
+[2022.12.28-21.07.00:177][537]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 1
+[2022.12.28-21.07.00:177][537]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'ForceLocal' priority
+[2022.12.28-21.07.00:243][537]LogUObjectHash: Compacting FUObjectHashTables data took   1.99ms
+[2022.12.28-21.07.00:287][537]LogShaderCompilers: Display: Submitted 5 shader compile jobs with 'Normal' priority
+[2022.12.28-21.07.00:296][537]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 5
+[2022.12.28-21.07.00:296][537]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 4
+[2022.12.28-21.07.00:296][537]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 3
+[2022.12.28-21.07.00:296][537]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 2
+[2022.12.28-21.07.00:296][537]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 1
+[2022.12.28-21.07.00:296][537]LogShaderCompilers: Display: Started 5 'Local' shader compile jobs with 'Normal' priority
+[2022.12.28-21.07.00:311][537]LogSavePackage: Moving '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Saved/ImpDFE5D68C4A9E25B9B745C4A008FA33E4.tmp' to '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Content/Enemy/Imp/Textures_Imp/Textures_Imp/Imp.uasset'
+[2022.12.28-21.07.00:329][537]AssetCheck: New page: Asset Save: Imp
+[2022.12.28-21.07.00:329][537]LogContentValidation: Display: Validating Material /Game/Enemy/Imp/Textures_Imp/Textures_Imp/Imp.Imp
+[2022.12.28-21.07.00:336][537]MaterialEditorStats: Texture samplers: 3/16
+[2022.12.28-21.07.00:336][537]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2022.12.28-21.07.00:336][537]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.12.28-21.07.00:721][562]MaterialEditorStats: Texture samplers: 4/16
+[2022.12.28-21.07.00:721][562]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2022.12.28-21.07.00:721][562]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.12.28-21.07.00:745][564]MaterialEditorStats: Base pass shader: 120 instructions
+[2022.12.28-21.07.00:745][564]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 194 instructions
+[2022.12.28-21.07.00:745][564]MaterialEditorStats: Base pass vertex shader: 46 instructions
+[2022.12.28-21.07.00:745][564]MaterialEditorStats: Texture samplers: 4/16
+[2022.12.28-21.07.00:745][564]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2022.12.28-21.07.00:745][564]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.12.28-21.07.09:685][239]LogMaterial: Display: Material /Game/Enemy/Imp/Textures_Imp/Textures_Imp/Imp.Imp needed to have new flag set bUsedWithSkeletalMesh !
+[2022.12.28-21.07.09:685][239]LogMaterial: Display: Material /Engine/Transient.Imp needed to have new flag set bUsedWithSkeletalMesh !
+[2022.12.28-21.07.09:687][239]LogMaterial: Display: Missing cached shadermap for Imp in PCD3D_SM5, Default, SM5 (DDC key hash: 0FF5DB0ABE03966BD738533CB477B6D05F11EEF6), compiling. 
+[2022.12.28-21.07.09:700][239]LogShaderCompilers: Display: Submitted 10 shader compile jobs with 'Normal' priority
+[2022.12.28-21.07.09:701][239]LogMaterial: Display: Missing cached shadermap for Imp in PCD3D_SM5, Default, SM5 (DDC key hash: 30C1AC7938F881FCAE9E363AC4E5ED3F36F14699), compiling. 
+[2022.12.28-21.07.09:721][239]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 10
+[2022.12.28-21.07.09:721][239]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 8
+[2022.12.28-21.07.09:721][239]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 6
+[2022.12.28-21.07.09:721][239]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 4
+[2022.12.28-21.07.09:721][239]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 2
+[2022.12.28-21.07.09:721][239]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.12.28-21.07.09:721][239]LogShaderCompilers: Display: Submitted 6 shader compile jobs with 'Low' priority
+[2022.12.28-21.07.09:722][239]MaterialEditorStats: Texture samplers: 0/16
+[2022.12.28-21.07.09:722][239]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2022.12.28-21.07.09:722][239]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.12.28-21.07.09:747][240]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 6
+[2022.12.28-21.07.09:747][240]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 5
+[2022.12.28-21.07.09:747][240]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 4
+[2022.12.28-21.07.09:747][240]LogShaderCompilers: Display: Started 3 'Local' shader compile jobs with 'Low' priority
+[2022.12.28-21.07.09:750][240]MaterialEditorStats: Texture samplers: 4/16
+[2022.12.28-21.07.09:750][240]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2022.12.28-21.07.09:750][240]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.12.28-21.07.09:906][252]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 3
+[2022.12.28-21.07.09:906][252]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'Normal' priority
+[2022.12.28-21.07.10:106][267]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 2
+[2022.12.28-21.07.10:106][267]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'Normal' priority
+[2022.12.28-21.07.10:154][270]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 1
+[2022.12.28-21.07.10:154][270]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'Normal' priority
+[2022.12.28-21.07.10:479][292]MaterialEditorStats: Base pass shader: 120 instructions
+[2022.12.28-21.07.10:479][292]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 194 instructions
+[2022.12.28-21.07.10:479][292]MaterialEditorStats: Base pass vertex shader: 46 instructions
+[2022.12.28-21.07.10:479][292]MaterialEditorStats: Base pass vertex shader: 98 instructions
+[2022.12.28-21.07.10:479][292]MaterialEditorStats: Texture samplers: 4/16
+[2022.12.28-21.07.10:479][292]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2022.12.28-21.07.10:479][292]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.12.28-21.07.19:849][388]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2022.12.28-21.07.22:066][388]LogSlate: Window 'Delete Assets' being destroyed
+[2022.12.28-21.07.22:154][388]LogWorld: UWorld::CleanupWorld for World_70, bSessionEnded=true, bCleanupResources=true
+[2022.12.28-21.07.22:154][388]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.12.28-21.07.22:166][388]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/Enemy/Imp/Textures_Imp/Textures_Imp/Imp.Imp
+[2022.12.28-21.07.22:410][388]LogUObjectHash: Compacting FUObjectHashTables data took   2.06ms
+[2022.12.28-21.07.22:428][388]LogUObjectHash: Compacting FUObjectHashTables data took   2.04ms
+[2022.12.28-21.07.22:446][388]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2022.12.28-21.07.26:910][903]LogContentBrowser: Deferred new asset file creation: NewMaterial
+[2022.12.28-21.07.26:926][903]LogContentBrowser: Creating deferred item: NewMaterial
+[2022.12.28-21.07.29:970][268]LogContentBrowser: Attempting asset rename: NewMaterial -> Imp
+[2022.12.28-21.07.29:971][268]LogContentBrowser: End creating deferred item NewMaterial
+[2022.12.28-21.07.36:721][ 32]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/Enemy/Imp/Textures_Imp/Textures_Imp/Imp.Imp
+[2022.12.28-21.07.36:721][ 32]LogMaterial: Display: Missing cached shadermap for Imp in PCD3D_SM5, Default, SM5 (DDC key hash: D238A9539E7DE45FD7928709C4062F74E0E92044), compiling. 
+[2022.12.28-21.07.36:809][ 32]LogMaterial: Display: Missing cached shadermap for Imp in PCD3D_SM5, Default, SM5 (DDC key hash: 62BFE117B1CD47DED6EAF7A097BECA8FB3EC6A2E), compiling. 
+[2022.12.28-21.07.36:811][ 32]LogMaterial: Display: Missing cached shadermap for Imp in PCD3D_SM5, Default, SM5 (DDC key hash: 8DC8D10FE0830861A32F253E0577EEBD006757D1), compiling. 
+[2022.12.28-21.07.36:822][ 32]MaterialEditorStats: Texture samplers: 0/16
+[2022.12.28-21.07.36:913][ 34]MaterialEditorStats: Base pass shader: 117 instructions
+[2022.12.28-21.07.36:913][ 34]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 191 instructions
+[2022.12.28-21.07.36:913][ 34]MaterialEditorStats: Base pass vertex shader: 42 instructions
+[2022.12.28-21.07.36:913][ 34]MaterialEditorStats: Texture samplers: 2/16
+[2022.12.28-21.07.57:140][925]LogMaterial: Display: Missing cached shadermap for Imp in PCD3D_SM5, Default, SM5 (DDC key hash: 4AAF6B0EDC929F58C14B546C2552753EAD65E79D), compiling. 
+[2022.12.28-21.07.57:141][925]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureObject_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 9F5F84B87CA2E1F8430F14AA1413F9AD0A921C6C), compiling. 
+[2022.12.28-21.07.57:144][925]MaterialEditorStats: Texture samplers: 0/16
+[2022.12.28-21.07.57:172][926]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2022.12.28-21.07.57:172][926]MaterialEditorStats: Base pass shader: 117 instructions
+[2022.12.28-21.07.57:172][926]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 191 instructions
+[2022.12.28-21.07.57:172][926]MaterialEditorStats: Base pass vertex shader: 42 instructions
+[2022.12.28-21.07.57:172][926]MaterialEditorStats: Texture samplers: 2/16
+[2022.12.28-21.07.57:188][927]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 2
+[2022.12.28-21.07.57:188][927]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 1
+[2022.12.28-21.07.57:188][927]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'ForceLocal' priority
+[2022.12.28-21.08.03:777][523]LogMaterial: Display: Missing cached shadermap for Imp in PCD3D_SM5, Default, SM5 (DDC key hash: 7E7F97A87306D4B80EE8F4FE05CD6BCAC0FA966E), compiling. 
+[2022.12.28-21.08.03:778][523]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureObject_0 in PCD3D_SM5, Default, SM5 (DDC key hash: B941507B019A1735BA05186E75F584F1A3BD2C54), compiling. 
+[2022.12.28-21.08.03:780][523]LogMaterial: Display: Missing cached shadermap for Imp in PCD3D_SM5, Default, SM5 (DDC key hash: 07E62C6F8BED9F34881CC957C322188887C5974C), compiling. 
+[2022.12.28-21.08.03:783][523]MaterialEditorStats: Texture samplers: 0/16
+[2022.12.28-21.08.03:838][524]MaterialEditorStats: Base pass shader: 117 instructions
+[2022.12.28-21.08.03:838][524]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 191 instructions
+[2022.12.28-21.08.03:838][524]MaterialEditorStats: Base pass vertex shader: 42 instructions
+[2022.12.28-21.08.03:838][524]MaterialEditorStats: Texture samplers: 2/16
+[2022.12.28-21.08.13:960][474]LogMaterial: Display: Missing cached shadermap for Imp in PCD3D_SM5, Default, SM5 (DDC key hash: 765A593827E6DDC4817E92636400F37A5E2C8F8E), compiling. 
+[2022.12.28-21.08.13:961][474]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 2F2CE60DAD2C021BC7A18F4BCCEF9209A72579FC), compiling. 
+[2022.12.28-21.08.13:964][474]MaterialEditorStats: Texture samplers: 0/16
+[2022.12.28-21.08.14:011][476]MaterialEditorStats: Base pass shader: 117 instructions
+[2022.12.28-21.08.14:011][476]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 191 instructions
+[2022.12.28-21.08.14:011][476]MaterialEditorStats: Base pass vertex shader: 42 instructions
+[2022.12.28-21.08.14:011][476]MaterialEditorStats: Texture samplers: 2/16
+[2022.12.28-21.08.16:885][736]LogMaterial: Display: Missing cached shadermap for Imp in PCD3D_SM5, Default, SM5 (DDC key hash: E0597BC70894BFC6B6BF6D5FA96DB771260BE4CA), compiling. 
+[2022.12.28-21.08.16:887][736]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureObject_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 9009836EDAFEB6361E614690B99F53F75C8DBCE1), compiling. 
+[2022.12.28-21.08.16:888][736]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_0 in PCD3D_SM5, Default, SM5 (DDC key hash: C98DE6CD60580EB80A7F2743D02BB7AAEC4E89BB), compiling. 
+[2022.12.28-21.08.16:890][736]MaterialEditorStats: Texture samplers: 0/16
+[2022.12.28-21.08.16:917][738]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2022.12.28-21.08.16:917][738]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 2
+[2022.12.28-21.08.16:917][738]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 1
+[2022.12.28-21.08.16:917][738]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'ForceLocal' priority
+[2022.12.28-21.08.16:918][738]MaterialEditorStats: Base pass shader: 117 instructions
+[2022.12.28-21.08.16:918][738]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 191 instructions
+[2022.12.28-21.08.16:918][738]MaterialEditorStats: Base pass vertex shader: 42 instructions
+[2022.12.28-21.08.16:918][738]MaterialEditorStats: Texture samplers: 2/16
+[2022.12.28-21.08.18:966][917]LogMaterial: Display: Missing cached shadermap for Imp in PCD3D_SM5, Default, SM5 (DDC key hash: BFAB394588EEE4CEC459507DBF5745DE02B55442), compiling. 
+[2022.12.28-21.08.18:967][917]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_0 in PCD3D_SM5, Default, SM5 (DDC key hash: DBF9203C2DAB807A9BEC5A214859FB2307247D31), compiling. 
+[2022.12.28-21.08.18:970][917]MaterialEditorStats: Texture samplers: 0/16
+[2022.12.28-21.08.18:970][917]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2022.12.28-21.08.18:970][917]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.12.28-21.08.18:980][918]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2022.12.28-21.08.19:018][918]LogShaderCompilers: Display: Submitted 8 shader compile jobs with 'Normal' priority
+[2022.12.28-21.08.19:018][918]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 2
+[2022.12.28-21.08.19:018][918]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 1
+[2022.12.28-21.08.19:018][918]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 8
+[2022.12.28-21.08.19:018][918]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 6
+[2022.12.28-21.08.19:018][918]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 4
+[2022.12.28-21.08.19:018][918]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 2
+[2022.12.28-21.08.19:018][918]LogShaderCompilers: Display: Started 8 'Local' shader compile jobs with 'Normal' priority
+[2022.12.28-21.08.19:018][918]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'ForceLocal' priority
+[2022.12.28-21.08.19:409][933]MaterialEditorStats: Texture samplers: 3/16
+[2022.12.28-21.08.19:409][933]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2022.12.28-21.08.19:409][933]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.12.28-21.08.19:942][964]MaterialEditorStats: Base pass shader: 120 instructions
+[2022.12.28-21.08.19:942][964]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 194 instructions
+[2022.12.28-21.08.19:942][964]MaterialEditorStats: Base pass vertex shader: 46 instructions
+[2022.12.28-21.08.19:942][964]MaterialEditorStats: Texture samplers: 3/16
+[2022.12.28-21.08.19:942][964]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2022.12.28-21.08.19:942][964]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.12.28-21.08.20:700][ 24]LogMaterialEditor: Saving and Compiling material Imp
+[2022.12.28-21.08.20:946][ 24]LogMaterial: Display: Missing cached shadermap for Imp in PCD3D_SM5, Default, SM5 (DDC key hash: 11E0413ACCEE6A802B12C161AA07438050179BB2), compiling. 
+[2022.12.28-21.08.20:973][ 24]LogMaterial: Display: Missing cached shadermap for Imp in PCD3D_SM5, Default, SM5 (DDC key hash: 568C44C7CBC6A88A4490F0FB8C05A4E67370694C), compiling. 
+[2022.12.28-21.08.21:006][ 24]LogUObjectHash: Compacting FUObjectHashTables data took   2.16ms
+[2022.12.28-21.08.21:011][ 24]LogShaderCompilers: Display: Submitted 1 shader compile jobs with 'ForceLocal' priority
+[2022.12.28-21.08.21:218][ 24]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 1
+[2022.12.28-21.08.21:218][ 24]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'ForceLocal' priority
+[2022.12.28-21.08.21:244][ 24]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2022.12.28-21.08.21:282][ 24]LogShaderCompilers: Display: Submitted 5 shader compile jobs with 'Normal' priority
+[2022.12.28-21.08.21:292][ 24]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 5
+[2022.12.28-21.08.21:292][ 24]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 4
+[2022.12.28-21.08.21:292][ 24]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 3
+[2022.12.28-21.08.21:292][ 24]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 2
+[2022.12.28-21.08.21:292][ 24]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 1
+[2022.12.28-21.08.21:292][ 24]LogShaderCompilers: Display: Started 5 'Local' shader compile jobs with 'Normal' priority
+[2022.12.28-21.08.21:305][ 24]LogSavePackage: Moving '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Saved/ImpBF4BC66B45AF16CE571F3E8B159C2F2D.tmp' to '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Content/Enemy/Imp/Textures_Imp/Textures_Imp/Imp.uasset'
+[2022.12.28-21.08.21:320][ 24]AssetCheck: New page: Asset Save: Imp
+[2022.12.28-21.08.21:320][ 24]LogContentValidation: Display: Validating Material /Game/Enemy/Imp/Textures_Imp/Textures_Imp/Imp.Imp
+[2022.12.28-21.08.21:326][ 24]MaterialEditorStats: Texture samplers: 3/16
+[2022.12.28-21.08.21:326][ 24]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2022.12.28-21.08.21:326][ 24]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.12.28-21.08.21:722][ 48]MaterialEditorStats: Texture samplers: 4/16
+[2022.12.28-21.08.21:722][ 48]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2022.12.28-21.08.21:722][ 48]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.12.28-21.08.21:747][ 50]MaterialEditorStats: Base pass shader: 120 instructions
+[2022.12.28-21.08.21:747][ 50]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 194 instructions
+[2022.12.28-21.08.21:747][ 50]MaterialEditorStats: Base pass vertex shader: 46 instructions
+[2022.12.28-21.08.21:747][ 50]MaterialEditorStats: Texture samplers: 4/16
+[2022.12.28-21.08.21:747][ 50]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2022.12.28-21.08.21:747][ 50]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.12.28-21.08.24:204][266]LogMaterialEditor: Saving and Compiling material Imp
+[2022.12.28-21.08.24:449][266]LogMaterial: Display: Missing cached shadermap for Imp in PCD3D_SM5, Default, SM5 (DDC key hash: AEC86BAE6D82698D1F83720FA415E725CC459960), compiling. 
+[2022.12.28-21.08.24:478][266]LogMaterial: Display: Missing cached shadermap for Imp in PCD3D_SM5, Default, SM5 (DDC key hash: 04A1A33F13C0BBBE4B0A67164776805F5857FB84), compiling. 
+[2022.12.28-21.08.24:499][266]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2022.12.28-21.08.24:630][266]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2022.12.28-21.08.24:691][266]LogSavePackage: Moving '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Saved/ImpD7F8A84A4A715AE56D15488807368E9C.tmp' to '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Content/Enemy/Imp/Textures_Imp/Textures_Imp/Imp.uasset'
+[2022.12.28-21.08.24:701][266]AssetCheck: New page: Asset Save: Imp
+[2022.12.28-21.08.24:701][266]LogContentValidation: Display: Validating Material /Game/Enemy/Imp/Textures_Imp/Textures_Imp/Imp.Imp
+[2022.12.28-21.08.28:072][561]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionTextureObject'"MaterialGraphNode_0.MaterialExpressionTextureObject_0"')'
+[2022.12.28-21.08.28:075][561]LogMaterial: Display: Missing cached shadermap for Imp in PCD3D_SM5, Default, SM5 (DDC key hash: FE5AD7D7739987FBD00CFE13C05861068958787D), compiling. 
+[2022.12.28-21.08.28:076][561]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureObject_0 in PCD3D_SM5, Default, SM5 (DDC key hash: C0B727B28CD4D520CF2F71424085928A1CC53D85), compiling. 
+[2022.12.28-21.08.28:077][561]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_0 in PCD3D_SM5, Default, SM5 (DDC key hash: D1250DF3D7ED122E1B112EE7CDE11E0599B5D082), compiling. 
+[2022.12.28-21.08.28:078][561]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureObject_1 in PCD3D_SM5, Default, SM5 (DDC key hash: 0B2ECDD92D558D5F8C1F88203C37746948D6460B), compiling. 
+[2022.12.28-21.08.28:079][561]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_1 in PCD3D_SM5, Default, SM5 (DDC key hash: 86D67DCDFD146C3897C16A62D617781FAC465C07), compiling. 
+[2022.12.28-21.08.28:081][561]MaterialEditorStats: Texture samplers: 0/16
+[2022.12.28-21.08.28:081][561]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2022.12.28-21.08.28:081][561]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.12.28-21.08.28:121][563]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2022.12.28-21.08.28:121][563]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2022.12.28-21.08.28:121][563]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 4
+[2022.12.28-21.08.28:121][563]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 3
+[2022.12.28-21.08.28:121][563]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 2
+[2022.12.28-21.08.28:121][563]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 1
+[2022.12.28-21.08.28:121][563]LogShaderCompilers: Display: Started 4 'Local' shader compile jobs with 'ForceLocal' priority
+[2022.12.28-21.08.28:122][563]MaterialEditorStats: Base pass shader: 120 instructions
+[2022.12.28-21.08.28:122][563]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 194 instructions
+[2022.12.28-21.08.28:122][563]MaterialEditorStats: Base pass vertex shader: 46 instructions
+[2022.12.28-21.08.28:122][563]MaterialEditorStats: Texture samplers: 3/16
+[2022.12.28-21.08.28:122][563]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2022.12.28-21.08.28:122][563]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.12.28-21.08.40:189][594]LogMaterial: Display: Missing cached shadermap for Imp in PCD3D_SM5, Default, SM5 (DDC key hash: 5DD86179B56A020F959B414E392B095AA92F445D), compiling. 
+[2022.12.28-21.08.40:191][594]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureObject_1 in PCD3D_SM5, Default, SM5 (DDC key hash: 428DFF443D3451B0D34E52FE47DCA62D89021548), compiling. 
+[2022.12.28-21.08.40:192][594]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_1 in PCD3D_SM5, Default, SM5 (DDC key hash: FF08932707C78BA988417CED45C92EF5232CF036), compiling. 
+[2022.12.28-21.08.40:193][594]LogMaterial: Display: Missing cached shadermap for Imp in PCD3D_SM5, Default, SM5 (DDC key hash: F4B5861F1AD4886B2A171D500E82A1A5B5BB0108), compiling. 
+[2022.12.28-21.08.40:196][594]MaterialEditorStats: Texture samplers: 0/16
+[2022.12.28-21.08.40:196][594]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2022.12.28-21.08.40:196][594]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.12.28-21.08.40:242][595]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2022.12.28-21.08.40:242][595]MaterialEditorStats: Base pass shader: 120 instructions
+[2022.12.28-21.08.40:242][595]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 194 instructions
+[2022.12.28-21.08.40:242][595]MaterialEditorStats: Base pass vertex shader: 46 instructions
+[2022.12.28-21.08.40:242][595]MaterialEditorStats: Texture samplers: 3/16
+[2022.12.28-21.08.40:242][595]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2022.12.28-21.08.40:242][595]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.12.28-21.08.40:253][596]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2022.12.28-21.08.40:253][596]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 4
+[2022.12.28-21.08.40:253][596]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 3
+[2022.12.28-21.08.40:253][596]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 2
+[2022.12.28-21.08.40:253][596]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 1
+[2022.12.28-21.08.40:253][596]LogShaderCompilers: Display: Started 4 'Local' shader compile jobs with 'ForceLocal' priority
+[2022.12.28-21.08.44:569][981]LogMaterial: Display: Missing cached shadermap for Imp in PCD3D_SM5, Default, SM5 (DDC key hash: 65F0D585A0CA6D905103829097E5A34CDDD550E9), compiling. 
+[2022.12.28-21.08.44:571][981]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_1 in PCD3D_SM5, Default, SM5 (DDC key hash: 4B9B6D05BEFA822EEFF63C40A6D2DF38AD1E3CBA), compiling. 
+[2022.12.28-21.08.44:573][981]MaterialEditorStats: Texture samplers: 0/16
+[2022.12.28-21.08.44:573][981]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(2)
+[2022.12.28-21.08.44:573][981]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.12.28-21.08.44:584][982]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2022.12.28-21.08.44:584][982]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 2
+[2022.12.28-21.08.44:584][982]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 1
+[2022.12.28-21.08.44:584][982]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'ForceLocal' priority
+[2022.12.28-21.08.44:584][982]LogShaderCompilers: Display: Submitted 8 shader compile jobs with 'Normal' priority
+[2022.12.28-21.08.44:584][982]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 8
+[2022.12.28-21.08.44:584][982]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 6
+[2022.12.28-21.08.44:584][982]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 4
+[2022.12.28-21.08.44:584][982]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 2
+[2022.12.28-21.08.44:584][982]LogShaderCompilers: Display: Started 8 'Local' shader compile jobs with 'Normal' priority
+[2022.12.28-21.08.45:050][  4]MaterialEditorStats: Texture samplers: 4/16
+[2022.12.28-21.08.45:050][  4]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(2)
+[2022.12.28-21.08.45:050][  4]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.12.28-21.08.45:557][ 35]MaterialEditorStats: Base pass shader: 122 instructions
+[2022.12.28-21.08.45:557][ 35]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 196 instructions
+[2022.12.28-21.08.45:557][ 35]MaterialEditorStats: Base pass vertex shader: 46 instructions
+[2022.12.28-21.08.45:557][ 35]MaterialEditorStats: Texture samplers: 4/16
+[2022.12.28-21.08.45:557][ 35]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(2)
+[2022.12.28-21.08.45:557][ 35]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.12.28-21.08.46:045][ 77]LogMaterial: Display: Missing cached shadermap for Imp in PCD3D_SM5, Default, SM5 (DDC key hash: 8A4A7C27880BED8CFC788F6F5EA9CD0D7300306B), compiling. 
+[2022.12.28-21.08.46:047][ 77]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_1 in PCD3D_SM5, Default, SM5 (DDC key hash: 6156A9CE8BF39D398ED65013929F248CF5E24D2B), compiling. 
+[2022.12.28-21.08.46:049][ 77]MaterialEditorStats: Texture samplers: 0/16
+[2022.12.28-21.08.46:049][ 77]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(2)
+[2022.12.28-21.08.46:049][ 77]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.12.28-21.08.46:060][ 78]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2022.12.28-21.08.46:060][ 78]LogShaderCompilers: Display: Submitted 8 shader compile jobs with 'Normal' priority
+[2022.12.28-21.08.46:074][ 79]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 2
+[2022.12.28-21.08.46:074][ 79]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 1
+[2022.12.28-21.08.46:074][ 79]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 8
+[2022.12.28-21.08.46:074][ 79]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 6
+[2022.12.28-21.08.46:074][ 79]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 4
+[2022.12.28-21.08.46:074][ 79]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 2
+[2022.12.28-21.08.46:074][ 79]LogShaderCompilers: Display: Started 8 'Local' shader compile jobs with 'Normal' priority
+[2022.12.28-21.08.46:074][ 79]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'ForceLocal' priority
+[2022.12.28-21.08.46:560][100]MaterialEditorStats: Texture samplers: 4/16
+[2022.12.28-21.08.46:560][100]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(2)
+[2022.12.28-21.08.46:560][100]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.12.28-21.08.46:964][127]MaterialEditorStats: Base pass shader: 120 instructions
+[2022.12.28-21.08.46:964][127]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 194 instructions
+[2022.12.28-21.08.46:964][127]MaterialEditorStats: Base pass vertex shader: 46 instructions
+[2022.12.28-21.08.46:964][127]MaterialEditorStats: Texture samplers: 4/16
+[2022.12.28-21.08.46:964][127]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(2)
+[2022.12.28-21.08.46:964][127]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.12.28-21.08.47:797][195]LogMaterial: Display: Missing cached shadermap for Imp in PCD3D_SM5, Default, SM5 (DDC key hash: EC5C5C3DD56C1CCE644E71CDF4D9B94F863F6722), compiling. 
+[2022.12.28-21.08.47:799][195]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_1 in PCD3D_SM5, Default, SM5 (DDC key hash: A7627E5AC3C1D646954690F8C8565278BCF83888), compiling. 
+[2022.12.28-21.08.47:801][195]MaterialEditorStats: Texture samplers: 0/16
+[2022.12.28-21.08.47:801][195]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(2)
+[2022.12.28-21.08.47:801][195]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.12.28-21.08.47:812][196]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2022.12.28-21.08.47:812][196]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 2
+[2022.12.28-21.08.47:812][196]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 1
+[2022.12.28-21.08.47:812][196]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'ForceLocal' priority
+[2022.12.28-21.08.47:812][196]LogShaderCompilers: Display: Submitted 8 shader compile jobs with 'Normal' priority
+[2022.12.28-21.08.47:828][197]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 8
+[2022.12.28-21.08.47:828][197]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 6
+[2022.12.28-21.08.47:828][197]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 4
+[2022.12.28-21.08.47:828][197]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 2
+[2022.12.28-21.08.47:828][197]LogShaderCompilers: Display: Started 8 'Local' shader compile jobs with 'Normal' priority
+[2022.12.28-21.08.48:303][216]MaterialEditorStats: Texture samplers: 4/16
+[2022.12.28-21.08.48:304][216]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(2)
+[2022.12.28-21.08.48:304][216]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.12.28-21.08.48:711][243]MaterialEditorStats: Base pass shader: 120 instructions
+[2022.12.28-21.08.48:711][243]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 194 instructions
+[2022.12.28-21.08.48:711][243]MaterialEditorStats: Base pass vertex shader: 46 instructions
+[2022.12.28-21.08.48:711][243]MaterialEditorStats: Texture samplers: 4/16
+[2022.12.28-21.08.48:711][243]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(2)
+[2022.12.28-21.08.48:711][243]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.12.28-21.08.49:139][283]LogMaterialEditor: Saving and Compiling material Imp
+[2022.12.28-21.08.49:390][283]LogMaterial: Display: Missing cached shadermap for Imp in PCD3D_SM5, Default, SM5 (DDC key hash: 61E46CA4504ACA37F366FAD7FD4C2DB56BC9C231), compiling. 
+[2022.12.28-21.08.49:416][283]LogMaterial: Display: Missing cached shadermap for Imp in PCD3D_SM5, Default, SM5 (DDC key hash: 533E3CFCDD71C84CA7729A0BB82E9CC9EEC0C069), compiling. 
+[2022.12.28-21.08.49:439][283]LogUObjectHash: Compacting FUObjectHashTables data took   1.90ms
+[2022.12.28-21.08.49:445][283]LogShaderCompilers: Display: Submitted 1 shader compile jobs with 'ForceLocal' priority
+[2022.12.28-21.08.49:652][283]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 1
+[2022.12.28-21.08.49:652][283]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'ForceLocal' priority
+[2022.12.28-21.08.49:678][283]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2022.12.28-21.08.49:711][283]LogShaderCompilers: Display: Submitted 5 shader compile jobs with 'Normal' priority
+[2022.12.28-21.08.49:720][283]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 5
+[2022.12.28-21.08.49:720][283]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 4
+[2022.12.28-21.08.49:720][283]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 3
+[2022.12.28-21.08.49:720][283]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 2
+[2022.12.28-21.08.49:720][283]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 1
+[2022.12.28-21.08.49:720][283]LogShaderCompilers: Display: Started 5 'Local' shader compile jobs with 'Normal' priority
+[2022.12.28-21.08.49:734][283]LogSavePackage: Moving '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Saved/Imp0EAEDDEA4FCD6569236B47B3E77DFA44.tmp' to '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Content/Enemy/Imp/Textures_Imp/Textures_Imp/Imp.uasset'
+[2022.12.28-21.08.49:748][283]AssetCheck: New page: Asset Save: Imp
+[2022.12.28-21.08.49:748][283]LogContentValidation: Display: Validating Material /Game/Enemy/Imp/Textures_Imp/Textures_Imp/Imp.Imp
+[2022.12.28-21.08.49:754][283]MaterialEditorStats: Texture samplers: 4/16
+[2022.12.28-21.08.49:755][283]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(2)
+[2022.12.28-21.08.49:755][283]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.12.28-21.08.50:138][307]MaterialEditorStats: Texture samplers: 5/16
+[2022.12.28-21.08.50:138][307]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(2)
+[2022.12.28-21.08.50:138][307]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.12.28-21.08.50:167][309]MaterialEditorStats: Base pass shader: 120 instructions
+[2022.12.28-21.08.50:167][309]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 194 instructions
+[2022.12.28-21.08.50:167][309]MaterialEditorStats: Base pass vertex shader: 46 instructions
+[2022.12.28-21.08.50:167][309]MaterialEditorStats: Texture samplers: 5/16
+[2022.12.28-21.08.50:168][309]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(2)
+[2022.12.28-21.08.50:168][309]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.12.28-21.08.51:914][465]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionTextureObject'"MaterialGraphNode_0.MaterialExpressionTextureObject_1"')'
+[2022.12.28-21.08.51:917][465]LogMaterial: Display: Missing cached shadermap for Imp in PCD3D_SM5, Default, SM5 (DDC key hash: 7A55A4F4BA6F2E601EB529677029117A28443C4D), compiling. 
+[2022.12.28-21.08.51:918][465]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureObject_1 in PCD3D_SM5, Default, SM5 (DDC key hash: 2D93978B5C045F16AAF195014A7AE2B6D46C158B), compiling. 
+[2022.12.28-21.08.51:919][465]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_1 in PCD3D_SM5, Default, SM5 (DDC key hash: AE65E39B89F8E1C9DE17C58DBF19A757B2555602), compiling. 
+[2022.12.28-21.08.51:920][465]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureObject_2 in PCD3D_SM5, Default, SM5 (DDC key hash: E78F48E499C60F16136B526A9A63CA13A79C3053), compiling. 
+[2022.12.28-21.08.51:921][465]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_2 in PCD3D_SM5, Default, SM5 (DDC key hash: A898DD4DD99BE829DD12C92736392BE6B069C20A), compiling. 
+[2022.12.28-21.08.51:923][465]MaterialEditorStats: Texture samplers: 0/16
+[2022.12.28-21.08.51:923][465]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(2)
+[2022.12.28-21.08.51:923][465]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.12.28-21.08.51:962][467]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2022.12.28-21.08.51:962][467]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2022.12.28-21.08.51:962][467]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 4
+[2022.12.28-21.08.51:962][467]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 3
+[2022.12.28-21.08.51:962][467]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 2
+[2022.12.28-21.08.51:962][467]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 1
+[2022.12.28-21.08.51:962][467]LogShaderCompilers: Display: Started 4 'Local' shader compile jobs with 'ForceLocal' priority
+[2022.12.28-21.08.51:963][467]MaterialEditorStats: Base pass shader: 120 instructions
+[2022.12.28-21.08.51:963][467]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 194 instructions
+[2022.12.28-21.08.51:963][467]MaterialEditorStats: Base pass vertex shader: 46 instructions
+[2022.12.28-21.08.51:963][467]MaterialEditorStats: Texture samplers: 4/16
+[2022.12.28-21.08.51:963][467]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(2)
+[2022.12.28-21.08.51:963][467]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.12.28-21.08.55:918][798]LogMaterial: Display: Missing cached shadermap for Imp in PCD3D_SM5, Default, SM5 (DDC key hash: 5AD6D2F8F7F8DCDE551B389A06FDD840B72E8522), compiling. 
+[2022.12.28-21.08.55:920][798]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureObject_2 in PCD3D_SM5, Default, SM5 (DDC key hash: 832E31B9D87654BF68E2F984232D7CAA9A96F2C2), compiling. 
+[2022.12.28-21.08.55:921][798]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_2 in PCD3D_SM5, Default, SM5 (DDC key hash: 6540AFD18631C59470D59734A9D74A955512203B), compiling. 
+[2022.12.28-21.08.55:923][798]MaterialEditorStats: Texture samplers: 0/16
+[2022.12.28-21.08.55:923][798]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.12.28-21.08.55:923][798]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.12.28-21.08.55:934][799]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2022.12.28-21.08.55:934][799]LogShaderCompilers: Display: Submitted 8 shader compile jobs with 'Normal' priority
+[2022.12.28-21.08.55:950][800]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 2
+[2022.12.28-21.08.55:950][800]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 1
+[2022.12.28-21.08.55:950][800]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 8
+[2022.12.28-21.08.55:950][800]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 6
+[2022.12.28-21.08.55:950][800]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 4
+[2022.12.28-21.08.55:950][800]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 2
+[2022.12.28-21.08.55:950][800]LogShaderCompilers: Display: Started 8 'Local' shader compile jobs with 'Normal' priority
+[2022.12.28-21.08.55:950][800]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'ForceLocal' priority
+[2022.12.28-21.08.56:401][821]MaterialEditorStats: Texture samplers: 4/16
+[2022.12.28-21.08.56:401][821]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.12.28-21.08.56:401][821]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.12.28-21.08.56:839][849]MaterialEditorStats: Base pass shader: 120 instructions
+[2022.12.28-21.08.56:839][849]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 194 instructions
+[2022.12.28-21.08.56:839][849]MaterialEditorStats: Base pass vertex shader: 46 instructions
+[2022.12.28-21.08.56:839][849]MaterialEditorStats: Texture samplers: 4/16
+[2022.12.28-21.08.56:839][849]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.12.28-21.08.56:839][849]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.12.28-21.08.59:083][ 12]LogMaterial: Display: Missing cached shadermap for Imp in PCD3D_SM5, Default, SM5 (DDC key hash: 01154EE48C19406553303614C770159C9A545D7D), compiling. 
+[2022.12.28-21.08.59:084][ 12]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureObject_2 in PCD3D_SM5, Default, SM5 (DDC key hash: 7ED9B62577912F14F493D7B0A6A8878281D0C29C), compiling. 
+[2022.12.28-21.08.59:085][ 12]LogMaterial: Display: Missing cached shadermap for Imp in PCD3D_SM5, Default, SM5 (DDC key hash: EAF3EAF509E3B8D102463758139E13D87ECE7BF8), compiling. 
+[2022.12.28-21.08.59:089][ 12]MaterialEditorStats: Texture samplers: 0/16
+[2022.12.28-21.08.59:089][ 12]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.12.28-21.08.59:089][ 12]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.12.28-21.08.59:123][ 13]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2022.12.28-21.08.59:123][ 13]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 2
+[2022.12.28-21.08.59:123][ 13]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 1
+[2022.12.28-21.08.59:123][ 13]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'ForceLocal' priority
+[2022.12.28-21.08.59:123][ 13]LogShaderCompilers: Display: Submitted 8 shader compile jobs with 'Normal' priority
+[2022.12.28-21.08.59:123][ 13]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 8
+[2022.12.28-21.08.59:123][ 13]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 6
+[2022.12.28-21.08.59:123][ 13]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 4
+[2022.12.28-21.08.59:123][ 13]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 2
+[2022.12.28-21.08.59:123][ 13]LogShaderCompilers: Display: Started 8 'Local' shader compile jobs with 'Normal' priority
+[2022.12.28-21.08.59:143][ 14]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2022.12.28-21.08.59:143][ 14]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 2
+[2022.12.28-21.08.59:143][ 14]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 1
+[2022.12.28-21.08.59:143][ 14]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'ForceLocal' priority
+[2022.12.28-21.08.59:652][ 36]MaterialEditorStats: Texture samplers: 5/16
+[2022.12.28-21.08.59:652][ 36]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.12.28-21.08.59:652][ 36]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.12.28-21.09.00:080][ 64]LogMaterialEditor: Saving and Compiling material Imp
+[2022.12.28-21.09.00:327][ 64]LogMaterial: Display: Missing cached shadermap for Imp in PCD3D_SM5, Default, SM5 (DDC key hash: E5D456D355F25B82A63D4C5461F8ADEDE7583853), compiling. 
+[2022.12.28-21.09.00:345][ 64]LogMaterial: Display: Missing cached shadermap for Imp in PCD3D_SM5, Default, SM5 (DDC key hash: CFBBB38385DED6EB8DDB67713C4DF276B16180D7), compiling. 
+[2022.12.28-21.09.00:366][ 64]LogUObjectHash: Compacting FUObjectHashTables data took   1.72ms
+[2022.12.28-21.09.00:372][ 64]LogShaderCompilers: Display: Submitted 1 shader compile jobs with 'ForceLocal' priority
+[2022.12.28-21.09.00:579][ 64]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 1
+[2022.12.28-21.09.00:579][ 64]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'ForceLocal' priority
+[2022.12.28-21.09.00:608][ 64]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2022.12.28-21.09.00:639][ 64]LogShaderCompilers: Display: Submitted 5 shader compile jobs with 'Normal' priority
+[2022.12.28-21.09.00:644][ 64]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 5
+[2022.12.28-21.09.00:644][ 64]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 4
+[2022.12.28-21.09.00:644][ 64]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 3
+[2022.12.28-21.09.00:644][ 64]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 2
+[2022.12.28-21.09.00:644][ 64]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 1
+[2022.12.28-21.09.00:644][ 64]LogShaderCompilers: Display: Started 5 'Local' shader compile jobs with 'Normal' priority
+[2022.12.28-21.09.00:661][ 64]LogSavePackage: Moving '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Saved/Imp8259A01B43C7D3E36F2A7CB32C537047.tmp' to '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Content/Enemy/Imp/Textures_Imp/Textures_Imp/Imp.uasset'
+[2022.12.28-21.09.00:675][ 64]AssetCheck: New page: Asset Save: Imp
+[2022.12.28-21.09.00:675][ 64]LogContentValidation: Display: Validating Material /Game/Enemy/Imp/Textures_Imp/Textures_Imp/Imp.Imp
+[2022.12.28-21.09.01:094][ 91]MaterialEditorStats: Texture samplers: 6/16
+[2022.12.28-21.09.01:094][ 91]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.12.28-21.09.01:094][ 91]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.12.28-21.09.01:108][ 92]MaterialEditorStats: Base pass shader: 126 instructions
+[2022.12.28-21.09.01:108][ 92]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 200 instructions
+[2022.12.28-21.09.01:108][ 92]MaterialEditorStats: Base pass vertex shader: 46 instructions
+[2022.12.28-21.09.01:108][ 92]MaterialEditorStats: Texture samplers: 6/16
+[2022.12.28-21.09.01:108][ 92]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.12.28-21.09.01:108][ 92]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.12.28-21.09.01:714][144]LogMaterial: Display: Missing cached shadermap for Imp in PCD3D_SM5, Default, SM5 (DDC key hash: 1B757BCF6C3DE5B6C0B4F72FF61221C3856709F3), compiling. 
+[2022.12.28-21.09.01:721][144]MaterialEditorStats: Texture samplers: 0/16
+[2022.12.28-21.09.01:721][144]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.12.28-21.09.01:721][144]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.12.28-21.09.01:739][145]MaterialEditorStats: Base pass shader: 126 instructions
+[2022.12.28-21.09.01:739][145]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 200 instructions
+[2022.12.28-21.09.01:739][145]MaterialEditorStats: Base pass vertex shader: 46 instructions
+[2022.12.28-21.09.01:739][145]MaterialEditorStats: Texture samplers: 5/16
+[2022.12.28-21.09.01:739][145]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.12.28-21.09.01:739][145]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.12.28-21.09.05:243][452]LogMaterial: Display: Missing cached shadermap for Imp in PCD3D_SM5, Default, SM5 (DDC key hash: B8941AB096F009F3DC4B19DCCF2018A0E0F4DB59), compiling. 
+[2022.12.28-21.09.05:250][452]MaterialEditorStats: Texture samplers: 0/16
+[2022.12.28-21.09.05:250][452]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.12.28-21.09.05:250][452]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.12.28-21.09.05:269][453]MaterialEditorStats: Base pass shader: 126 instructions
+[2022.12.28-21.09.05:269][453]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 200 instructions
+[2022.12.28-21.09.05:269][453]MaterialEditorStats: Base pass vertex shader: 46 instructions
+[2022.12.28-21.09.05:269][453]MaterialEditorStats: Texture samplers: 5/16
+[2022.12.28-21.09.05:269][453]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.12.28-21.09.05:269][453]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.12.28-21.09.16:351][424]LogMaterial: Display: Missing cached shadermap for Imp in PCD3D_SM5, Default, SM5 (DDC key hash: D81280B12A5D8DC38F2E36DA47946BA808123DD9), compiling. 
+[2022.12.28-21.09.16:357][424]MaterialEditorStats: Texture samplers: 0/16
+[2022.12.28-21.09.16:357][424]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.12.28-21.09.16:357][424]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.12.28-21.09.16:410][426]MaterialEditorStats: Base pass shader: 126 instructions
+[2022.12.28-21.09.16:410][426]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 200 instructions
+[2022.12.28-21.09.16:410][426]MaterialEditorStats: Base pass vertex shader: 46 instructions
+[2022.12.28-21.09.16:410][426]MaterialEditorStats: Texture samplers: 5/16
+[2022.12.28-21.09.16:410][426]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.12.28-21.09.16:410][426]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.12.28-21.09.24:472][131]LogMaterialEditor: Saving and Compiling material Imp
+[2022.12.28-21.09.24:495][131]LogSavePackage: Moving '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Saved/Imp93008D5644F0138615DB51A212C70FE8.tmp' to '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Content/Enemy/Imp/Textures_Imp/Textures_Imp/Imp.uasset'
+[2022.12.28-21.09.24:505][131]AssetCheck: New page: Asset Save: Imp
+[2022.12.28-21.09.24:505][131]LogContentValidation: Display: Validating Material /Game/Enemy/Imp/Textures_Imp/Textures_Imp/Imp.Imp
+[2022.12.28-21.09.28:101][497]LogMaterial: Display: Material /Game/Enemy/Imp/Textures_Imp/Textures_Imp/Imp.Imp needed to have new flag set bUsedWithSkeletalMesh !
+[2022.12.28-21.09.28:101][497]LogMaterial: Display: Material /Engine/Transient.Imp needed to have new flag set bUsedWithSkeletalMesh !
+[2022.12.28-21.09.28:102][497]LogMaterial: Display: Missing cached shadermap for Imp in PCD3D_SM5, Default, SM5 (DDC key hash: 3E191832204C09A8AEF372F7BCE75FDBFD5550E9), compiling. 
+[2022.12.28-21.09.28:116][497]LogShaderCompilers: Display: Submitted 10 shader compile jobs with 'Normal' priority
+[2022.12.28-21.09.28:118][497]LogMaterial: Display: Missing cached shadermap for Imp in PCD3D_SM5, Default, SM5 (DDC key hash: 68E9C5166E67D7D4F8A4C8055B81C508708E73BB), compiling. 
+[2022.12.28-21.09.28:139][497]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 10
+[2022.12.28-21.09.28:139][497]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 8
+[2022.12.28-21.09.28:139][497]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 6
+[2022.12.28-21.09.28:139][497]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 4
+[2022.12.28-21.09.28:139][497]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 2
+[2022.12.28-21.09.28:139][497]LogShaderCompilers: Display: Started 10 'Local' shader compile jobs with 'Normal' priority
+[2022.12.28-21.09.28:140][497]LogShaderCompilers: Display: Submitted 6 shader compile jobs with 'Low' priority
+[2022.12.28-21.09.28:140][497]MaterialEditorStats: Texture samplers: 0/16
+[2022.12.28-21.09.28:140][497]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.12.28-21.09.28:140][497]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.12.28-21.09.28:167][498]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 6
+[2022.12.28-21.09.28:167][498]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 5
+[2022.12.28-21.09.28:167][498]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 4
+[2022.12.28-21.09.28:167][498]LogShaderCompilers: Display: Started 3 'Local' shader compile jobs with 'Low' priority
+[2022.12.28-21.09.28:171][498]MaterialEditorStats: Texture samplers: 5/16
+[2022.12.28-21.09.28:171][498]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.12.28-21.09.28:171][498]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.12.28-21.09.28:463][523]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 3
+[2022.12.28-21.09.28:463][523]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'Normal' priority
+[2022.12.28-21.09.28:567][531]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 2
+[2022.12.28-21.09.28:567][531]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'Normal' priority
+[2022.12.28-21.09.28:716][543]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 1
+[2022.12.28-21.09.28:716][543]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'Normal' priority
+[2022.12.28-21.09.28:988][567]MaterialEditorStats: Base pass shader: 126 instructions
+[2022.12.28-21.09.28:988][567]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 200 instructions
+[2022.12.28-21.09.28:988][567]MaterialEditorStats: Base pass vertex shader: 46 instructions
+[2022.12.28-21.09.28:988][567]MaterialEditorStats: Base pass vertex shader: 98 instructions
+[2022.12.28-21.09.28:988][567]MaterialEditorStats: Texture samplers: 5/16
+[2022.12.28-21.09.28:988][567]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.12.28-21.09.28:988][567]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.12.28-21.09.53:865][818]LogMaterial: Display: Missing cached shadermap for Imp in PCD3D_SM5, Default, SM5 (DDC key hash: 8B9DB864B197E3EDB3F8255D2296EFC801B3E2D2), compiling. 
+[2022.12.28-21.09.53:902][818]MaterialEditorStats: Texture samplers: 0/16
+[2022.12.28-21.09.53:902][818]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.12.28-21.09.53:902][818]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.12.28-21.09.53:969][819]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.12.28-21.09.53:969][819]LogShaderCompilers: Display: Total job queries 704, among them cache hits 420 (59.66%)
+[2022.12.28-21.09.53:969][819]LogShaderCompilers: Display: Tracking 222 distinct input hashes that result in 126 distinct outputs (56.76%)
+[2022.12.28-21.09.53:969][819]LogShaderCompilers: Display: RAM used: 0.74 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.09%
+[2022.12.28-21.09.53:969][819]LogShaderCompilers: Display: ================================================
+[2022.12.28-21.09.53:971][819]LogMaterial: Display: Missing cached shadermap for Material_0 in PCD3D_SM5, Default, SM5 (DDC key hash: E85827B52068BE4464D5688C37DCBFC3C396362A), compiling. 
+[2022.12.28-21.09.53:974][819]MaterialEditorStats: Base pass shader: 126 instructions
+[2022.12.28-21.09.53:974][819]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 200 instructions
+[2022.12.28-21.09.53:974][819]MaterialEditorStats: Base pass vertex shader: 46 instructions
+[2022.12.28-21.09.53:974][819]MaterialEditorStats: Base pass vertex shader: 98 instructions
+[2022.12.28-21.09.53:974][819]MaterialEditorStats: Texture samplers: 5/16
+[2022.12.28-21.09.53:974][819]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.12.28-21.09.53:974][819]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.12.28-21.09.53:989][820]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2022.12.28-21.09.53:989][820]LogShaderCompilers: Display: Submitted 4 shader compile jobs with 'Normal' priority
+[2022.12.28-21.09.53:989][820]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 2
+[2022.12.28-21.09.53:989][820]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 1
+[2022.12.28-21.09.53:989][820]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 4
+[2022.12.28-21.09.53:989][820]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 3
+[2022.12.28-21.09.53:989][820]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 2
+[2022.12.28-21.09.53:989][820]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 1
+[2022.12.28-21.09.53:989][820]LogShaderCompilers: Display: Started 4 'Local' shader compile jobs with 'Normal' priority
+[2022.12.28-21.09.53:989][820]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'ForceLocal' priority
+[2022.12.28-21.09.58:121][161]LogMaterial: Display: Missing cached shadermap for Imp in PCD3D_SM5, Default, SM5 (DDC key hash: 1F491C0EB4AC7E1E13389AFBB8EA408C6B547E99), compiling. 
+[2022.12.28-21.09.58:122][161]MaterialEditorStats: Texture samplers: 0/16
+[2022.12.28-21.09.58:122][161]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.12.28-21.09.58:122][161]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.12.28-21.09.58:185][163]MaterialEditorStats: Base pass shader: 126 instructions
+[2022.12.28-21.09.58:185][163]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 200 instructions
+[2022.12.28-21.09.58:185][163]MaterialEditorStats: Base pass vertex shader: 46 instructions
+[2022.12.28-21.09.58:185][163]MaterialEditorStats: Base pass vertex shader: 98 instructions
+[2022.12.28-21.09.58:185][163]MaterialEditorStats: Texture samplers: 5/16
+[2022.12.28-21.09.58:185][163]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.12.28-21.09.58:185][163]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.12.28-21.10.06:416][863]LogMaterial: Display: Missing cached shadermap for Imp in PCD3D_SM5, Default, SM5 (DDC key hash: 82380B53C94C41F5896D3B46D75B9E884B16BF78), compiling. 
+[2022.12.28-21.10.06:445][863]MaterialEditorStats: Texture samplers: 0/16
+[2022.12.28-21.10.06:445][863]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.12.28-21.10.06:445][863]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.12.28-21.10.06:479][864]LogMaterial: Display: Missing cached shadermap for Material_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 4F3CAAE1E815149017A19B732E02F910AA2F6316), compiling. 
+[2022.12.28-21.10.06:482][864]MaterialEditorStats: Base pass shader: 126 instructions
+[2022.12.28-21.10.06:482][864]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 200 instructions
+[2022.12.28-21.10.06:482][864]MaterialEditorStats: Base pass vertex shader: 46 instructions
+[2022.12.28-21.10.06:482][864]MaterialEditorStats: Base pass vertex shader: 98 instructions
+[2022.12.28-21.10.06:482][864]MaterialEditorStats: Texture samplers: 5/16
+[2022.12.28-21.10.06:482][864]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.12.28-21.10.06:482][864]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.12.28-21.10.06:500][865]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2022.12.28-21.10.06:500][865]LogShaderCompilers: Display: Submitted 4 shader compile jobs with 'Normal' priority
+[2022.12.28-21.10.06:500][865]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 2
+[2022.12.28-21.10.06:500][865]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 1
+[2022.12.28-21.10.06:500][865]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 4
+[2022.12.28-21.10.06:500][865]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 3
+[2022.12.28-21.10.06:500][865]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 2
+[2022.12.28-21.10.06:500][865]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 1
+[2022.12.28-21.10.06:500][865]LogShaderCompilers: Display: Started 4 'Local' shader compile jobs with 'Normal' priority
+[2022.12.28-21.10.06:500][865]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'ForceLocal' priority
+[2022.12.28-21.10.08:321][ 11]LogMaterial: Display: Missing cached shadermap for Imp in PCD3D_SM5, Default, SM5 (DDC key hash: 6C556599F615AB977723354D6631631EDD62D77E), compiling. 
+[2022.12.28-21.10.08:323][ 11]MaterialEditorStats: Texture samplers: 0/16
+[2022.12.28-21.10.08:323][ 11]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.12.28-21.10.08:323][ 11]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.12.28-21.10.08:379][ 13]MaterialEditorStats: Base pass shader: 126 instructions
+[2022.12.28-21.10.08:379][ 13]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 200 instructions
+[2022.12.28-21.10.08:379][ 13]MaterialEditorStats: Base pass vertex shader: 46 instructions
+[2022.12.28-21.10.08:379][ 13]MaterialEditorStats: Base pass vertex shader: 98 instructions
+[2022.12.28-21.10.08:379][ 13]MaterialEditorStats: Texture samplers: 5/16
+[2022.12.28-21.10.08:379][ 13]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.12.28-21.10.08:379][ 13]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.12.28-21.10.13:191][436]LogMaterial: Display: Missing cached shadermap for Imp in PCD3D_SM5, Default, SM5 (DDC key hash: FD4D744FA18337CCDB5FF5DC73B76B5E06B129C3), compiling. 
+[2022.12.28-21.10.13:192][436]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 619A15260CF1A1C453EFC2B82B76CB4B4FAA36EF), compiling. 
+[2022.12.28-21.10.13:195][436]MaterialEditorStats: Texture samplers: 0/16
+[2022.12.28-21.10.13:195][436]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.12.28-21.10.13:195][436]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.12.28-21.10.13:205][437]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2022.12.28-21.10.13:248][437]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 2
+[2022.12.28-21.10.13:248][437]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 1
+[2022.12.28-21.10.13:248][437]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'ForceLocal' priority
+[2022.12.28-21.10.13:248][437]LogShaderCompilers: Display: Submitted 18 shader compile jobs with 'Normal' priority
+[2022.12.28-21.10.13:248][437]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 18
+[2022.12.28-21.10.13:248][437]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 15
+[2022.12.28-21.10.13:248][437]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 12
+[2022.12.28-21.10.13:248][437]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 9
+[2022.12.28-21.10.13:248][437]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 6
+[2022.12.28-21.10.13:248][437]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 3
+[2022.12.28-21.10.13:248][437]LogShaderCompilers: Display: Started 18 'Local' shader compile jobs with 'Normal' priority
+[2022.12.28-21.10.13:766][460]MaterialEditorStats: Texture samplers: 5/16
+[2022.12.28-21.10.13:766][460]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.12.28-21.10.13:766][460]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.12.28-21.10.14:519][503]MaterialEditorStats: Base pass shader: 126 instructions
+[2022.12.28-21.10.14:519][503]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 200 instructions
+[2022.12.28-21.10.14:519][503]MaterialEditorStats: Base pass vertex shader: 46 instructions
+[2022.12.28-21.10.14:519][503]MaterialEditorStats: Base pass vertex shader: 98 instructions
+[2022.12.28-21.10.14:519][503]MaterialEditorStats: Texture samplers: 5/16
+[2022.12.28-21.10.14:519][503]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.12.28-21.10.14:519][503]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.12.28-21.10.15:365][567]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (NetworkPlayerStart)
+[2022.12.28-21.10.15:946][619]LogUObjectHash: Compacting FUObjectHashTables data took   2.02ms
+[2022.12.28-21.10.15:967][619]LogSavePackage: Moving '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Saved/ThirdPersonExampleMapE6640DF94CFC907C7ADBA0ADC888B4BA.tmp' to '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2022.12.28-21.10.16:021][619]LogSavePackage: Moving '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Saved/ThirdPersonExampleMap_BuiltData350B56614BD78B1D943BB4BD7D11C029.tmp' to '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2022.12.28-21.10.16:033][619]AssetCheck: New page: Asset Save: multiple assets
+[2022.12.28-21.10.16:033][619]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData
+[2022.12.28-21.10.16:033][619]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2022.12.28-21.10.17:344][740]LogTemp: Repeating last play command: Selected Viewport
+[2022.12.28-21.10.17:349][740]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.12.28-21.10.17:350][740]PIE: New page: PIE session: ThirdPersonExampleMap (28 Dec 2022, 21:10:17)
+[2022.12.28-21.10.17:376][740]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2022.12.28-21.10.17:385][740]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009290s)
+[2022.12.28-21.10.17:386][740]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2022.12.28-21.10.17:387][740]LogPlayLevel: PIE: World Init took: (0.001349s)
+[2022.12.28-21.10.17:387][740]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.010774s)
+[2022.12.28-21.10.17:407][740]LogUObjectHash: Compacting FUObjectHashTables data took   2.04ms
+[2022.12.28-21.10.17:407][740]LogAudio: Display: Creating Audio Device:                 Id: 12, Scope: Unique, Realtime: True
+[2022.12.28-21.10.17:408][740]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.12.28-21.10.17:408][740]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.12.28-21.10.17:408][740]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.12.28-21.10.17:408][740]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.12.28-21.10.17:408][740]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.12.28-21.10.17:408][740]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.12.28-21.10.17:408][740]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.12.28-21.10.17:408][740]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.12.28-21.10.17:408][740]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.12.28-21.10.17:408][740]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.12.28-21.10.17:408][740]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.12.28-21.10.17:408][740]LogAudioMixer: Display: Initializing audio mixer.
+[2022.12.28-21.10.17:411][740]LogAudioMixer: Display: 0: FrontLeft
+[2022.12.28-21.10.17:411][740]LogAudioMixer: Display: 1: FrontRight
+[2022.12.28-21.10.17:418][740]LogAudioMixer: Display: Using Audio Device Speakers (2- USB Audio CODEC )
+[2022.12.28-21.10.17:418][740]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.12.28-21.10.17:418][740]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.12.28-21.10.17:418][740]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.12.28-21.10.17:418][740]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.12.28-21.10.17:418][740]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.12.28-21.10.17:418][740]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.12.28-21.10.17:419][740]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.12.28-21.10.17:419][740]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.12.28-21.10.17:419][740]LogInit: FAudioDevice initialized.
+[2022.12.28-21.10.17:419][740]LogAudio: Display: Audio Device (ID: 12) registered with world 'ThirdPersonExampleMap'.
+[2022.12.28-21.10.17:427][740]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2022.12.28-21.10.17:430][740]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2022.12.28-21.10.17
+[2022.12.28-21.10.17:430][740]LogWorld: Bringing up level for play took: 0.002770
+[2022.12.28-21.10.17:430][740]LogOnline: OSS: Creating online subsystem instance for: :Context_84
+[2022.12.28-21.10.17:433][740]PIE: Server logged in
+[2022.12.28-21.10.17:434][740]PIE: Play in editor total start time 0.085 seconds.
+[2022.12.28-21.10.26:897][860]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.12.28-21.10.26:897][860]LogWorld: BeginTearingDown for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2022.12.28-21.10.26:897][860]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2022.12.28-21.10.26:897][860]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.12.28-21.10.26:907][860]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.12.28-21.10.26:921][860]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.12.28-21.10.26:938][860]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.12.28-21.10.26:938][860]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.12.28-21.10.26:939][860]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.12.28-21.10.26:940][860]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.12.28-21.10.26:943][860]LogUObjectHash: Compacting FUObjectHashTables data took   2.00ms
+[2022.12.28-21.10.26:973][861]LogPlayLevel: Display: Destroying online subsystem :Context_84
+[2022.12.28-21.10.27:678][920]LogUObjectHash: Compacting FUObjectHashTables data took   1.99ms
+[2022.12.28-21.10.27:697][920]LogSavePackage: Moving '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Saved/ThirdPersonExampleMapC6513B284894E4B649463CB00D1CD977.tmp' to '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2022.12.28-21.10.27:750][920]LogSavePackage: Moving '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Saved/ThirdPersonExampleMap_BuiltData500FA26F49EFDEB87488C085843466CC.tmp' to '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2022.12.28-21.10.27:761][920]AssetCheck: New page: Asset Save: multiple assets
+[2022.12.28-21.10.27:761][920]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData
+[2022.12.28-21.10.27:761][920]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2022.12.28-21.10.32:395][360]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2022.12.28-21.10.32:414][360]LogSavePackage: Moving '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Saved/ThirdPersonExampleMapFB9FD707408CC73108F00B888052C615.tmp' to '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2022.12.28-21.10.32:466][360]LogSavePackage: Moving '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Saved/ThirdPersonExampleMap_BuiltData3883ED064336658612CCA9BD61A8A088.tmp' to '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2022.12.28-21.10.32:479][360]AssetCheck: New page: Asset Save: multiple assets
+[2022.12.28-21.10.32:479][360]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData
+[2022.12.28-21.10.32:479][360]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2022.12.28-21.11.25:486][732]LogMaterial: Display: Missing cached shadermap for Imp in PCD3D_SM5, Default, SM5 (DDC key hash: FE4DFB748B5CF6F8A22CE0BE2CDE1CAD95C8DB1E), compiling. 
+[2022.12.28-21.11.25:518][732]MaterialEditorStats: Texture samplers: 0/16
+[2022.12.28-21.11.25:518][732]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.12.28-21.11.25:518][732]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.12.28-21.11.25:551][733]LogMaterial: Display: Missing cached shadermap for Material_0 in PCD3D_SM5, Default, SM5 (DDC key hash: B090B911C79C27D1DBF7BEBC1C691D3F8CFCDF45), compiling. 
+[2022.12.28-21.11.25:554][733]MaterialEditorStats: Base pass shader: 126 instructions
+[2022.12.28-21.11.25:554][733]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 200 instructions
+[2022.12.28-21.11.25:554][733]MaterialEditorStats: Base pass vertex shader: 46 instructions
+[2022.12.28-21.11.25:554][733]MaterialEditorStats: Base pass vertex shader: 98 instructions
+[2022.12.28-21.11.25:554][733]MaterialEditorStats: Texture samplers: 5/16
+[2022.12.28-21.11.25:554][733]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.12.28-21.11.25:554][733]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.12.28-21.11.25:569][734]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2022.12.28-21.11.25:569][734]LogShaderCompilers: Display: Submitted 4 shader compile jobs with 'Normal' priority
+[2022.12.28-21.11.25:569][734]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 2
+[2022.12.28-21.11.25:569][734]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 1
+[2022.12.28-21.11.25:569][734]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 4
+[2022.12.28-21.11.25:569][734]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 3
+[2022.12.28-21.11.25:569][734]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 2
+[2022.12.28-21.11.25:569][734]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 1
+[2022.12.28-21.11.25:569][734]LogShaderCompilers: Display: Started 4 'Local' shader compile jobs with 'Normal' priority
+[2022.12.28-21.11.25:569][734]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'ForceLocal' priority
+[2022.12.28-21.11.27:910][948]LogMaterial: Display: Missing cached shadermap for Imp in PCD3D_SM5, Default, SM5 (DDC key hash: 64180B85FFC166BED55379518E7CCCE36DDCF020), compiling. 
+[2022.12.28-21.11.27:912][948]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 716945E22C79640A771AFB0E57C2F19D5751B073), compiling. 
+[2022.12.28-21.11.27:914][948]MaterialEditorStats: Texture samplers: 0/16
+[2022.12.28-21.11.27:914][948]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.12.28-21.11.27:914][948]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.12.28-21.11.27:940][950]MaterialEditorStats: Texture samplers: 5/16
+[2022.12.28-21.11.27:940][950]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.12.28-21.11.27:940][950]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.12.28-21.11.27:959][951]MaterialEditorStats: Base pass shader: 126 instructions
+[2022.12.28-21.11.27:959][951]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 200 instructions
+[2022.12.28-21.11.27:959][951]MaterialEditorStats: Base pass vertex shader: 46 instructions
+[2022.12.28-21.11.27:959][951]MaterialEditorStats: Base pass vertex shader: 98 instructions
+[2022.12.28-21.11.27:959][951]MaterialEditorStats: Texture samplers: 5/16
+[2022.12.28-21.11.27:959][951]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.12.28-21.11.27:959][951]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.12.28-21.11.30:774][219]LogMaterial: Display: Missing cached shadermap for Imp in PCD3D_SM5, Default, SM5 (DDC key hash: 8CEC5D934BCD0167584A854963285168668ADC95), compiling. 
+[2022.12.28-21.11.30:776][219]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 88F75DC16B461E9431A78496B89A9C83D1435EDD), compiling. 
+[2022.12.28-21.11.30:778][219]MaterialEditorStats: Texture samplers: 0/16
+[2022.12.28-21.11.30:778][219]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.12.28-21.11.30:778][219]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.12.28-21.11.30:804][221]MaterialEditorStats: Texture samplers: 5/16
+[2022.12.28-21.11.30:804][221]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.12.28-21.11.30:804][221]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.12.28-21.11.30:823][222]MaterialEditorStats: Base pass shader: 126 instructions
+[2022.12.28-21.11.30:823][222]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 200 instructions
+[2022.12.28-21.11.30:823][222]MaterialEditorStats: Base pass vertex shader: 46 instructions
+[2022.12.28-21.11.30:823][222]MaterialEditorStats: Base pass vertex shader: 98 instructions
+[2022.12.28-21.11.30:823][222]MaterialEditorStats: Texture samplers: 5/16
+[2022.12.28-21.11.30:823][222]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.12.28-21.11.30:823][222]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.12.28-21.11.32:373][374]LogMaterial: Display: Missing cached shadermap for Imp in PCD3D_SM5, Default, SM5 (DDC key hash: 109579D43A2A5B4FF84B8D085DE66949BE92638E), compiling. 
+[2022.12.28-21.11.32:376][374]MaterialEditorStats: Texture samplers: 0/16
+[2022.12.28-21.11.32:376][374]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.12.28-21.11.32:376][374]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.12.28-21.11.32:385][375]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2022.12.28-21.11.32:385][375]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 2
+[2022.12.28-21.11.32:385][375]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 1
+[2022.12.28-21.11.32:385][375]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'ForceLocal' priority
+[2022.12.28-21.11.32:397][376]LogShaderCompilers: Display: Submitted 18 shader compile jobs with 'Normal' priority
+[2022.12.28-21.11.32:397][376]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 18
+[2022.12.28-21.11.32:397][376]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 15
+[2022.12.28-21.11.32:397][376]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 12
+[2022.12.28-21.11.32:397][376]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 9
+[2022.12.28-21.11.32:397][376]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 6
+[2022.12.28-21.11.32:398][376]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 3
+[2022.12.28-21.11.32:398][376]LogShaderCompilers: Display: Started 18 'Local' shader compile jobs with 'Normal' priority
+[2022.12.28-21.11.32:919][405]MaterialEditorStats: Texture samplers: 5/16
+[2022.12.28-21.11.32:919][405]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.12.28-21.11.32:919][405]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.12.28-21.11.33:682][450]MaterialEditorStats: Base pass shader: 126 instructions
+[2022.12.28-21.11.33:682][450]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 200 instructions
+[2022.12.28-21.11.33:682][450]MaterialEditorStats: Base pass vertex shader: 46 instructions
+[2022.12.28-21.11.33:682][450]MaterialEditorStats: Base pass vertex shader: 98 instructions
+[2022.12.28-21.11.33:682][450]MaterialEditorStats: Texture samplers: 5/16
+[2022.12.28-21.11.33:683][450]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.12.28-21.11.33:683][450]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.12.28-21.11.33:985][480]LogMaterialEditor: Saving and Compiling material Imp
+[2022.12.28-21.11.34:234][480]LogMaterial: Display: Missing cached shadermap for Imp in PCD3D_SM5, Default, SM5 (DDC key hash: 55220769AB344D23ACC2218237300ECBBD8AE5D9), compiling. 
+[2022.12.28-21.11.34:264][480]LogMaterial: Display: Missing cached shadermap for Imp in PCD3D_SM5, Default, SM5 (DDC key hash: E13CA7FF7673578023EAFF118C302077F915AE31), compiling. 
+[2022.12.28-21.11.34:287][480]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2022.12.28-21.11.34:294][480]LogShaderCompilers: Display: Submitted 1 shader compile jobs with 'ForceLocal' priority
+[2022.12.28-21.11.34:506][480]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 1
+[2022.12.28-21.11.34:506][480]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'ForceLocal' priority
+[2022.12.28-21.11.34:534][480]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2022.12.28-21.11.34:581][480]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 1
+[2022.12.28-21.11.34:581][480]LogShaderCompilers: Display: Submitted 11 shader compile jobs with 'Normal' priority
+[2022.12.28-21.11.34:581][480]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 10
+[2022.12.28-21.11.34:581][480]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 9
+[2022.12.28-21.11.34:581][480]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 8
+[2022.12.28-21.11.34:581][480]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 7
+[2022.12.28-21.11.34:581][480]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 6
+[2022.12.28-21.11.34:581][480]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 5
+[2022.12.28-21.11.34:581][480]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 4
+[2022.12.28-21.11.34:581][480]LogShaderCompilers: Display: Started 8 'Local' shader compile jobs with 'Normal' priority
+[2022.12.28-21.11.34:608][480]LogSavePackage: Moving '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Saved/Imp64DF306A4F840A26190C949B3A008BA8.tmp' to '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Content/Enemy/Imp/Textures_Imp/Textures_Imp/Imp.uasset'
+[2022.12.28-21.11.34:623][480]AssetCheck: New page: Asset Save: Imp
+[2022.12.28-21.11.34:623][480]LogContentValidation: Display: Validating Material /Game/Enemy/Imp/Textures_Imp/Textures_Imp/Imp.Imp
+[2022.12.28-21.11.34:636][480]MaterialEditorStats: Texture samplers: 5/16
+[2022.12.28-21.11.34:636][480]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.12.28-21.11.34:636][480]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.12.28-21.11.34:766][487]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 3
+[2022.12.28-21.11.34:766][487]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 2
+[2022.12.28-21.11.34:766][487]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'Normal' priority
+[2022.12.28-21.11.34:798][488]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 1
+[2022.12.28-21.11.34:798][488]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'Normal' priority
+[2022.12.28-21.11.35:026][499]MaterialEditorStats: Texture samplers: 6/16
+[2022.12.28-21.11.35:026][499]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.12.28-21.11.35:027][499]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.12.28-21.11.35:039][500]LogMaterialEditor: Saving and Compiling material Imp
+[2022.12.28-21.11.35:063][500]LogSavePackage: Moving '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Saved/Imp2F70F56D4A7C27313870E8A054E39227.tmp' to '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Content/Enemy/Imp/Textures_Imp/Textures_Imp/Imp.uasset'
+[2022.12.28-21.11.35:077][500]AssetCheck: New page: Asset Save: Imp
+[2022.12.28-21.11.35:077][500]LogContentValidation: Display: Validating Material /Game/Enemy/Imp/Textures_Imp/Textures_Imp/Imp.Imp
+[2022.12.28-21.11.35:144][505]MaterialEditorStats: Base pass shader: 126 instructions
+[2022.12.28-21.11.35:144][505]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 200 instructions
+[2022.12.28-21.11.35:144][505]MaterialEditorStats: Base pass vertex shader: 46 instructions
+[2022.12.28-21.11.35:144][505]MaterialEditorStats: Base pass vertex shader: 98 instructions
+[2022.12.28-21.11.35:144][505]MaterialEditorStats: Texture samplers: 6/16
+[2022.12.28-21.11.35:144][505]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.12.28-21.11.35:144][505]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.12.28-21.11.52:524][288]LogSavePackage: Moving '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Saved/Imp34441A504D14E1D6C27031AF0E643A05.tmp' to '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Content/Enemy/Imp/Textures_Imp/Textures_Imp/Imp.uasset'
+[2022.12.28-21.11.52:534][288]AssetCheck: New page: Asset Save: Imp
+[2022.12.28-21.11.52:534][288]LogContentValidation: Display: Validating Material /Game/Enemy/Imp/Textures_Imp/Textures_Imp/Imp.Imp
+[2022.12.28-21.11.59:897][ 23]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/Imp/ImpTest" FILE="../../../../../repos/GDES703-Game-Craft/TimelessParadox/Content/Enemy/Imp/ImpTest.uasset" SILENT=true
+[2022.12.28-21.11.59:901][ 23]LogSavePackage: Moving '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Saved/ImpTestBF5E0DEA44F0F4A3DDF1BAA2E683987B.tmp' to '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Content/Enemy/Imp/ImpTest.uasset'
+[2022.12.28-21.11.59:911][ 23]AssetCheck: New page: Asset Save: ImpTest
+[2022.12.28-21.11.59:911][ 23]LogContentValidation: Display: Validating Blueprint /Game/Enemy/Imp/ImpTest.ImpTest
+[2022.12.28-21.12.01:518][174]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall10)
+[2022.12.28-21.12.02:670][290]LogEditorViewport: Clicking on Actor (LMB): ImpTest_C (ImpTest)
+[2022.12.28-21.12.24:590][ 55]BlueprintLog: New page: Compile ImpTest
+[2022.12.28-21.12.24:724][ 55]LogUObjectHash: Compacting FUObjectHashTables data took   2.29ms
+[2022.12.28-21.12.33:496][878]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2022.12.28-21.12.35:000][ 11]LogEditorViewport: Clicking on Actor (LMB): ImpTest_C (ImpTest)
+[2022.12.28-21.12.41:453][469]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Enemy/Imp/TempImp_Control.TempImp_Control
+[2022.12.28-21.12.48:076][988]LogAssetEditorSubsystem: Opening Asset editor for BehaviorTree /Game/Enemy/Imp/ImpAI_BT.ImpAI_BT
+[2022.12.28-21.13.02:626][543]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/Imp/ImpAI_BT" FILE="../../../../../repos/GDES703-Game-Craft/TimelessParadox/Content/Enemy/Imp/ImpAI_BT.uasset" SILENT=true
+[2022.12.28-21.13.02:627][543]LogSavePackage: Moving '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Saved/ImpAI_BTFC67DE4746F1F35C1EE931884B4B32B3.tmp' to '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Content/Enemy/Imp/ImpAI_BT.uasset'
+[2022.12.28-21.13.02:628][543]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/Imp/ImpAI_BB" FILE="../../../../../repos/GDES703-Game-Craft/TimelessParadox/Content/Enemy/Imp/ImpAI_BB.uasset" SILENT=true
+[2022.12.28-21.13.02:629][543]LogSavePackage: Moving '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Saved/ImpAI_BB40CBC73E42EF1E38CF17F29187CD275D.tmp' to '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Content/Enemy/Imp/ImpAI_BB.uasset'
+[2022.12.28-21.13.02:639][543]AssetCheck: New page: Asset Save: multiple assets
+[2022.12.28-21.13.02:639][543]LogContentValidation: Display: Validating BehaviorTree /Game/Enemy/Imp/ImpAI_BT.ImpAI_BT
+[2022.12.28-21.13.02:639][543]LogContentValidation: Display: Validating BlackboardData /Game/Enemy/Imp/ImpAI_BB.ImpAI_BB
+[2022.12.28-21.13.05:639][847]LogTemp: Repeating last play command: Selected Viewport
+[2022.12.28-21.13.05:647][847]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.12.28-21.13.05:647][847]PIE: New page: PIE session: ThirdPersonExampleMap (28 Dec 2022, 21:13:05)
+[2022.12.28-21.13.05:670][847]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2022.12.28-21.13.05:680][847]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009847s)
+[2022.12.28-21.13.05:681][847]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2022.12.28-21.13.05:681][847]LogPlayLevel: PIE: World Init took: (0.001276s)
+[2022.12.28-21.13.05:681][847]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.011250s)
+[2022.12.28-21.13.05:702][847]LogUObjectHash: Compacting FUObjectHashTables data took   2.36ms
+[2022.12.28-21.13.05:703][847]LogAudio: Display: Creating Audio Device:                 Id: 13, Scope: Unique, Realtime: True
+[2022.12.28-21.13.05:703][847]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.12.28-21.13.05:703][847]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.12.28-21.13.05:703][847]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.12.28-21.13.05:703][847]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.12.28-21.13.05:703][847]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.12.28-21.13.05:703][847]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.12.28-21.13.05:703][847]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.12.28-21.13.05:703][847]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.12.28-21.13.05:703][847]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.12.28-21.13.05:703][847]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.12.28-21.13.05:703][847]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.12.28-21.13.05:703][847]LogAudioMixer: Display: Initializing audio mixer.
+[2022.12.28-21.13.05:707][847]LogAudioMixer: Display: 0: FrontLeft
+[2022.12.28-21.13.05:707][847]LogAudioMixer: Display: 1: FrontRight
+[2022.12.28-21.13.05:713][847]LogAudioMixer: Display: Using Audio Device Speakers (2- USB Audio CODEC )
+[2022.12.28-21.13.05:713][847]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.12.28-21.13.05:713][847]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.12.28-21.13.05:713][847]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.12.28-21.13.05:714][847]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.12.28-21.13.05:714][847]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.12.28-21.13.05:714][847]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.12.28-21.13.05:715][847]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.12.28-21.13.05:715][847]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.12.28-21.13.05:715][847]LogInit: FAudioDevice initialized.
+[2022.12.28-21.13.05:715][847]LogAudio: Display: Audio Device (ID: 13) registered with world 'ThirdPersonExampleMap'.
+[2022.12.28-21.13.05:721][847]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2022.12.28-21.13.05:724][847]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2022.12.28-21.13.05
+[2022.12.28-21.13.05:725][847]LogWorld: Bringing up level for play took: 0.003153
+[2022.12.28-21.13.05:725][847]LogOnline: OSS: Creating online subsystem instance for: :Context_86
+[2022.12.28-21.13.05:727][847]PIE: Server logged in
+[2022.12.28-21.13.05:728][847]PIE: Play in editor total start time 0.084 seconds.
+[2022.12.28-21.13.12:752][683]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.12.28-21.13.12:753][683]LogWorld: BeginTearingDown for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2022.12.28-21.13.12:753][683]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2022.12.28-21.13.12:753][683]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.12.28-21.13.12:759][683]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.12.28-21.13.12:803][683]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.12.28-21.13.12:822][683]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.12.28-21.13.12:822][683]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.12.28-21.13.12:823][683]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.12.28-21.13.12:825][683]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.12.28-21.13.12:828][683]LogUObjectHash: Compacting FUObjectHashTables data took   2.18ms
+[2022.12.28-21.13.12:866][684]LogPlayLevel: Display: Destroying online subsystem :Context_86
+[2022.12.28-21.13.13:410][738]LogUObjectHash: Compacting FUObjectHashTables data took   2.02ms
+[2022.12.28-21.13.13:428][738]LogSavePackage: Moving '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Saved/ThirdPersonExampleMapB6F2C8614E9E6CDAEF65ED9512228FC9.tmp' to '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2022.12.28-21.13.13:481][738]LogSavePackage: Moving '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Saved/ThirdPersonExampleMap_BuiltData09168D0F4BC5FC3C547E3EB292DC1C28.tmp' to '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2022.12.28-21.13.13:496][738]AssetCheck: New page: Asset Save: multiple assets
+[2022.12.28-21.13.13:496][738]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData
+[2022.12.28-21.13.13:496][738]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2022.12.28-21.15.40:019][443]LogUObjectHash: Compacting FUObjectHashTables data took   1.72ms
+[2022.12.28-21.15.40:039][443]LogSavePackage: Moving '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Saved/ThirdPersonExampleMap5AF7E5FF406AA0485D4D7A9368362B23.tmp' to '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2022.12.28-21.15.40:094][443]LogSavePackage: Moving '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Saved/ThirdPersonExampleMap_BuiltDataFDD7501D4EE7B9430A2B1F927CB24CE9.tmp' to '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2022.12.28-21.15.40:108][443]AssetCheck: New page: Asset Save: multiple assets
+[2022.12.28-21.15.40:108][443]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData
+[2022.12.28-21.15.40:108][443]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2022.12.28-21.15.41:784][624]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2022.12.28-21.15.41:803][624]LogSavePackage: Moving '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Saved/ThirdPersonExampleMap26C6DF324946065EC30741B597657D53.tmp' to '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2022.12.28-21.15.41:856][624]LogSavePackage: Moving '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Saved/ThirdPersonExampleMap_BuiltData59E7079A407771FF2F759FB3D7652339.tmp' to '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2022.12.28-21.15.41:871][624]AssetCheck: New page: Asset Save: multiple assets
+[2022.12.28-21.15.41:871][624]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData
+[2022.12.28-21.15.41:871][624]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2022.12.28-21.16.08:129][ 27]LogFactory: FactoryCreateFile: DataTable with ReimportDataTableFactory (0 1 E:\UNI\Masters\Game Craft\Exports_MoCap\Exports\Timeless\IMP_BACKJUMP_.json)
+[2022.12.28-21.16.21:104][ 27]LogSlate: Window 'DataTable Options' being destroyed
+[2022.12.28-21.16.21:143][ 27]LogCSVImportFactory: Imported DataTable 'IMP_BACKJUMP_' - 1 Problems
+[2022.12.28-21.16.21:143][ 27]LogCSVImportFactory: 0:Failed to parse the JSON data. Error: 
+[2022.12.28-21.16.22:523][ 27]LogSlate: Window 'Message' being destroyed
+[2022.12.28-21.16.22:526][ 27]Message dialog closed, result: Ok, title: Message, text: Failed to parse the JSON data. Error: 
+
+[2022.12.28-21.16.22:532][ 27]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 E:\UNI\Masters\Game Craft\Exports_MoCap\Exports\Timeless\IMP_BACKJUMP_.fbx)
+[2022.12.28-21.16.22:544][ 27]LogFbx: Loading FBX Scene from E:\UNI\Masters\Game Craft\Exports_MoCap\Exports\Timeless\IMP_BACKJUMP_.fbx
+[2022.12.28-21.16.22:596][ 27]LogFbx: FBX Scene Loaded Succesfully
+[2022.12.28-21.16.32:445][ 27]LogSlate: Window 'FBX Import Options' being destroyed
+[2022.12.28-21.16.32:467][ 27]FBXImport: FBX File Loading: Found name clash, node 'IMP:Position' was renamed to 'IMP:Position1' 
+[2022.12.28-21.16.32:467][ 27]FBXImport: Error: Mesh contains QuickRigCharacter_Reference bone as root but animation doesn't contain the root track.
+Import failed. 
+[2022.12.28-21.16.32:467][ 27]FBXImport: Error: Import failed. 
+[2022.12.28-21.16.34:157][ 27]LogSlate: Window 'Message' being destroyed
+[2022.12.28-21.16.34:160][ 27]Message dialog closed, result: Ok, title: Message, text: Failed to import 'E:\UNI\Masters\Game Craft\Exports_MoCap\Exports\Timeless\IMP_BACKJUMP_.fbx'. Failed to create asset '/Game/Enemy/Imp/Animations/IMP_BACKJUMP_'.
+Please see Output Log for details.
+[2022.12.28-21.16.34:160][ 27]LogAssetTools: Warning: Failed to import 'E:\UNI\Masters\Game Craft\Exports_MoCap\Exports\Timeless\IMP_BACKJUMP_.fbx'. Failed to create asset '/Game/Enemy/Imp/Animations/IMP_BACKJUMP_'.
+Please see Output Log for details.
+[2022.12.28-21.17.18:105][596]LogSlate: Window 'Message Log' being destroyed
+[2022.12.28-21.17.18:110][596]LogSlate: Window 'Message Log' being destroyed
+[2022.12.28-21.17.22:046][ 40]LogAssetEditorSubsystem: Opening Asset editor for DataTable /Game/Enemy/Imp/Animations/IMP_BACKJUMP_.IMP_BACKJUMP_
+[2022.12.28-21.17.24:361][248]LogUObjectHash: Compacting FUObjectHashTables data took   4.05ms
+[2022.12.28-21.17.26:522][248]LogSlate: Window 'Delete Assets' being destroyed
+[2022.12.28-21.17.26:548][248]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/Enemy/Imp/Animations/IMP_BACKJUMP_.IMP_BACKJUMP_
+[2022.12.28-21.17.26:861][248]LogUObjectHash: Compacting FUObjectHashTables data took   3.00ms
+[2022.12.28-21.25.41:972][590]LogUObjectHash: Compacting FUObjectHashTables data took   3.09ms
+[2022.12.28-21.25.41:975][590]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.034
+[2022.12.28-21.25.41:975][590]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Enemy/Imp/ImpEnemy] ([4] browsable assets)...
+[2022.12.28-21.25.41:993][590]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Enemy/Imp/ImpEnemy.ImpEnemy]
+[2022.12.28-21.25.42:008][590]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Enemy/Imp/ImpEnemy.ImpEnemy]
+[2022.12.28-21.25.42:008][590]OBJ SavePackage: Finished generating thumbnails for package [/Game/Enemy/Imp/ImpEnemy]
+[2022.12.28-21.25.42:008][590]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/Imp/ImpEnemy" FILE="../../../../../repos/GDES703-Game-Craft/TimelessParadox/Saved/Autosaves/Game/Enemy/Imp/ImpEnemy_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2022.12.28-21.25.42:033][590]LogSavePackage: Moving '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Saved/ImpEnemy_Auto2E43AE75B44E3D4BE7519FA94DD01DD79.tmp' to '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Saved/Autosaves/Game/Enemy/Imp/ImpEnemy_Auto2.uasset'
+[2022.12.28-21.25.42:034][590]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Enemy/Imp/ImpTest] ([2] browsable assets)...
+[2022.12.28-21.25.42:044][590]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Enemy/Imp/ImpTest.ImpTest]
+[2022.12.28-21.25.42:044][590]OBJ SavePackage: Finished generating thumbnails for package [/Game/Enemy/Imp/ImpTest]
+[2022.12.28-21.25.42:044][590]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/Imp/ImpTest" FILE="../../../../../repos/GDES703-Game-Craft/TimelessParadox/Saved/Autosaves/Game/Enemy/Imp/ImpTest_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2022.12.28-21.25.42:051][590]LogSavePackage: Moving '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Saved/ImpTest_Auto291C21B18493444EA0B36148861CC08F5.tmp' to '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Saved/Autosaves/Game/Enemy/Imp/ImpTest_Auto2.uasset'
+[2022.12.28-21.25.42:052][590]LogFileHelpers: Auto-saving content packages took 0.077
+[2022.12.28-21.26.50:347][795]LogAudioMixer: Warning: Changing default audio render device to new device: {0.0.0.00000000}.{d2c2ae2f-4cb8-4ece-b1e5-7afab0c5f623}.
+[2022.12.28-21.26.50:672][795]LogAudioMixer: Resetting audio stream to device id 
+[2022.12.28-21.26.50:694][795]LogAudioMixer: Display: 0: FrontLeft
+[2022.12.28-21.26.50:694][795]LogAudioMixer: Display: 1: FrontRight
+[2022.12.28-21.37.26:117][689]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001) (00000000)
+[2022.12.28-21.37.27:121][690]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001) (00000000)
+[2022.12.28-21.46.03:947][347]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001) (00000000)
+[2022.12.28-21.53.39:615][707]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001) (00000000)
+[2022.12.28-21.53.40:616][708]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001) (00000000)
+[2022.12.28-21.53.43:219][711]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001) (00000000)
+[2022.12.28-22.04.12:266][599]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001) (00000000)
+[2022.12.28-22.04.13:267][600]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001) (00000000)
+[2022.12.28-22.20.27:354][630]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 E:\UNI\Masters\Game Craft\Exports_MoCap\Exports\Timeless\IMP_IDLEWALK_.fbx)
+[2022.12.28-22.20.27:371][630]LogFbx: Loading FBX Scene from E:\UNI\Masters\Game Craft\Exports_MoCap\Exports\Timeless\IMP_IDLEWALK_.fbx
+[2022.12.28-22.20.27:450][630]LogFbx: FBX Scene Loaded Succesfully
+[2022.12.28-22.20.31:113][630]LogSlate: Window 'FBX Import Options' being destroyed
+[2022.12.28-22.20.31:134][630]FBXImport: FBX File Loading: Found name clash, node 'IMP:Position' was renamed to 'IMP:Position1' 
+[2022.12.28-22.20.31:134][630]FBXImport: Error: Mesh contains QuickRigCharacter_Reference bone as root but animation doesn't contain the root track.
+Import failed. 
+[2022.12.28-22.20.31:134][630]FBXImport: Error: Import failed. 
+[2022.12.28-22.20.32:469][630]LogSlate: Window 'Message' being destroyed
+[2022.12.28-22.20.32:473][630]Message dialog closed, result: Ok, title: Message, text: Failed to import 'E:\UNI\Masters\Game Craft\Exports_MoCap\Exports\Timeless\IMP_IDLEWALK_.fbx'. Failed to create asset '/Game/Enemy/Imp/Animations/IMP_IDLEWALK_'.
+Please see Output Log for details.
+[2022.12.28-22.20.32:473][630]LogAssetTools: Warning: Failed to import 'E:\UNI\Masters\Game Craft\Exports_MoCap\Exports\Timeless\IMP_IDLEWALK_.fbx'. Failed to create asset '/Game/Enemy/Imp/Animations/IMP_IDLEWALK_'.
+Please see Output Log for details.
+[2022.12.28-22.36.47:504][558]LogSlate: Window 'Message Log' being destroyed
+[2022.12.28-22.36.47:510][558]LogSlate: Window 'Message Log' being destroyed
+[2022.12.28-22.36.56:266][919]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 E:\UNI\Masters\Game Craft\ImpTemp\ImpFix.fbx)
+[2022.12.28-22.36.56:275][919]LogFbx: Loading FBX Scene from E:\UNI\Masters\Game Craft\ImpTemp\ImpFix.fbx
+[2022.12.28-22.36.56:383][919]LogFbx: FBX Scene Loaded Succesfully
+[2022.12.28-22.37.00:437][919]LogSlate: Window 'FBX Import Options' being destroyed
+[2022.12.28-22.37.00:513][919]LogFbx: Valid bind pose for Pose (Mesh) - Imp_Low
+[2022.12.28-22.37.00:610][919]LogFbx: Triangulating skeletal mesh Imp_Low
+[2022.12.28-22.37.00:836][919]LogFbx: Warning: Bones digested - 33  Depth of hierarchy - 10
+[2022.12.28-22.37.01:295][919]LogSkeletalMesh: Section 0: Material=0, 9068 triangles
+[2022.12.28-22.37.01:365][919]LogSkeletalMesh: Building Skeletal Mesh ImpFix...
+[2022.12.28-22.37.01:525][919]LogSkeletalMesh: Section 0: Material=0, 9068 triangles
+[2022.12.28-22.37.01:589][919]LogSkeletalMesh: Built Skeletal Mesh [0.23s] /Game/Enemy/Imp/ImpFix.ImpFix
+[2022.12.28-22.37.07:193][919]LogSlate: Window 'Message' being destroyed
+[2022.12.28-22.37.07:196][919]Message dialog closed, result: Yes, title: Message, text: FAILED TO MERGE BONES:
+
+ This could happen if significant hierarchical changes have been made
+e.g. inserting a bone between nodes.
+Would you like to regenerate the Skeleton from this mesh?
+
+***WARNING: THIS MAY INVALIDATE OR REQUIRE RECOMPRESSION OF ANIMATION DATA.***
+
+[2022.12.28-22.37.07:316][919]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Enemy/Imp/Imp_Anim.Imp_Anim
+[2022.12.28-22.37.07:316][919]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Enemy/Imp/Imp_Anim.Imp_Anim
+[2022.12.28-22.37.08:575][919]LogSlate: Window 'Message' being destroyed
+[2022.12.28-22.37.08:578][919]Message dialog closed, result: Yes, title: Message, text: Would you like to merge all SkeletalMeshes using this skeleton to ensure all bones are merged? This will require to load those SkeletalMeshes.
+[2022.12.28-22.37.09:723][919]LogSlate: Window 'Message' being destroyed
+[2022.12.28-22.37.09:727][919]Message dialog closed, result: Ok, title: Message, text: Failed to merge SkeletalMesh 'Imp'.
+[2022.12.28-22.37.10:824][919]LogWorld: UWorld::CleanupWorld for World_74, bSessionEnded=true, bCleanupResources=true
+[2022.12.28-22.37.10:843][919]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.12.28-22.37.11:014][919]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2022.12.28-22.37.11:014][919]FBXImport: Warning: The following bones are missing from the bind pose:
+QuickRigCharacter_LeftToeBase_end  
+QuickRigCharacter_RightToeBase_end  
+QuickRigCharacter_LeftHand_end  
+QuickRigCharacter_RightHand_end  
+QuickRigCharacter_Head_end  
+
+This can happen for bones that are not vert weighted. If they are not in the correct orientation after importing,
+please set the "Use T0 as ref pose" option or add them to the bind pose and reimport the skeletal mesh. 
+[2022.12.28-22.37.11:154][919]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Enemy/Imp/Imp_Anim.Imp_Anim
+[2022.12.28-22.37.11:154][919]LoadErrors: Error: The Skeleton  Imp_Skeleton is missing bones that SkeletalMesh  Imp needs. They will be added now. Please save the Skeleton!
+[2022.12.28-22.37.14:613][242]LogUObjectHash: Compacting FUObjectHashTables data took   7.80ms
+[2022.12.28-22.37.14:618][242]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.358
+[2022.12.28-22.37.14:621][242]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Enemy/Imp/Imp_Skeleton] ([1] browsable assets)...
+[2022.12.28-22.37.14:621][242]OBJ SavePackage: Finished generating thumbnails for package [/Game/Enemy/Imp/Imp_Skeleton]
+[2022.12.28-22.37.14:641][242]LogSavePackage: Moving '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Saved/Imp_Skeleton_Auto39BB568B742604CB85B2B7F9DBC0A59E5.tmp' to '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Saved/Autosaves/Game/Enemy/Imp/Imp_Skeleton_Auto3.uasset'
+[2022.12.28-22.37.14:642][242]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Enemy/Imp/ImpFix_PhysicsAsset] ([1] browsable assets)...
+[2022.12.28-22.37.14:655][242]OBJ SavePackage:     Rendered thumbnail for [PhysicsAsset /Game/Enemy/Imp/ImpFix_PhysicsAsset.ImpFix_PhysicsAsset]
+[2022.12.28-22.37.14:655][242]OBJ SavePackage: Finished generating thumbnails for package [/Game/Enemy/Imp/ImpFix_PhysicsAsset]
+[2022.12.28-22.37.14:691][242]LogSavePackage: Moving '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Saved/ImpFix_PhysicsAsset_Auto376DD0F894940E0E0BA5018A4231D3FF9.tmp' to '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Saved/Autosaves/Game/Enemy/Imp/ImpFix_PhysicsAsset_Auto3.uasset'
+[2022.12.28-22.37.14:692][242]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Enemy/Imp/ImpFix] ([1] browsable assets)...
+[2022.12.28-22.37.14:702][242]OBJ SavePackage:     Rendered thumbnail for [SkeletalMesh /Game/Enemy/Imp/ImpFix.ImpFix]
+[2022.12.28-22.37.14:702][242]OBJ SavePackage: Finished generating thumbnails for package [/Game/Enemy/Imp/ImpFix]
+[2022.12.28-22.37.14:702][242]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/Imp/ImpFix" FILE="../../../../../repos/GDES703-Game-Craft/TimelessParadox/Saved/Autosaves/Game/Enemy/Imp/ImpFix_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2022.12.28-22.37.14:748][242]LogSavePackage: Moving '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Saved/ImpFix_Auto3779D8E0541BD9B7B2719F1BAEBB3CBF4.tmp' to '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Saved/Autosaves/Game/Enemy/Imp/ImpFix_Auto3.uasset'
+[2022.12.28-22.37.14:749][242]LogFileHelpers: Auto-saving content packages took 0.128
+[2022.12.28-22.37.15:381][310]LogSlate: Window 'Message Log' being destroyed
+[2022.12.28-22.37.15:387][310]LogSlate: Window 'Message Log' being destroyed
+[2022.12.28-22.37.19:022][597]LogAssetEditorSubsystem: Opening Asset editor for SkeletalMesh /Game/Enemy/Imp/ImpFix.ImpFix
+[2022.12.28-22.37.19:320][597]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_75:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2022.12.28-22.37.24:293][843]LogAssetEditorSubsystem: Opening Asset editor for Skeleton /Game/Enemy/Imp/Imp_Skeleton.Imp_Skeleton
+[2022.12.28-22.37.26:288][843]LogSlate: Window 'Message' being destroyed
+[2022.12.28-22.37.26:292][843]Message dialog closed, result: Yes, title: Message, text: The preview mesh hierarchy doesn't match with Skeleton anymore. Would you like to regenerate skeleton?
+[2022.12.28-22.37.26:295][843]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Enemy/Imp/Imp_Anim.Imp_Anim
+[2022.12.28-22.37.26:295][843]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_76:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2022.12.28-22.37.26:601][843]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Enemy/Imp/Imp_Anim.Imp_Anim
+[2022.12.28-22.37.32:417][334]LogWorld: UWorld::CleanupWorld for World_76, bSessionEnded=true, bCleanupResources=true
+[2022.12.28-22.37.32:417][334]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.12.28-22.37.35:666][585]LogWorld: UWorld::CleanupWorld for World_75, bSessionEnded=true, bCleanupResources=true
+[2022.12.28-22.37.35:666][585]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.12.28-22.47.15:069][839]LogUObjectHash: Compacting FUObjectHashTables data took   3.03ms
+[2022.12.28-22.47.15:075][839]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.170
+[2022.12.28-22.47.15:075][839]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Enemy/Imp/Imp_Skeleton] ([1] browsable assets)...
+[2022.12.28-22.47.15:075][839]OBJ SavePackage: Finished generating thumbnails for package [/Game/Enemy/Imp/Imp_Skeleton]
+[2022.12.28-22.47.15:076][839]LogSavePackage: Moving '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Saved/Imp_Skeleton_Auto4912207CD4B60611BA4454E89F225484E.tmp' to '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Saved/Autosaves/Game/Enemy/Imp/Imp_Skeleton_Auto4.uasset'
+[2022.12.28-22.47.15:077][839]LogFileHelpers: Auto-saving content packages took 0.002
+[2022.12.28-22.52.02:887][ 63]LogUObjectHash: Compacting FUObjectHashTables data took   2.91ms
+[2022.12.28-22.52.04:269][ 63]LogSlate: Window 'Delete Assets' being destroyed
+[2022.12.28-22.52.04:336][ 63]LogUObjectGlobals: Force Deleting 2 Package(s):
+	Asset Name: /Game/Enemy/Imp/ImpFix.ImpFix
+	Asset Name: /Game/Enemy/Imp/ImpFix_PhysicsAsset.ImpFix_PhysicsAsset
+[2022.12.28-22.52.04:838][ 63]LogUObjectHash: Compacting FUObjectHashTables data took   2.19ms
+[2022.12.28-22.52.12:600][315]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 E:\UNI\Masters\Game Craft\ImpTemp\ImpFix.fbx)
+[2022.12.28-22.52.12:609][315]LogFbx: Loading FBX Scene from E:\UNI\Masters\Game Craft\ImpTemp\ImpFix.fbx
+[2022.12.28-22.52.12:630][315]LogFbx: FBX Scene Loaded Succesfully
+[2022.12.28-22.52.19:757][315]LogSlate: Window 'FBX Import Options' being destroyed
+[2022.12.28-22.52.19:769][315]LogFbx: Valid bind pose for Pose (Mesh) - Imp_Low
+[2022.12.28-22.52.19:770][315]LogFbx: Triangulating skeletal mesh Imp_Low
+[2022.12.28-22.52.19:914][315]LogFbx: Warning: Bones digested - 33  Depth of hierarchy - 10
+[2022.12.28-22.52.20:099][315]LogSkeletalMesh: Section 0: Material=0, 9068 triangles
+[2022.12.28-22.52.20:102][315]LogSkeletalMesh: Building Skeletal Mesh ImpFix...
+[2022.12.28-22.52.20:261][315]LogSkeletalMesh: Section 0: Material=0, 9068 triangles
+[2022.12.28-22.52.20:274][315]LogSkeletalMesh: Built Skeletal Mesh [0.17s] /Game/Enemy/Imp/ImpFix.ImpFix
+[2022.12.28-22.52.20:280][315]LogWorld: UWorld::CleanupWorld for World_77, bSessionEnded=true, bCleanupResources=true
+[2022.12.28-22.52.20:281][315]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.12.28-22.52.20:297][315]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2022.12.28-22.52.20:297][315]FBXImport: Warning: The following bones are missing from the bind pose:
+QuickRigCharacter_LeftToeBase_end  
+QuickRigCharacter_RightToeBase_end  
+QuickRigCharacter_LeftHand_end  
+QuickRigCharacter_RightHand_end  
+QuickRigCharacter_Head_end  
+
+This can happen for bones that are not vert weighted. If they are not in the correct orientation after importing,
+please set the "Use T0 as ref pose" option or add them to the bind pose and reimport the skeletal mesh. 
+[2022.12.28-22.52.33:502][715]LogAssetEditorSubsystem: Opening Asset editor for SkeletalMesh /Game/Enemy/Imp/ImpFix.ImpFix
+[2022.12.28-22.52.33:505][715]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_78:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2022.12.28-22.52.56:199][465]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 E:\UNI\Masters\Game Craft\Exports_MoCap\Exports\Timeless\IMP_IDLE_001.fbx)
+[2022.12.28-22.52.56:215][465]LogFbx: Loading FBX Scene from E:\UNI\Masters\Game Craft\Exports_MoCap\Exports\Timeless\IMP_IDLE_001.fbx
+[2022.12.28-22.52.56:293][465]LogFbx: FBX Scene Loaded Succesfully
+[2022.12.28-22.53.00:560][465]LogSlate: Window 'FBX Import Options' being destroyed
+[2022.12.28-22.53.00:585][465]LogFbx: SortedLinks :(0) IMP
+[2022.12.28-22.53.00:585][465]LogFbx: SortedLinks :(1) Position
+[2022.12.28-22.53.00:585][465]LogFbx: SortedLinks :(2) QuickRigCharacter_Hips
+[2022.12.28-22.53.00:585][465]LogFbx: SortedLinks :(3) QuickRigCharacter_LeftUpLeg
+[2022.12.28-22.53.00:585][465]LogFbx: SortedLinks :(4) QuickRigCharacter_LeftLeg
+[2022.12.28-22.53.00:585][465]LogFbx: SortedLinks :(5) joint1
+[2022.12.28-22.53.00:585][465]LogFbx: SortedLinks :(6) joint3
+[2022.12.28-22.53.00:585][465]LogFbx: SortedLinks :(7) joint5
+[2022.12.28-22.53.00:585][465]LogFbx: SortedLinks :(8) QuickRigCharacter_LeftFoot
+[2022.12.28-22.53.00:585][465]LogFbx: SortedLinks :(9) QuickRigCharacter_LeftToeBase
+[2022.12.28-22.53.00:585][465]LogFbx: SortedLinks :(10) QuickRigCharacter_RightUpLeg
+[2022.12.28-22.53.00:585][465]LogFbx: SortedLinks :(11) QuickRigCharacter_RightLeg
+[2022.12.28-22.53.00:585][465]LogFbx: SortedLinks :(12) joint4
+[2022.12.28-22.53.00:585][465]LogFbx: SortedLinks :(13) joint2
+[2022.12.28-22.53.00:585][465]LogFbx: SortedLinks :(14) QuickRigCharacter_RightFoot
+[2022.12.28-22.53.00:585][465]LogFbx: SortedLinks :(15) QuickRigCharacter_RightToeBase
+[2022.12.28-22.53.00:585][465]LogFbx: SortedLinks :(16) QuickRigCharacter_Spine
+[2022.12.28-22.53.00:585][465]LogFbx: SortedLinks :(17) QuickRigCharacter_Spine1
+[2022.12.28-22.53.00:585][465]LogFbx: SortedLinks :(18) QuickRigCharacter_Spine2
+[2022.12.28-22.53.00:585][465]LogFbx: SortedLinks :(19) QuickRigCharacter_LeftShoulder
+[2022.12.28-22.53.00:585][465]LogFbx: SortedLinks :(20) QuickRigCharacter_LeftArm
+[2022.12.28-22.53.00:585][465]LogFbx: SortedLinks :(21) QuickRigCharacter_LeftForeArm
+[2022.12.28-22.53.00:585][465]LogFbx: SortedLinks :(22) QuickRigCharacter_LeftHand
+[2022.12.28-22.53.00:585][465]LogFbx: SortedLinks :(23) QuickRigCharacter_RightShoulder
+[2022.12.28-22.53.00:585][465]LogFbx: SortedLinks :(24) QuickRigCharacter_RightArm
+[2022.12.28-22.53.00:585][465]LogFbx: SortedLinks :(25) QuickRigCharacter_RightForeArm
+[2022.12.28-22.53.00:585][465]LogFbx: SortedLinks :(26) QuickRigCharacter_RightHand
+[2022.12.28-22.53.00:585][465]LogFbx: SortedLinks :(27) QuickRigCharacter_Neck
+[2022.12.28-22.53.00:585][465]LogFbx: SortedLinks :(28) QuickRigCharacter_Head
+[2022.12.28-22.53.00:585][465]LogFbx: SortedLinks :(29) Position1
+[2022.12.28-22.53.00:585][465]LogFbx: SortedLinks :(30) Rotation
+[2022.12.28-22.53.00:617][465]LogFbx: Parsing AnimStack IMP_IDLE_001_mcp
+[2022.12.28-22.53.01:021][465]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Enemy/Imp/Animations/IMP_IDLE_001.IMP_IDLE_001
+[2022.12.28-22.53.01:021][465]FBXImport: FBX File Loading: Found name clash, node 'IMP:Position' was renamed to 'IMP:Position1' 
+[2022.12.28-22.53.01:021][465]FBXImport: Warning: The following bones exist in the imported animation, but not in the Skeleton asset ImpFix_Skeleton.  Any animation on these bones will not be imported: 
+
+ Position  
+Position1  
+Rotation  
+ 
+[2022.12.28-22.53.03:465][656]LogAssetEditorSubsystem: Opening Asset editor for AnimSequence /Game/Enemy/Imp/Animations/IMP_IDLE_001.IMP_IDLE_001
+[2022.12.28-22.53.03:509][656]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_79:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2022.12.28-22.53.04:335][656]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2022.12.28-22.53.46:188][ 59]LogUObjectHash: Compacting FUObjectHashTables data took   2.93ms
+[2022.12.28-22.53.47:471][ 59]LogSlate: Window 'Delete Assets' being destroyed
+[2022.12.28-22.53.47:533][ 59]LogWorld: UWorld::CleanupWorld for World_81, bSessionEnded=true, bCleanupResources=true
+[2022.12.28-22.53.47:533][ 59]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.12.28-22.53.47:657][ 59]LogWorld: UWorld::CleanupWorld for World_80, bSessionEnded=true, bCleanupResources=true
+[2022.12.28-22.53.47:657][ 59]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.12.28-22.53.47:708][ 59]LogWorld: UWorld::CleanupWorld for World_79, bSessionEnded=true, bCleanupResources=true
+[2022.12.28-22.53.47:708][ 59]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.12.28-22.53.47:719][ 59]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/Enemy/Imp/Animations/IMP_IDLE_001.IMP_IDLE_001
+[2022.12.28-22.53.48:051][ 59]LogUObjectHash: Compacting FUObjectHashTables data took   2.71ms
+[2022.12.28-22.53.50:998][244]LogUObjectHash: Compacting FUObjectHashTables data took   2.68ms
+[2022.12.28-22.53.51:930][244]LogSlate: Window 'Delete Assets' being destroyed
+[2022.12.28-22.53.52:017][244]LogWorld: UWorld::CleanupWorld for World_78, bSessionEnded=true, bCleanupResources=true
+[2022.12.28-22.53.52:017][244]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.12.28-22.53.52:026][244]LogUObjectGlobals: Force Deleting 3 Package(s):
+	Asset Name: /Game/Enemy/Imp/ImpFix.ImpFix
+	Asset Name: /Game/Enemy/Imp/ImpFix_PhysicsAsset.ImpFix_PhysicsAsset
+	Asset Name: /Game/Enemy/Imp/ImpFix_Skeleton.ImpFix_Skeleton
+[2022.12.28-22.53.52:463][244]LogUObjectHash: Compacting FUObjectHashTables data took   2.69ms
+[2022.12.28-22.53.54:077][354]LogUObjectHash: Compacting FUObjectHashTables data took   2.67ms
+[2022.12.28-22.53.54:114][354]LogSavePackage: Moving '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Saved/ThirdPersonExampleMap7CB0420A40EBF4F4F2D70383ED541403.tmp' to '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2022.12.28-22.53.54:173][354]LogSavePackage: Moving '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Saved/ThirdPersonExampleMap_BuiltData9A0C369942987D9DFC29188CF8009827.tmp' to '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2022.12.28-22.53.54:202][354]AssetCheck: New page: Asset Save: multiple assets
+[2022.12.28-22.53.54:202][354]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData
+[2022.12.28-22.53.54:203][354]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2022.12.28-22.58.19:383][308]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2022.12.28-22.58.19:405][308]LogSavePackage: Moving '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Saved/ThirdPersonExampleMap649ABE8B49816694EA7F35860D1A3221.tmp' to '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2022.12.28-22.58.19:457][308]LogSavePackage: Moving '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Saved/ThirdPersonExampleMap_BuiltDataDE2DA8554913F7BDDBF13C986B8C435F.tmp' to '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2022.12.28-22.58.19:468][308]AssetCheck: New page: Asset Save: multiple assets
+[2022.12.28-22.58.19:468][308]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData
+[2022.12.28-22.58.19:468][308]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2022.12.28-22.58.20:282][386]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2022.12.28-22.58.20:301][386]LogSavePackage: Moving '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Saved/ThirdPersonExampleMap5854B96B453D2998DD0C2BA5B1087B71.tmp' to '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2022.12.28-22.58.20:353][386]LogSavePackage: Moving '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Saved/ThirdPersonExampleMap_BuiltData69CA1BEE4D508C4E9AAFB3BB1BD26AF8.tmp' to '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2022.12.28-22.58.20:367][386]AssetCheck: New page: Asset Save: multiple assets
+[2022.12.28-22.58.20:367][386]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData
+[2022.12.28-22.58.20:367][386]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2022.12.28-22.58.24:737][834]MapCheck: New page: Map Check
+[2022.12.28-22.58.24:865][834]LightingResults: New page: Lighting Build - 28 Dec 2022, 22:58:24
+[2022.12.28-22.58.25:218][834]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2022.12.28-22.58.25:639][834]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2022.12.28-22.58.25:654][834]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2022.12.28-22.58.26:687][834]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2022.12.28-22.58.26:687][834]LogSwarmInterface: [TryOpenConnection] Local Process ID is 13836
+[2022.12.28-22.58.29:058][834]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2022.12.28-22.58.29:058][834]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2022.12.28-22.58.29:058][834]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2022.12.28-22.58.29:058][834]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2022.12.28-22.58.29:058][834]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2022.12.28-22.58.29:346][834]LogEditorBuildUtils: Build time 0:04
+[2022.12.28-22.58.29:832][834]LogMaterial: Display: Missing cached shadermap for FLightmassMaterialRenderer MaterialInstanceDynamic_0 in PCD3D_SM5, Default, SM5 (DDC key hash: E196F04F6F9970EA62120D75BF8070669BA10977), compiling. 
+[2022.12.28-22.58.30:007][834]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'Low' priority
+[2022.12.28-22.58.30:019][834]LogMaterial: Display: Missing cached shadermap for FLightmassMaterialRenderer MaterialInstanceDynamic_0 in PCD3D_SM5, Default, SM5 (DDC key hash: ED95D2B258450F45B96DD24FF92CD0213EF3DA23), compiling. 
+[2022.12.28-22.58.30:034][834]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 2
+[2022.12.28-22.58.30:034][834]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 1
+[2022.12.28-22.58.30:034][834]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'Low' priority
+[2022.12.28-22.58.30:034][834]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'Low' priority
+[2022.12.28-22.58.30:087][834]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 2
+[2022.12.28-22.58.30:087][834]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 1
+[2022.12.28-22.58.30:087][834]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'Low' priority
+[2022.12.28-22.58.31:758][835]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.12.28-22.58.31:759][835]LogShaderCompilers: Display: Total job queries 952, among them cache hits 594 (62.39%)
+[2022.12.28-22.58.31:759][835]LogShaderCompilers: Display: Tracking 296 distinct input hashes that result in 161 distinct outputs (54.39%)
+[2022.12.28-22.58.31:766][835]LogShaderCompilers: Display: RAM used: 0.92 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.11%
+[2022.12.28-22.58.31:766][835]LogShaderCompilers: Display: ================================================
+[2022.12.28-22.58.32:017][838]LogUObjectHash: Compacting FUObjectHashTables data took   3.01ms
+[2022.12.28-22.58.35:872][ 25]Job is a success!
+[2022.12.28-22.58.36:133][ 26]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.058s
+[2022.12.28-22.58.36:133][ 26]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2022.12.28-22.58.36:133][ 26]LogVolumetricLightmapImport:      BrickData (all levels) 0.2Mb
+[2022.12.28-22.58.36:133][ 26]LogVolumetricLightmapImport:      Bricks at depth
+[2022.12.28-22.58.36:133][ 26]LogVolumetricLightmapImport:          0: 2.0% covering 100.0% of volume
+[2022.12.28-22.58.36:133][ 26]LogVolumetricLightmapImport:          1: 8.2% covering 6.2% of volume
+[2022.12.28-22.58.36:133][ 26]LogVolumetricLightmapImport:          2: 89.8% covering 1.1% of volume
+[2022.12.28-22.58.36:133][ 26]LogVolumetricLightmapImport:      Bricks in each level
+[2022.12.28-22.58.36:133][ 26]LogVolumetricLightmapImport:          ThirdPersonExampleMap 			 49 bricks 	 100.0% (Persistent Level)
+[2022.12.28-22.58.36:457][ 26]LogTexture: Display: Building textures: LQ_Lightmap_0_3 (OODLE_DXT1, 64X64)
+[2022.12.28-22.58.36:457][ 26]LogTexture: Display: Building textures: HQ_Lightmap0_1 (OODLE_AutoDXT, 1024X1024)
+[2022.12.28-22.58.36:457][ 26]LogTexture: Display: Building textures: HQ_Lightmap0_2 (OODLE_AutoDXT, 512X512)
+[2022.12.28-22.58.36:457][ 26]LogTexture: Display: Building textures: HQ_Lightmap0_3 (OODLE_AutoDXT, 64X64)
+[2022.12.28-22.58.36:457][ 26]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (OODLE_DXT1, 512X512)
+[2022.12.28-22.58.36:457][ 26]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (OODLE_DXT1, 1024X1024)
+[2022.12.28-22.58.36:457][ 26]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC3) lambda=0 effort=20 
+[2022.12.28-22.58.36:457][ 26]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_DXT1 (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.12.28-22.58.36:457][ 26]Lightmass on DESKTOP-2GJ81SJ: 3.21 sec total, 182 ms importing, 16 ms setup, 564 ms photons, 2.42 sec processing, 0 ms extra exporting [12/12 mappings]. Threads: 26.6 sec total, 6.27 sec processing.
+[2022.12.28-22.58.36:507][ 26]LogStaticLightingSystem: ThirdPersonExampleMap_BuiltData storing lightmap data for 12 meshes in 3 LightmapResourceClusters (4.0 Meshes per cluster).
+[2022.12.28-22.58.36:549][ 26]LogUObjectHash: Compacting FUObjectHashTables data took   2.23ms
+[2022.12.28-22.58.36:563][ 26]LogStaticLightingSystem: Illumination: 11.7 sec (138 ms encoding lightmaps, 0 ms encoding shadowmaps)
+[2022.12.28-22.58.36:564][ 26]LogStaticLightingSystem: Lightmap texture memory:  2.5 MB (2.5 MB streaming, 0.0 MB non-streaming), 6 textures
+[2022.12.28-22.58.36:564][ 26]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 0 textures
+[2022.12.28-22.58.37:020][ 26]DumpUnbuiltLightIteractions
+[2022.12.28-22.58.37:020][ 26]Lights with unbuilt interactions: 0
+[2022.12.28-22.58.37:020][ 26]
+[2022.12.28-22.58.37:020][ 26]Primitives with unbuilt interactions: 0
+[2022.12.28-22.58.37:124][ 26]LogTexture: Display: Building textures: NewReflectionComponentTexture3884DE244CA9D1E5320A11B1C608A293 (BGRA8, 128X128)
+[2022.12.28-22.58.37:156][ 27]Cmd: MAP CHECK NOTIFYRESULTS
+[2022.12.28-22.58.37:156][ 27]MapCheck: New page: ThirdPersonExampleMap - 28 Dec 2022, 22:58:37
+[2022.12.28-22.58.37:261][ 27]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 106.063ms to complete.
+[2022.12.28-22.58.56:660][478]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 E:\UNI\Masters\Game Craft\ImpTemp\ImpOneFix.fbx)
+[2022.12.28-22.58.56:669][478]LogFbx: Loading FBX Scene from E:\UNI\Masters\Game Craft\ImpTemp\ImpOneFix.fbx
+[2022.12.28-22.58.56:683][478]LogFbx: FBX Scene Loaded Succesfully
+[2022.12.28-22.59.00:315][478]LogSlate: Window 'FBX Import Options' being destroyed
+[2022.12.28-22.59.00:331][478]LogFbx: Valid bind pose for Pose (Mesh) - Imp_Low
+[2022.12.28-22.59.00:332][478]LogFbx: Triangulating skeletal mesh Imp_Low
+[2022.12.28-22.59.00:484][478]LogFbx: Warning: Bones digested - 33  Depth of hierarchy - 10
+[2022.12.28-22.59.00:674][478]LogSkeletalMesh: Section 0: Material=0, 9068 triangles
+[2022.12.28-22.59.00:677][478]LogSkeletalMesh: Building Skeletal Mesh ImpOneFix...
+[2022.12.28-22.59.00:838][478]LogSkeletalMesh: Section 0: Material=0, 9068 triangles
+[2022.12.28-22.59.00:850][478]LogSkeletalMesh: Built Skeletal Mesh [0.17s] /Game/Enemy/Imp/ImpOneFix.ImpOneFix
+[2022.12.28-22.59.00:855][478]LogWorld: UWorld::CleanupWorld for World_82, bSessionEnded=true, bCleanupResources=true
+[2022.12.28-22.59.00:855][478]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.12.28-22.59.00:872][478]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2022.12.28-22.59.00:872][478]FBXImport: Warning: The following bones are missing from the bind pose:
+QuickRigCharacter_LeftToeBase_end  
+QuickRigCharacter_RightToeBase_end  
+QuickRigCharacter_LeftHand_end  
+QuickRigCharacter_RightHand_end  
+QuickRigCharacter_Head_end  
+
+This can happen for bones that are not vert weighted. If they are not in the correct orientation after importing,
+please set the "Use T0 as ref pose" option or add them to the bind pose and reimport the skeletal mesh. 
+[2022.12.28-22.59.12:195][102]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 E:\UNI\Masters\Game Craft\ImpTemp\ImpTwoRigFix.fbx)
+[2022.12.28-22.59.12:202][102]LogFbx: Loading FBX Scene from E:\UNI\Masters\Game Craft\ImpTemp\ImpTwoRigFix.fbx
+[2022.12.28-22.59.12:222][102]LogFbx: FBX Scene Loaded Succesfully
+[2022.12.28-22.59.21:592][102]LogSlate: Window 'FBX Import Options' being destroyed
+[2022.12.28-22.59.21:604][102]LogFbx: Valid bind pose for Pose (Mesh) - Imp_Low
+[2022.12.28-22.59.21:605][102]LogFbx: Triangulating skeletal mesh Imp_Low
+[2022.12.28-22.59.21:756][102]LogFbx: Warning: Bones digested - 33  Depth of hierarchy - 10
+[2022.12.28-22.59.21:947][102]LogSkeletalMesh: Section 0: Material=0, 9068 triangles
+[2022.12.28-22.59.21:949][102]LogSkeletalMesh: Building Skeletal Mesh ImpTwoRigFix...
+[2022.12.28-22.59.22:111][102]LogSkeletalMesh: Section 0: Material=0, 9068 triangles
+[2022.12.28-22.59.22:123][102]LogSkeletalMesh: Built Skeletal Mesh [0.17s] /Game/Enemy/Imp/ImpTwoRigFix.ImpTwoRigFix
+[2022.12.28-22.59.22:128][102]LogWorld: UWorld::CleanupWorld for World_83, bSessionEnded=true, bCleanupResources=true
+[2022.12.28-22.59.22:128][102]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.12.28-22.59.22:145][102]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2022.12.28-22.59.22:145][102]FBXImport: Warning: The following bones are missing from the bind pose:
+QuickRigCharacter_LeftToeBase_end  
+QuickRigCharacter_RightToeBase_end  
+QuickRigCharacter_LeftHand_end  
+QuickRigCharacter_RightHand_end  
+QuickRigCharacter_Head_end  
+
+This can happen for bones that are not vert weighted. If they are not in the correct orientation after importing,
+please set the "Use T0 as ref pose" option or add them to the bind pose and reimport the skeletal mesh. 
+[2022.12.28-22.59.27:208][495]LogAssetEditorSubsystem: Opening Asset editor for SkeletalMesh /Game/Enemy/Imp/ImpOneFix.ImpOneFix
+[2022.12.28-22.59.27:211][495]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_84:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2022.12.28-22.59.48:042][993]LogAssetEditorSubsystem: Opening Asset editor for Skeleton /Game/Enemy/Imp/ImpOneFix_Skeleton.ImpOneFix_Skeleton
+[2022.12.28-22.59.48:046][993]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_85:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2022.12.28-22.59.54:293][488]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bump_StaticMesh)
+[2022.12.28-22.59.54:498][488]LogUObjectHash: Compacting FUObjectHashTables data took   2.98ms
+[2022.12.28-22.59.54:520][488]LogSavePackage: Moving '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Saved/ThirdPersonExampleMap5E36F92B47307C5BC14DDC9BE6050DE8.tmp' to '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2022.12.28-22.59.54:574][488]LogSavePackage: Moving '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Saved/ThirdPersonExampleMap_BuiltDataFAC06CD34AFC4BCA4F908CA6EC79F5D0.tmp' to '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2022.12.28-22.59.54:607][488]AssetCheck: New page: Asset Save: multiple assets
+[2022.12.28-22.59.54:607][488]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData
+[2022.12.28-22.59.54:607][488]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2022.12.28-23.00.47:535][197]LogAssetEditorSubsystem: Opening Asset editor for PhysicsAsset /Game/Enemy/Imp/ImpOneFix_PhysicsAsset.ImpOneFix_PhysicsAsset
+[2022.12.28-23.00.47:691][197]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_86:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0) Already registered. Aborting.
+[2022.12.28-23.00.51:541][464]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Linear_Stair_StaticMesh)
+[2022.12.28-23.01.21:874][959]LogWorld: UWorld::CleanupWorld for World_68, bSessionEnded=true, bCleanupResources=true
+[2022.12.28-23.01.21:874][959]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.12.28-23.01.36:987][ 66]LogAnimation: Warning: Animation Imp_Anim is incompatible with skeleton ImpOneFix_Skeleton, removing animation from actor.
+[2022.12.28-23.01.36:987][ 66]LogAnimation: Warning: Animation Imp_Anim is incompatible with skeleton ImpOneFix_Skeleton, removing animation from actor.
+[2022.12.28-23.01.36:988][ 66]LogAnimation: Warning: Animation Imp_Anim is incompatible with skeleton ImpOneFix_Skeleton, removing animation from actor.
+[2022.12.28-23.01.36:988][ 66]LogAnimation: Warning: Animation Imp_Anim is incompatible with skeleton ImpOneFix_Skeleton, removing animation from actor.
+[2022.12.28-23.01.36:988][ 66]LogAnimation: Warning: Animation Imp_Anim is incompatible with skeleton ImpOneFix_Skeleton, removing animation from actor.
+[2022.12.28-23.01.40:816][377]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/Imp/ImpTest" FILE="../../../../../repos/GDES703-Game-Craft/TimelessParadox/Content/Enemy/Imp/ImpTest.uasset" SILENT=true
+[2022.12.28-23.01.40:828][377]LogSavePackage: Moving '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Saved/ImpTestF02C52D74A2B219C4FAB4D84D4ADF246.tmp' to '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Content/Enemy/Imp/ImpTest.uasset'
+[2022.12.28-23.01.40:856][377]AssetCheck: New page: Asset Save: ImpTest
+[2022.12.28-23.01.40:856][377]LogContentValidation: Display: Validating Blueprint /Game/Enemy/Imp/ImpTest.ImpTest
+[2022.12.28-23.01.49:130][996]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/Imp/ImpEnemy" FILE="../../../../../repos/GDES703-Game-Craft/TimelessParadox/Content/Enemy/Imp/ImpEnemy.uasset" SILENT=true
+[2022.12.28-23.01.49:156][996]LogSavePackage: Moving '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Saved/ImpEnemy1D314C2C436D3E6AEEC9CD800F3C99A0.tmp' to '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Content/Enemy/Imp/ImpEnemy.uasset'
+[2022.12.28-23.01.49:185][996]AssetCheck: New page: Asset Save: ImpEnemy
+[2022.12.28-23.01.49:185][996]LogContentValidation: Display: Validating Blueprint /Game/Enemy/Imp/ImpEnemy.ImpEnemy
+[2022.12.28-23.01.58:581][554]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 E:\UNI\Masters\Game Craft\Exports_MoCap\Exports\Timeless\IMP_IDLE_001.fbx)
+[2022.12.28-23.01.58:597][554]LogFbx: Loading FBX Scene from E:\UNI\Masters\Game Craft\Exports_MoCap\Exports\Timeless\IMP_IDLE_001.fbx
+[2022.12.28-23.01.58:674][554]LogFbx: FBX Scene Loaded Succesfully
+[2022.12.28-23.02.02:716][554]LogSlate: Window 'FBX Import Options' being destroyed
+[2022.12.28-23.02.02:734][554]LogFbx: SortedLinks :(0) IMP
+[2022.12.28-23.02.02:734][554]LogFbx: SortedLinks :(1) Position
+[2022.12.28-23.02.02:734][554]LogFbx: SortedLinks :(2) QuickRigCharacter_Hips
+[2022.12.28-23.02.02:734][554]LogFbx: SortedLinks :(3) QuickRigCharacter_LeftUpLeg
+[2022.12.28-23.02.02:734][554]LogFbx: SortedLinks :(4) QuickRigCharacter_LeftLeg
+[2022.12.28-23.02.02:734][554]LogFbx: SortedLinks :(5) joint1
+[2022.12.28-23.02.02:734][554]LogFbx: SortedLinks :(6) joint3
+[2022.12.28-23.02.02:734][554]LogFbx: SortedLinks :(7) joint5
+[2022.12.28-23.02.02:734][554]LogFbx: SortedLinks :(8) QuickRigCharacter_LeftFoot
+[2022.12.28-23.02.02:734][554]LogFbx: SortedLinks :(9) QuickRigCharacter_LeftToeBase
+[2022.12.28-23.02.02:734][554]LogFbx: SortedLinks :(10) QuickRigCharacter_RightUpLeg
+[2022.12.28-23.02.02:734][554]LogFbx: SortedLinks :(11) QuickRigCharacter_RightLeg
+[2022.12.28-23.02.02:734][554]LogFbx: SortedLinks :(12) joint4
+[2022.12.28-23.02.02:734][554]LogFbx: SortedLinks :(13) joint2
+[2022.12.28-23.02.02:734][554]LogFbx: SortedLinks :(14) QuickRigCharacter_RightFoot
+[2022.12.28-23.02.02:734][554]LogFbx: SortedLinks :(15) QuickRigCharacter_RightToeBase
+[2022.12.28-23.02.02:734][554]LogFbx: SortedLinks :(16) QuickRigCharacter_Spine
+[2022.12.28-23.02.02:734][554]LogFbx: SortedLinks :(17) QuickRigCharacter_Spine1
+[2022.12.28-23.02.02:734][554]LogFbx: SortedLinks :(18) QuickRigCharacter_Spine2
+[2022.12.28-23.02.02:734][554]LogFbx: SortedLinks :(19) QuickRigCharacter_LeftShoulder
+[2022.12.28-23.02.02:734][554]LogFbx: SortedLinks :(20) QuickRigCharacter_LeftArm
+[2022.12.28-23.02.02:734][554]LogFbx: SortedLinks :(21) QuickRigCharacter_LeftForeArm
+[2022.12.28-23.02.02:734][554]LogFbx: SortedLinks :(22) QuickRigCharacter_LeftHand
+[2022.12.28-23.02.02:734][554]LogFbx: SortedLinks :(23) QuickRigCharacter_RightShoulder
+[2022.12.28-23.02.02:734][554]LogFbx: SortedLinks :(24) QuickRigCharacter_RightArm
+[2022.12.28-23.02.02:734][554]LogFbx: SortedLinks :(25) QuickRigCharacter_RightForeArm
+[2022.12.28-23.02.02:734][554]LogFbx: SortedLinks :(26) QuickRigCharacter_RightHand
+[2022.12.28-23.02.02:734][554]LogFbx: SortedLinks :(27) QuickRigCharacter_Neck
+[2022.12.28-23.02.02:734][554]LogFbx: SortedLinks :(28) QuickRigCharacter_Head
+[2022.12.28-23.02.02:734][554]LogFbx: SortedLinks :(29) Position1
+[2022.12.28-23.02.02:734][554]LogFbx: SortedLinks :(30) Rotation
+[2022.12.28-23.02.02:734][554]LogFbx: Parsing AnimStack IMP_IDLE_001_mcp
+[2022.12.28-23.02.02:771][554]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Enemy/Imp/Animations/IMP_IDLE_001.IMP_IDLE_001
+[2022.12.28-23.02.02:771][554]FBXImport: FBX File Loading: Found name clash, node 'IMP:Position' was renamed to 'IMP:Position1' 
+[2022.12.28-23.02.02:771][554]FBXImport: Warning: The following bones exist in the imported animation, but not in the Skeleton asset ImpOneFix_Skeleton.  Any animation on these bones will not be imported: 
+
+ Position  
+Position1  
+Rotation  
+ 
+[2022.12.28-23.02.14:835][577]BlueprintLog: New page: Compile ImpTest
+[2022.12.28-23.02.15:240][577]LogUObjectHash: Compacting FUObjectHashTables data took   3.26ms
+[2022.12.28-23.02.15:949][635]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/Imp/ImpTest" FILE="../../../../../repos/GDES703-Game-Craft/TimelessParadox/Content/Enemy/Imp/ImpTest.uasset" SILENT=true
+[2022.12.28-23.02.15:958][635]LogSavePackage: Moving '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Saved/ImpTestD2D44B2945250AFB50B465BE000EBB45.tmp' to '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Content/Enemy/Imp/ImpTest.uasset'
+[2022.12.28-23.02.15:969][635]AssetCheck: New page: Asset Save: ImpTest
+[2022.12.28-23.02.15:969][635]LogContentValidation: Display: Validating Blueprint /Game/Enemy/Imp/ImpTest.ImpTest
+[2022.12.28-23.02.18:364][858]LogWorld: UWorld::CleanupWorld for World_71, bSessionEnded=true, bCleanupResources=true
+[2022.12.28-23.02.18:364][858]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.12.28-23.02.24:724][433]LogWorld: UWorld::CleanupWorld for World_85, bSessionEnded=true, bCleanupResources=true
+[2022.12.28-23.02.24:724][433]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.12.28-23.02.25:174][460]LogWorld: UWorld::CleanupWorld for World_86, bSessionEnded=true, bCleanupResources=true
+[2022.12.28-23.02.25:174][460]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.12.28-23.02.26:642][566]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/Imp/ImpOneFix" FILE="../../../../../repos/GDES703-Game-Craft/TimelessParadox/Content/Enemy/Imp/ImpOneFix.uasset" SILENT=true
+[2022.12.28-23.02.26:667][566]LogSavePackage: Moving '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Saved/ImpOneFix713C38AA4377CAEE55FE3B9EF965CAA8.tmp' to '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Content/Enemy/Imp/ImpOneFix.uasset'
+[2022.12.28-23.02.26:680][566]AssetCheck: New page: Asset Save: ImpOneFix
+[2022.12.28-23.02.26:680][566]LogContentValidation: Display: Validating SkeletalMesh /Game/Enemy/Imp/ImpOneFix.ImpOneFix
+[2022.12.28-23.02.36:610][412]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/Imp/ImpOneFix" FILE="../../../../../repos/GDES703-Game-Craft/TimelessParadox/Content/Enemy/Imp/ImpOneFix.uasset" SILENT=true
+[2022.12.28-23.02.36:632][412]LogSavePackage: Moving '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Saved/ImpOneFix000E341D459D7A9E7A662D876A96795A.tmp' to '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Content/Enemy/Imp/ImpOneFix.uasset'
+[2022.12.28-23.02.36:643][412]AssetCheck: New page: Asset Save: ImpOneFix
+[2022.12.28-23.02.36:644][412]LogContentValidation: Display: Validating SkeletalMesh /Game/Enemy/Imp/ImpOneFix.ImpOneFix
+[2022.12.28-23.02.37:628][490]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/Imp/ImpOneFix" FILE="../../../../../repos/GDES703-Game-Craft/TimelessParadox/Content/Enemy/Imp/ImpOneFix.uasset" SILENT=true
+[2022.12.28-23.02.37:650][490]LogSavePackage: Moving '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Saved/ImpOneFix4760F13F41AC3AA3F9F916B571AA6E4B.tmp' to '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Content/Enemy/Imp/ImpOneFix.uasset'
+[2022.12.28-23.02.37:662][490]AssetCheck: New page: Asset Save: ImpOneFix
+[2022.12.28-23.02.37:662][490]LogContentValidation: Display: Validating SkeletalMesh /Game/Enemy/Imp/ImpOneFix.ImpOneFix
+[2022.12.28-23.02.38:633][573]LogWorld: UWorld::CleanupWorld for World_84, bSessionEnded=true, bCleanupResources=true
+[2022.12.28-23.02.38:633][573]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.12.28-23.02.59:699][152]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/Imp/ImpTest" FILE="../../../../../repos/GDES703-Game-Craft/TimelessParadox/Content/Enemy/Imp/ImpTest.uasset" SILENT=true
+[2022.12.28-23.02.59:704][152]LogSavePackage: Moving '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Saved/ImpTest95BEF1104D194111D21FDCAC3EE3DE79.tmp' to '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Content/Enemy/Imp/ImpTest.uasset'
+[2022.12.28-23.02.59:715][152]AssetCheck: New page: Asset Save: ImpTest
+[2022.12.28-23.02.59:715][152]LogContentValidation: Display: Validating Blueprint /Game/Enemy/Imp/ImpTest.ImpTest
+[2022.12.28-23.02.59:899][166]LogUObjectHash: Compacting FUObjectHashTables data took   3.43ms
+[2022.12.28-23.02.59:936][166]LogSavePackage: Moving '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Saved/ThirdPersonExampleMapDFC0EA4F4D3BE9E7B9AC6592915CC4CC.tmp' to '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2022.12.28-23.02.59:991][166]LogSavePackage: Moving '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Saved/ThirdPersonExampleMap_BuiltData2F265EA74BBE2575142C7181DEB2B73C.tmp' to '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2022.12.28-23.03.00:004][166]AssetCheck: New page: Asset Save: multiple assets
+[2022.12.28-23.03.00:004][166]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData
+[2022.12.28-23.03.00:004][166]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2022.12.28-23.03.01:102][273]LogSlate: Window 'ImpAI_BT' being destroyed
+[2022.12.28-23.03.01:107][273]LogSlate: Window 'ImpAI_BT' being destroyed
+[2022.12.28-23.03.01:144][273]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2022.12.28-23.03.01:156][273]LogWorld: UWorld::CleanupWorld for World_69, bSessionEnded=true, bCleanupResources=true
+[2022.12.28-23.03.01:156][273]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.12.28-23.03.01:286][273]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2022.12.28-23.03.01:286][273]LogWorld: UWorld::CleanupWorld for World_73, bSessionEnded=true, bCleanupResources=true
+[2022.12.28-23.03.01:286][273]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.12.28-23.03.01:849][293]LogUObjectHash: Compacting FUObjectHashTables data took   3.00ms
+[2022.12.28-23.03.01:876][293]LogSavePackage: Moving '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Saved/ThirdPersonExampleMap974A8FE748780B6A3612908F23C5BBA8.tmp' to '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2022.12.28-23.03.01:930][293]LogSavePackage: Moving '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Saved/ThirdPersonExampleMap_BuiltData6066C3EF41F920DCC41C13ACE971C8AF.tmp' to '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2022.12.28-23.03.01:942][293]AssetCheck: New page: Asset Save: multiple assets
+[2022.12.28-23.03.01:942][293]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData
+[2022.12.28-23.03.01:942][293]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2022.12.28-23.03.02:313][300]LogUObjectHash: Compacting FUObjectHashTables data took   4.06ms
+[2022.12.28-23.03.02:352][300]LogSavePackage: Moving '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Saved/ThirdPersonExampleMap2A57B4664D264E0C8E20ADA659B509DD.tmp' to '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2022.12.28-23.03.02:406][300]LogSavePackage: Moving '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Saved/ThirdPersonExampleMap_BuiltData9BE3B23A4128410BE365C29FEAEF04B4.tmp' to '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2022.12.28-23.03.02:417][300]AssetCheck: New page: Asset Save: multiple assets
+[2022.12.28-23.03.02:417][300]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData
+[2022.12.28-23.03.02:417][300]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
