@@ -2140,3 +2140,722 @@ Rotation
 [2023.01.09-14.04.28:691][606]LogContentBrowser: Creating deferred item: NewFolder
 [2023.01.09-14.04.31:090][886]LogContentBrowser: Attempting asset rename: NewFolder -> mixamo
 [2023.01.09-14.04.31:091][886]LogContentBrowser: End creating deferred item NewFolder
+[2023.01.09-14.05.53:978][646]LogEditorViewport: Clicking on Actor (LMB): Enemy_Imp_C (Enemy_Imp)
+[2023.01.09-14.06.30:157][904]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Enemy/Imp/TempImp_Control.TempImp_Control
+[2023.01.09-14.06.45:322][519]LogAssetEditorSubsystem: Opening Asset editor for BehaviorTree /Game/Enemy/Imp/ImpAI_BT.ImpAI_BT
+[2023.01.09-14.07.07:993][ 97]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Enemy/Imp/BTTask_BlueprintBase_New.BTTask_BlueprintBase_New
+[2023.01.09-14.07.23:295][851]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2023.01.09-14.07.23:314][851]LogEditorClassViewer: Warning: Class /Engine/Tutorial/InWorldBlueprintEditing/TutorialAssets/IWBE_Blutility.IWBE_Blutility_C has parent /Script/Blutility.PlacedEditorUtilityBase, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.01.09-14.07.31:752][848]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/Imp/ImpAI_BT" FILE="../../../../../repos/GDES703-Game-Craft/TimelessParadox/Content/Enemy/Imp/ImpAI_BT.uasset" SILENT=true
+[2023.01.09-14.07.31:753][848]LogSavePackage: Moving '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Saved/ImpAI_BT053F6E634525EAAE048893A3B9759F61.tmp' to '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Content/Enemy/Imp/ImpAI_BT.uasset'
+[2023.01.09-14.07.31:762][848]AssetCheck: New page: Asset Save: ImpAI_BT
+[2023.01.09-14.07.31:762][848]LogContentValidation: Display: Validating BehaviorTree /Game/Enemy/Imp/ImpAI_BT.ImpAI_BT
+[2023.01.09-14.07.37:774][547]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/Imp/ImpAI_BT" FILE="../../../../../repos/GDES703-Game-Craft/TimelessParadox/Content/Enemy/Imp/ImpAI_BT.uasset" SILENT=true
+[2023.01.09-14.07.37:776][547]LogSavePackage: Moving '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Saved/ImpAI_BTCD0CE17D407A51D1B3178C9D96171B76.tmp' to '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Content/Enemy/Imp/ImpAI_BT.uasset'
+[2023.01.09-14.07.37:785][547]AssetCheck: New page: Asset Save: ImpAI_BT
+[2023.01.09-14.07.37:785][547]LogContentValidation: Display: Validating BehaviorTree /Game/Enemy/Imp/ImpAI_BT.ImpAI_BT
+[2023.01.09-14.07.50:721][ 16]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/Imp/BTTask_BlueprintBase_New" FILE="../../../../../repos/GDES703-Game-Craft/TimelessParadox/Content/Enemy/Imp/BTTask_BlueprintBase_New.uasset" SILENT=true
+[2023.01.09-14.07.50:725][ 16]LogSavePackage: Moving '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Saved/BTTask_BlueprintBase_NewA603142242D550DE901BCD855C0C029B.tmp' to '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Content/Enemy/Imp/BTTask_BlueprintBase_New.uasset'
+[2023.01.09-14.07.50:736][ 16]AssetCheck: New page: Asset Save: BTTask_BlueprintBase_New
+[2023.01.09-14.07.50:736][ 16]LogContentValidation: Display: Validating Blueprint /Game/Enemy/Imp/BTTask_BlueprintBase_New.BTTask_BlueprintBase_New
+[2023.01.09-14.07.52:289][197]LogTemp: Repeating last play command: Selected Viewport
+[2023.01.09-14.07.52:297][197]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.01.09-14.07.52:297][197]PIE: New page: PIE session: ThirdPersonExampleMap (9 Jan 2023, 14:07:52)
+[2023.01.09-14.07.52:332][197]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2023.01.09-14.07.52:342][197]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010159s)
+[2023.01.09-14.07.52:343][197]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2023.01.09-14.07.52:343][197]LogPlayLevel: PIE: World Init took: (0.001064s)
+[2023.01.09-14.07.52:343][197]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.011395s)
+[2023.01.09-14.07.52:369][197]LogUObjectHash: Compacting FUObjectHashTables data took   2.24ms
+[2023.01.09-14.07.52:370][197]LogAudio: Display: Creating Audio Device:                 Id: 7, Scope: Unique, Realtime: True
+[2023.01.09-14.07.52:370][197]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.01.09-14.07.52:370][197]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.01.09-14.07.52:370][197]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.01.09-14.07.52:370][197]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.01.09-14.07.52:370][197]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.01.09-14.07.52:370][197]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.01.09-14.07.52:370][197]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.01.09-14.07.52:370][197]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.01.09-14.07.52:371][197]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.01.09-14.07.52:371][197]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.01.09-14.07.52:371][197]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.01.09-14.07.52:371][197]LogAudioMixer: Display: Initializing audio mixer.
+[2023.01.09-14.07.52:374][197]LogAudioMixer: Display: 0: FrontLeft
+[2023.01.09-14.07.52:374][197]LogAudioMixer: Display: 1: FrontRight
+[2023.01.09-14.07.52:380][197]LogAudioMixer: Display: Using Audio Device Speakers (2- USB Audio CODEC )
+[2023.01.09-14.07.52:380][197]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.01.09-14.07.52:380][197]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.01.09-14.07.52:380][197]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.01.09-14.07.52:381][197]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.01.09-14.07.52:381][197]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.01.09-14.07.52:381][197]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2023.01.09-14.07.52:381][197]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.01.09-14.07.52:381][197]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.01.09-14.07.52:381][197]LogInit: FAudioDevice initialized.
+[2023.01.09-14.07.52:381][197]LogAudio: Display: Audio Device (ID: 7) registered with world 'ThirdPersonExampleMap'.
+[2023.01.09-14.07.52:396][197]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2023.01.09-14.07.52:399][197]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2023.01.09-14.07.52
+[2023.01.09-14.07.52:399][197]LogWorld: Bringing up level for play took: 0.003472
+[2023.01.09-14.07.52:400][197]LogOnline: OSS: Creating online subsystem instance for: :Context_31
+[2023.01.09-14.07.52:404][197]PIE: Server logged in
+[2023.01.09-14.07.52:405][197]PIE: Play in editor total start time 0.111 seconds.
+[2023.01.09-14.07.59:315][ 11]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.09-14.07.59:315][ 11]LogWorld: BeginTearingDown for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2023.01.09-14.07.59:315][ 11]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2023.01.09-14.07.59:316][ 11]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.09-14.07.59:322][ 11]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.01.09-14.07.59:359][ 11]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.09-14.07.59:378][ 11]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.01.09-14.07.59:379][ 11]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.01.09-14.07.59:380][ 11]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.01.09-14.07.59:381][ 11]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.09-14.07.59:384][ 11]LogUObjectHash: Compacting FUObjectHashTables data took   1.97ms
+[2023.01.09-14.07.59:413][ 12]LogPlayLevel: Display: Destroying online subsystem :Context_31
+[2023.01.09-14.07.59:754][ 48]LogUObjectHash: Compacting FUObjectHashTables data took   1.90ms
+[2023.01.09-14.07.59:775][ 48]LogSavePackage: Moving '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Saved/ThirdPersonExampleMapE84F9B7440B7A2F6E62C77AC28CEB692.tmp' to '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2023.01.09-14.07.59:832][ 48]LogSavePackage: Moving '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Saved/ThirdPersonExampleMap_BuiltDataDDD44BF74F4F9A3F010C2BA2F8FB0928.tmp' to '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2023.01.09-14.07.59:846][ 48]AssetCheck: New page: Asset Save: multiple assets
+[2023.01.09-14.07.59:846][ 48]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData
+[2023.01.09-14.07.59:846][ 48]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2023.01.09-14.09.12:867][412]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/Imp/ImpAI_BT" FILE="../../../../../repos/GDES703-Game-Craft/TimelessParadox/Content/Enemy/Imp/ImpAI_BT.uasset" SILENT=true
+[2023.01.09-14.09.12:869][412]LogSavePackage: Moving '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Saved/ImpAI_BTF8D39F8747821C9A3387199C87424E35.tmp' to '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Content/Enemy/Imp/ImpAI_BT.uasset'
+[2023.01.09-14.09.12:878][412]AssetCheck: New page: Asset Save: ImpAI_BT
+[2023.01.09-14.09.12:878][412]LogContentValidation: Display: Validating BehaviorTree /Game/Enemy/Imp/ImpAI_BT.ImpAI_BT
+[2023.01.09-14.09.15:703][738]LogTemp: Repeating last play command: Selected Viewport
+[2023.01.09-14.09.15:711][738]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.01.09-14.09.15:711][738]PIE: New page: PIE session: ThirdPersonExampleMap (9 Jan 2023, 14:09:15)
+[2023.01.09-14.09.15:739][738]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2023.01.09-14.09.15:749][738]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009906s)
+[2023.01.09-14.09.15:750][738]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2023.01.09-14.09.15:751][738]LogPlayLevel: PIE: World Init took: (0.001710s)
+[2023.01.09-14.09.15:751][738]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.011929s)
+[2023.01.09-14.09.15:773][738]LogUObjectHash: Compacting FUObjectHashTables data took   1.96ms
+[2023.01.09-14.09.15:774][738]LogAudio: Display: Creating Audio Device:                 Id: 8, Scope: Unique, Realtime: True
+[2023.01.09-14.09.15:774][738]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.01.09-14.09.15:774][738]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.01.09-14.09.15:774][738]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.01.09-14.09.15:774][738]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.01.09-14.09.15:774][738]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.01.09-14.09.15:774][738]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.01.09-14.09.15:774][738]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.01.09-14.09.15:774][738]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.01.09-14.09.15:774][738]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.01.09-14.09.15:774][738]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.01.09-14.09.15:774][738]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.01.09-14.09.15:774][738]LogAudioMixer: Display: Initializing audio mixer.
+[2023.01.09-14.09.15:777][738]LogAudioMixer: Display: 0: FrontLeft
+[2023.01.09-14.09.15:777][738]LogAudioMixer: Display: 1: FrontRight
+[2023.01.09-14.09.15:784][738]LogAudioMixer: Display: Using Audio Device Speakers (2- USB Audio CODEC )
+[2023.01.09-14.09.15:784][738]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.01.09-14.09.15:784][738]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.01.09-14.09.15:784][738]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.01.09-14.09.15:784][738]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.01.09-14.09.15:784][738]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.01.09-14.09.15:784][738]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2023.01.09-14.09.15:785][738]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.01.09-14.09.15:785][738]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.01.09-14.09.15:785][738]LogInit: FAudioDevice initialized.
+[2023.01.09-14.09.15:785][738]LogAudio: Display: Audio Device (ID: 8) registered with world 'ThirdPersonExampleMap'.
+[2023.01.09-14.09.15:795][738]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2023.01.09-14.09.15:798][738]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2023.01.09-14.09.15
+[2023.01.09-14.09.15:799][738]LogWorld: Bringing up level for play took: 0.003428
+[2023.01.09-14.09.15:799][738]LogOnline: OSS: Creating online subsystem instance for: :Context_32
+[2023.01.09-14.09.15:803][738]PIE: Server logged in
+[2023.01.09-14.09.15:804][738]PIE: Play in editor total start time 0.095 seconds.
+[2023.01.09-14.09.21:795][455]LogBlueprintUserMessages: [Enemy_Imp_2] -25
+[2023.01.09-14.09.21:795][455]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Combo: 1.0
+[2023.01.09-14.09.21:795][455]LogBlueprintUserMessages: [ThirdPersonCharacter_167] 1.01
+[2023.01.09-14.09.23:194][623]LogBlueprintUserMessages: [Enemy_Imp_2] -25
+[2023.01.09-14.09.23:194][623]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Combo: 2.0
+[2023.01.09-14.09.23:195][623]LogBlueprintUserMessages: [ThirdPersonCharacter_167] 1.02
+[2023.01.09-14.09.24:479][777]LogBlueprintUserMessages: [Enemy_Imp_2] -25
+[2023.01.09-14.09.24:479][777]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Combo: 3.0
+[2023.01.09-14.09.24:479][777]LogBlueprintUserMessages: [ThirdPersonCharacter_167] 1.03
+[2023.01.09-14.09.25:895][947]LogBlueprintUserMessages: [Enemy_Imp_2] -25
+[2023.01.09-14.09.25:895][947]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Combo: 4.0
+[2023.01.09-14.09.25:895][947]LogBlueprintUserMessages: [ThirdPersonCharacter_167] 1.04
+[2023.01.09-14.09.27:819][178]LogBlueprintUserMessages: [Enemy_Imp_2] -25
+[2023.01.09-14.09.27:820][178]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Combo: 5.0
+[2023.01.09-14.09.27:820][178]LogBlueprintUserMessages: [ThirdPersonCharacter_167] 1.05
+[2023.01.09-14.09.30:528][503]LogBlueprintUserMessages: [Enemy4] -50
+[2023.01.09-14.09.30:528][503]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Combo: 6.0
+[2023.01.09-14.09.30:528][503]LogBlueprintUserMessages: [ThirdPersonCharacter_167] 1.06
+[2023.01.09-14.09.33:070][808]LogBlueprintUserMessages: [Enemy4] -50
+[2023.01.09-14.09.33:070][808]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Combo: 7.0
+[2023.01.09-14.09.33:070][808]LogBlueprintUserMessages: [ThirdPersonCharacter_167] 1.07
+[2023.01.09-14.09.41:729][847]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Ammo: 2
+[2023.01.09-14.09.47:187][502]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Ammo: 1
+[2023.01.09-14.09.47:187][502]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Combo: 8.0
+[2023.01.09-14.09.47:187][502]LogBlueprintUserMessages: [ThirdPersonCharacter_167] 1.08
+[2023.01.09-14.09.47:187][502]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Combo: 9.0
+[2023.01.09-14.09.47:187][502]LogBlueprintUserMessages: [ThirdPersonCharacter_167] 1.09
+[2023.01.09-14.09.49:129][735]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Ammo: 0
+[2023.01.09-14.09.52:854][182]LogBlueprintUserMessages: [Enemy2] -25
+[2023.01.09-14.09.52:854][182]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Combo: 10.0
+[2023.01.09-14.09.52:854][182]LogBlueprintUserMessages: [ThirdPersonCharacter_167] 1.1
+[2023.01.09-14.09.52:854][182]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Ammo: 1
+[2023.01.09-14.09.57:901][782]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.09-14.09.57:901][782]LogWorld: BeginTearingDown for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2023.01.09-14.09.57:902][782]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2023.01.09-14.09.57:902][782]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.09-14.09.57:909][782]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.01.09-14.09.57:946][782]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.09-14.09.57:965][782]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.01.09-14.09.57:966][782]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.01.09-14.09.57:967][782]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.01.09-14.09.57:968][782]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.09-14.09.57:971][782]LogUObjectHash: Compacting FUObjectHashTables data took   1.95ms
+[2023.01.09-14.09.58:004][783]LogPlayLevel: Display: Destroying online subsystem :Context_32
+[2023.01.09-14.09.58:519][838]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2023.01.09-14.09.58:540][838]LogSavePackage: Moving '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Saved/ThirdPersonExampleMap0C536F104DCC24A252058EA9FE638DDA.tmp' to '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2023.01.09-14.09.58:595][838]LogSavePackage: Moving '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Saved/ThirdPersonExampleMap_BuiltData5091017D43D73085C3C95380CBB22711.tmp' to '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2023.01.09-14.09.58:606][838]AssetCheck: New page: Asset Save: multiple assets
+[2023.01.09-14.09.58:606][838]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData
+[2023.01.09-14.09.58:606][838]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2023.01.09-14.10.18:098][113]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/Imp/ImpAI_BT" FILE="../../../../../repos/GDES703-Game-Craft/TimelessParadox/Content/Enemy/Imp/ImpAI_BT.uasset" SILENT=true
+[2023.01.09-14.10.18:100][113]LogSavePackage: Moving '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Saved/ImpAI_BT3A973D2C43044FFA38286C8D1E05841B.tmp' to '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Content/Enemy/Imp/ImpAI_BT.uasset'
+[2023.01.09-14.10.18:109][113]AssetCheck: New page: Asset Save: ImpAI_BT
+[2023.01.09-14.10.18:109][113]LogContentValidation: Display: Validating BehaviorTree /Game/Enemy/Imp/ImpAI_BT.ImpAI_BT
+[2023.01.09-14.10.21:702][538]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/Imp/ImpAI_BT" FILE="../../../../../repos/GDES703-Game-Craft/TimelessParadox/Content/Enemy/Imp/ImpAI_BT.uasset" SILENT=true
+[2023.01.09-14.10.21:704][538]LogSavePackage: Moving '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Saved/ImpAI_BTCE796262437314D8DF79F1B730F68115.tmp' to '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Content/Enemy/Imp/ImpAI_BT.uasset'
+[2023.01.09-14.10.21:712][538]AssetCheck: New page: Asset Save: ImpAI_BT
+[2023.01.09-14.10.21:712][538]LogContentValidation: Display: Validating BehaviorTree /Game/Enemy/Imp/ImpAI_BT.ImpAI_BT
+[2023.01.09-14.12.44:541][147]LogContentBrowser: Deferred new asset file creation: NewUserDefinedEnum
+[2023.01.09-14.12.44:552][147]LogContentBrowser: Creating deferred item: NewUserDefinedEnum
+[2023.01.09-14.12.54:577][ 99]LogContentBrowser: Attempting asset rename: NewUserDefinedEnum -> AI_state
+[2023.01.09-14.12.54:578][ 99]LogContentBrowser: End creating deferred item NewUserDefinedEnum
+[2023.01.09-14.12.57:021][386]LogAssetEditorSubsystem: Opening Asset editor for UserDefinedEnum /Game/Enemy/Imp/AI_state.AI_state
+[2023.01.09-14.13.46:687][721]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/Imp/AI_state" FILE="../../../../../repos/GDES703-Game-Craft/TimelessParadox/Content/Enemy/Imp/AI_state.uasset" SILENT=true
+[2023.01.09-14.13.46:688][721]LogSavePackage: Moving '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Saved/AI_state8F6E9C09455F7AB0A84C7598EA083A24.tmp' to '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Content/Enemy/Imp/AI_state.uasset'
+[2023.01.09-14.13.46:699][721]AssetCheck: New page: Asset Save: AI_state
+[2023.01.09-14.13.46:699][721]LogContentValidation: Display: Validating UserDefinedEnum /Game/Enemy/Imp/AI_state.AI_state
+[2023.01.09-14.14.32:859][883]LogSlate: Took 0.019601 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2023.01.09-14.14.48:985][998]BlueprintLog: New page: Compile TempImp_Control
+[2023.01.09-14.14.49:024][998]LogUObjectHash: Compacting FUObjectHashTables data took   2.86ms
+[2023.01.09-14.15.15:937][280]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2023.01.09-14.15.15:957][280]LogEditorClassViewer: Warning: Class /Engine/Tutorial/InWorldBlueprintEditing/TutorialAssets/IWBE_Blutility.IWBE_Blutility_C has parent /Script/Blutility.PlacedEditorUtilityBase, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.01.09-14.15.17:349][436]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2023.01.09-14.15.17:349][436]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Enemy/Imp/BTTask_BlueprintBase_New1.BTTask_BlueprintBase_New1
+[2023.01.09-14.15.17:632][436]LogPackageName: SearchForPackageOnDisk took   0.000s, but failed to resolve /Game/Enemy/Imp/BTTask_BlueprintBase_New1.
+[2023.01.09-14.15.37:688][190]LogContentBrowser: Attempting asset rename: BTTask_BlueprintBase_New1 -> FocusPlayer_Task
+[2023.01.09-14.15.37:712][190]LogMetaData: Removing '/Game/Enemy/Imp/FocusPlayer_Task.SKEL_FocusPlayer_Task_C' ref from Metadata '/Game/Enemy/Imp/BTTask_BlueprintBase_New1.PackageMetaData'
+[2023.01.09-14.15.37:712][190]LogMetaData: Removing '/Game/Enemy/Imp/FocusPlayer_Task.FocusPlayer_Task_C' ref from Metadata '/Game/Enemy/Imp/BTTask_BlueprintBase_New1.PackageMetaData'
+[2023.01.09-14.15.37:729][190]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/Imp/FocusPlayer_Task" FILE="../../../../../repos/GDES703-Game-Craft/TimelessParadox/Content/Enemy/Imp/FocusPlayer_Task.uasset" SILENT=true
+[2023.01.09-14.15.37:730][190]LogSavePackage: Moving '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Saved/FocusPlayer_TaskAABC85664472D3F91785D7BD7DE6AF4A.tmp' to '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Content/Enemy/Imp/FocusPlayer_Task.uasset'
+[2023.01.09-14.15.37:802][190]LogUObjectHash: Compacting FUObjectHashTables data took   2.44ms
+[2023.01.09-14.15.37:831][190]LogUObjectHash: Compacting FUObjectHashTables data took   1.70ms
+[2023.01.09-14.15.37:853][190]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2023.01.09-14.15.37:962][190]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/Enemy/Imp/FocusPlayer_Task.
+[2023.01.09-14.15.37:967][190]AssetCheck: New page: Asset Save: FocusPlayer_Task
+[2023.01.09-14.15.37:967][190]LogContentValidation: Display: Validating Blueprint /Game/Enemy/Imp/FocusPlayer_Task.FocusPlayer_Task
+[2023.01.09-14.16.14:772][214]BlueprintLog: New page: Compile FocusPlayer_Task
+[2023.01.09-14.16.14:798][214]LogUObjectHash: Compacting FUObjectHashTables data took   2.55ms
+[2023.01.09-14.16.15:281][263]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/Imp/FocusPlayer_Task" FILE="../../../../../repos/GDES703-Game-Craft/TimelessParadox/Content/Enemy/Imp/FocusPlayer_Task.uasset" SILENT=true
+[2023.01.09-14.16.15:284][263]LogSavePackage: Moving '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Saved/FocusPlayer_Task653365924E5D95634E875CAE03408DBF.tmp' to '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Content/Enemy/Imp/FocusPlayer_Task.uasset'
+[2023.01.09-14.16.15:294][263]AssetCheck: New page: Asset Save: FocusPlayer_Task
+[2023.01.09-14.16.15:294][263]LogContentValidation: Display: Validating Blueprint /Game/Enemy/Imp/FocusPlayer_Task.FocusPlayer_Task
+[2023.01.09-14.16.26:232][522]BlueprintLog: New page: Compile FocusPlayer_Task
+[2023.01.09-14.16.26:259][522]LogUObjectHash: Compacting FUObjectHashTables data took   2.47ms
+[2023.01.09-14.17.25:624][319]BlueprintLog: New page: Compile TempImp_Control
+[2023.01.09-14.17.25:666][319]LogUObjectHash: Compacting FUObjectHashTables data took   2.53ms
+[2023.01.09-14.17.26:053][352]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/Imp/TempImp_Control" FILE="../../../../../repos/GDES703-Game-Craft/TimelessParadox/Content/Enemy/Imp/TempImp_Control.uasset" SILENT=true
+[2023.01.09-14.17.26:057][352]LogSavePackage: Moving '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Saved/TempImp_Control9435A10D4D790C485D54769AE5C95035.tmp' to '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Content/Enemy/Imp/TempImp_Control.uasset'
+[2023.01.09-14.17.26:067][352]AssetCheck: New page: Asset Save: TempImp_Control
+[2023.01.09-14.17.26:067][352]LogContentValidation: Display: Validating Blueprint /Game/Enemy/Imp/TempImp_Control.TempImp_Control
+[2023.01.09-14.17.57:958][884]BlueprintLog: New page: Compile TempImp_Control
+[2023.01.09-14.17.58:003][884]LogUObjectHash: Compacting FUObjectHashTables data took   2.55ms
+[2023.01.09-14.18.22:290][508]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/Imp/FocusPlayer_Task" FILE="../../../../../repos/GDES703-Game-Craft/TimelessParadox/Content/Enemy/Imp/FocusPlayer_Task.uasset" SILENT=true
+[2023.01.09-14.18.22:294][508]LogSavePackage: Moving '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Saved/FocusPlayer_Task1512F25343E98D8A363D66AFEE2069AB.tmp' to '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Content/Enemy/Imp/FocusPlayer_Task.uasset'
+[2023.01.09-14.18.22:304][508]AssetCheck: New page: Asset Save: FocusPlayer_Task
+[2023.01.09-14.18.22:304][508]LogContentValidation: Display: Validating Blueprint /Game/Enemy/Imp/FocusPlayer_Task.FocusPlayer_Task
+[2023.01.09-14.18.31:816][407]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/Imp/FocusPlayer_Task" FILE="../../../../../repos/GDES703-Game-Craft/TimelessParadox/Content/Enemy/Imp/FocusPlayer_Task.uasset" SILENT=true
+[2023.01.09-14.18.31:821][407]LogSavePackage: Moving '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Saved/FocusPlayer_TaskD99CE2DB47206A23B6AE8A8EE3C3AA36.tmp' to '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Content/Enemy/Imp/FocusPlayer_Task.uasset'
+[2023.01.09-14.18.31:832][407]AssetCheck: New page: Asset Save: FocusPlayer_Task
+[2023.01.09-14.18.31:832][407]LogContentValidation: Display: Validating Blueprint /Game/Enemy/Imp/FocusPlayer_Task.FocusPlayer_Task
+[2023.01.09-14.18.33:428][588]BlueprintLog: New page: Compile FocusPlayer_Task
+[2023.01.09-14.18.33:455][588]LogUObjectHash: Compacting FUObjectHashTables data took   2.53ms
+[2023.01.09-14.18.33:852][627]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/Imp/FocusPlayer_Task" FILE="../../../../../repos/GDES703-Game-Craft/TimelessParadox/Content/Enemy/Imp/FocusPlayer_Task.uasset" SILENT=true
+[2023.01.09-14.18.33:856][627]LogSavePackage: Moving '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Saved/FocusPlayer_TaskBAB0A19C489F7A54F891B793123B19D6.tmp' to '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Content/Enemy/Imp/FocusPlayer_Task.uasset'
+[2023.01.09-14.18.33:866][627]AssetCheck: New page: Asset Save: FocusPlayer_Task
+[2023.01.09-14.18.33:866][627]LogContentValidation: Display: Validating Blueprint /Game/Enemy/Imp/FocusPlayer_Task.FocusPlayer_Task
+[2023.01.09-14.18.40:124][135]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/Imp/ImpAI_BT" FILE="../../../../../repos/GDES703-Game-Craft/TimelessParadox/Content/Enemy/Imp/ImpAI_BT.uasset" SILENT=true
+[2023.01.09-14.18.40:126][135]LogSavePackage: Moving '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Saved/ImpAI_BT1BB9D1C344E51F8D301A86ADC614BB1A.tmp' to '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Content/Enemy/Imp/ImpAI_BT.uasset'
+[2023.01.09-14.18.40:135][135]AssetCheck: New page: Asset Save: ImpAI_BT
+[2023.01.09-14.18.40:135][135]LogContentValidation: Display: Validating BehaviorTree /Game/Enemy/Imp/ImpAI_BT.ImpAI_BT
+[2023.01.09-14.18.40:608][186]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/Imp/FocusPlayer_Task" FILE="../../../../../repos/GDES703-Game-Craft/TimelessParadox/Content/Enemy/Imp/FocusPlayer_Task.uasset" SILENT=true
+[2023.01.09-14.18.40:612][186]LogSavePackage: Moving '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Saved/FocusPlayer_Task36AE3F02440234516AB567B86316144E.tmp' to '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Content/Enemy/Imp/FocusPlayer_Task.uasset'
+[2023.01.09-14.18.40:621][186]AssetCheck: New page: Asset Save: FocusPlayer_Task
+[2023.01.09-14.18.40:621][186]LogContentValidation: Display: Validating Blueprint /Game/Enemy/Imp/FocusPlayer_Task.FocusPlayer_Task
+[2023.01.09-14.19.22:049][505]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/Imp/ImpAI_BT" FILE="../../../../../repos/GDES703-Game-Craft/TimelessParadox/Content/Enemy/Imp/ImpAI_BT.uasset" SILENT=true
+[2023.01.09-14.19.22:051][505]LogSavePackage: Moving '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Saved/ImpAI_BTEE8BD67E477821734837549BB8FDF0EF.tmp' to '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Content/Enemy/Imp/ImpAI_BT.uasset'
+[2023.01.09-14.19.22:060][505]AssetCheck: New page: Asset Save: ImpAI_BT
+[2023.01.09-14.19.22:060][505]LogContentValidation: Display: Validating BehaviorTree /Game/Enemy/Imp/ImpAI_BT.ImpAI_BT
+[2023.01.09-14.19.59:184][784]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/Imp/TempImp_Control" FILE="../../../../../repos/GDES703-Game-Craft/TimelessParadox/Content/Enemy/Imp/TempImp_Control.uasset" SILENT=true
+[2023.01.09-14.19.59:189][784]LogSavePackage: Moving '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Saved/TempImp_Control0CA66EBA49FFA427AF7588837920578D.tmp' to '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Content/Enemy/Imp/TempImp_Control.uasset'
+[2023.01.09-14.19.59:199][784]AssetCheck: New page: Asset Save: TempImp_Control
+[2023.01.09-14.19.59:199][784]LogContentValidation: Display: Validating Blueprint /Game/Enemy/Imp/TempImp_Control.TempImp_Control
+[2023.01.09-14.20.03:057][850]BlueprintLog: New page: Compile TempImp_Control
+[2023.01.09-14.20.03:100][850]LogUObjectHash: Compacting FUObjectHashTables data took   2.70ms
+[2023.01.09-14.20.03:707][910]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/Imp/TempImp_Control" FILE="../../../../../repos/GDES703-Game-Craft/TimelessParadox/Content/Enemy/Imp/TempImp_Control.uasset" SILENT=true
+[2023.01.09-14.20.03:712][910]LogSavePackage: Moving '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Saved/TempImp_ControlDE1150AD43E4E7CEE2BFF6AE2A78653D.tmp' to '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Content/Enemy/Imp/TempImp_Control.uasset'
+[2023.01.09-14.20.03:722][910]AssetCheck: New page: Asset Save: TempImp_Control
+[2023.01.09-14.20.03:722][910]LogContentValidation: Display: Validating Blueprint /Game/Enemy/Imp/TempImp_Control.TempImp_Control
+[2023.01.09-14.20.07:226][113]LogTemp: Repeating last play command: Selected Viewport
+[2023.01.09-14.20.07:235][113]BlueprintLog: New page: Pre-Play auto-recompile
+[2023.01.09-14.20.07:235][113]LogPlayLevel: [PlayLevel] Compiling PROTO_BP_AnimBlueprint_0 before play...
+[2023.01.09-14.20.07:262][113]LogUObjectHash: Compacting FUObjectHashTables data took   2.41ms
+[2023.01.09-14.20.07:263][113]LogPlayLevel: PlayLevel: Blueprint regeneration took 28 ms (1 blueprints)
+[2023.01.09-14.20.07:263][113]PIE: New page: PIE session: ThirdPersonExampleMap (9 Jan 2023, 14:20:07)
+[2023.01.09-14.20.07:263][113]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2023.01.09-14.20.07:274][113]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010931s)
+[2023.01.09-14.20.07:275][113]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2023.01.09-14.20.07:275][113]LogPlayLevel: PIE: World Init took: (0.001083s)
+[2023.01.09-14.20.07:275][113]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.012145s)
+[2023.01.09-14.20.07:299][113]LogUObjectHash: Compacting FUObjectHashTables data took   1.90ms
+[2023.01.09-14.20.07:299][113]LogAudio: Display: Creating Audio Device:                 Id: 9, Scope: Unique, Realtime: True
+[2023.01.09-14.20.07:299][113]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.01.09-14.20.07:299][113]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.01.09-14.20.07:299][113]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.01.09-14.20.07:299][113]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.01.09-14.20.07:299][113]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.01.09-14.20.07:299][113]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.01.09-14.20.07:299][113]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.01.09-14.20.07:299][113]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.01.09-14.20.07:300][113]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.01.09-14.20.07:300][113]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.01.09-14.20.07:300][113]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.01.09-14.20.07:300][113]LogAudioMixer: Display: Initializing audio mixer.
+[2023.01.09-14.20.07:303][113]LogAudioMixer: Display: 0: FrontLeft
+[2023.01.09-14.20.07:303][113]LogAudioMixer: Display: 1: FrontRight
+[2023.01.09-14.20.07:309][113]LogAudioMixer: Display: Using Audio Device Speakers (2- USB Audio CODEC )
+[2023.01.09-14.20.07:310][113]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.01.09-14.20.07:310][113]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.01.09-14.20.07:310][113]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.01.09-14.20.07:310][113]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.01.09-14.20.07:310][113]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.01.09-14.20.07:310][113]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2023.01.09-14.20.07:311][113]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.01.09-14.20.07:311][113]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.01.09-14.20.07:311][113]LogInit: FAudioDevice initialized.
+[2023.01.09-14.20.07:311][113]LogAudio: Display: Audio Device (ID: 9) registered with world 'ThirdPersonExampleMap'.
+[2023.01.09-14.20.07:320][113]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2023.01.09-14.20.07:323][113]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2023.01.09-14.20.07
+[2023.01.09-14.20.07:324][113]LogWorld: Bringing up level for play took: 0.003267
+[2023.01.09-14.20.07:324][113]LogOnline: OSS: Creating online subsystem instance for: :Context_34
+[2023.01.09-14.20.07:328][113]PIE: Server logged in
+[2023.01.09-14.20.07:329][113]PIE: Play in editor total start time 0.097 seconds.
+[2023.01.09-14.20.12:480][722]LogBlueprintUserMessages: [Enemy_Imp_2] -25
+[2023.01.09-14.20.12:480][722]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Combo: 1.0
+[2023.01.09-14.20.12:480][722]LogBlueprintUserMessages: [ThirdPersonCharacter_167] 1.01
+[2023.01.09-14.20.18:205][409]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Ammo: 2
+[2023.01.09-14.20.22:288][894]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.09-14.20.22:288][894]LogWorld: BeginTearingDown for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2023.01.09-14.20.22:288][894]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2023.01.09-14.20.22:289][894]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.09-14.20.22:300][894]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.01.09-14.20.22:337][894]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.09-14.20.22:358][894]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.09-14.20.22:359][894]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.01.09-14.20.22:360][894]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.01.09-14.20.22:364][894]LogUObjectHash: Compacting FUObjectHashTables data took   1.95ms
+[2023.01.09-14.20.22:397][895]LogPlayLevel: Display: Destroying online subsystem :Context_34
+[2023.01.09-14.20.22:869][945]LogUObjectHash: Compacting FUObjectHashTables data took   1.91ms
+[2023.01.09-14.20.22:890][945]LogSavePackage: Moving '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Saved/ThirdPersonExampleMapBBB898634C630F1BF50E528C33B7BADC.tmp' to '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2023.01.09-14.20.22:946][945]LogSavePackage: Moving '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Saved/ThirdPersonExampleMap_BuiltData4B3DA43F4A32D8F121DBC7883A30B83A.tmp' to '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2023.01.09-14.20.22:960][945]AssetCheck: New page: Asset Save: multiple assets
+[2023.01.09-14.20.22:960][945]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData
+[2023.01.09-14.20.22:960][945]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2023.01.09-14.20.33:503][654]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/Imp/ImpAI_BT" FILE="../../../../../repos/GDES703-Game-Craft/TimelessParadox/Content/Enemy/Imp/ImpAI_BT.uasset" SILENT=true
+[2023.01.09-14.20.33:505][654]LogSavePackage: Moving '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Saved/ImpAI_BT237CD4FF4B24741A4E9B9D9AB0E1DBD5.tmp' to '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Content/Enemy/Imp/ImpAI_BT.uasset'
+[2023.01.09-14.20.33:514][654]AssetCheck: New page: Asset Save: ImpAI_BT
+[2023.01.09-14.20.33:514][654]LogContentValidation: Display: Validating BehaviorTree /Game/Enemy/Imp/ImpAI_BT.ImpAI_BT
+[2023.01.09-14.20.46:949][224]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/Imp/ImpAI_BT" FILE="../../../../../repos/GDES703-Game-Craft/TimelessParadox/Content/Enemy/Imp/ImpAI_BT.uasset" SILENT=true
+[2023.01.09-14.20.46:951][224]LogSavePackage: Moving '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Saved/ImpAI_BTDC18ADE248061158FAF718BD65E1E140.tmp' to '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Content/Enemy/Imp/ImpAI_BT.uasset'
+[2023.01.09-14.20.46:962][224]AssetCheck: New page: Asset Save: ImpAI_BT
+[2023.01.09-14.20.46:962][224]LogContentValidation: Display: Validating BehaviorTree /Game/Enemy/Imp/ImpAI_BT.ImpAI_BT
+[2023.01.09-14.20.47:274][254]LogUObjectHash: Compacting FUObjectHashTables data took   2.17ms
+[2023.01.09-14.20.47:296][254]LogSavePackage: Moving '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Saved/ThirdPersonExampleMap223355B04FFB0752DB10BFA05CA4D0A8.tmp' to '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2023.01.09-14.20.47:353][254]LogSavePackage: Moving '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Saved/ThirdPersonExampleMap_BuiltData9025DD5E421DBB71B99A598C53AB2C88.tmp' to '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2023.01.09-14.20.47:364][254]AssetCheck: New page: Asset Save: multiple assets
+[2023.01.09-14.20.47:364][254]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData
+[2023.01.09-14.20.47:364][254]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2023.01.09-14.20.50:250][574]LogTemp: Repeating last play command: Selected Viewport
+[2023.01.09-14.20.50:258][574]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.01.09-14.20.50:258][574]PIE: New page: PIE session: ThirdPersonExampleMap (9 Jan 2023, 14:20:50)
+[2023.01.09-14.20.50:283][574]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2023.01.09-14.20.50:294][574]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010968s)
+[2023.01.09-14.20.50:295][574]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2023.01.09-14.20.50:295][574]LogPlayLevel: PIE: World Init took: (0.001044s)
+[2023.01.09-14.20.50:295][574]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.012186s)
+[2023.01.09-14.20.50:319][574]LogUObjectHash: Compacting FUObjectHashTables data took   1.97ms
+[2023.01.09-14.20.50:319][574]LogAudio: Display: Creating Audio Device:                 Id: 10, Scope: Unique, Realtime: True
+[2023.01.09-14.20.50:319][574]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.01.09-14.20.50:319][574]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.01.09-14.20.50:320][574]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.01.09-14.20.50:320][574]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.01.09-14.20.50:320][574]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.01.09-14.20.50:320][574]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.01.09-14.20.50:320][574]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.01.09-14.20.50:320][574]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.01.09-14.20.50:320][574]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.01.09-14.20.50:320][574]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.01.09-14.20.50:320][574]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.01.09-14.20.50:320][574]LogAudioMixer: Display: Initializing audio mixer.
+[2023.01.09-14.20.50:323][574]LogAudioMixer: Display: 0: FrontLeft
+[2023.01.09-14.20.50:323][574]LogAudioMixer: Display: 1: FrontRight
+[2023.01.09-14.20.50:329][574]LogAudioMixer: Display: Using Audio Device Speakers (2- USB Audio CODEC )
+[2023.01.09-14.20.50:329][574]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.01.09-14.20.50:329][574]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.01.09-14.20.50:329][574]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.01.09-14.20.50:330][574]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.01.09-14.20.50:330][574]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.01.09-14.20.50:330][574]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2023.01.09-14.20.50:331][574]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.01.09-14.20.50:331][574]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.01.09-14.20.50:331][574]LogInit: FAudioDevice initialized.
+[2023.01.09-14.20.50:331][574]LogAudio: Display: Audio Device (ID: 10) registered with world 'ThirdPersonExampleMap'.
+[2023.01.09-14.20.50:337][574]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2023.01.09-14.20.50:340][574]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2023.01.09-14.20.50
+[2023.01.09-14.20.50:341][574]LogWorld: Bringing up level for play took: 0.003082
+[2023.01.09-14.20.50:341][574]LogOnline: OSS: Creating online subsystem instance for: :Context_35
+[2023.01.09-14.20.50:345][574]PIE: Server logged in
+[2023.01.09-14.20.50:345][574]PIE: Play in editor total start time 0.09 seconds.
+[2023.01.09-14.20.53:277][922]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.09-14.20.53:277][922]LogWorld: BeginTearingDown for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2023.01.09-14.20.53:277][922]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2023.01.09-14.20.53:277][922]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.09-14.20.53:285][922]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.01.09-14.20.53:320][922]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.09-14.20.53:342][922]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.01.09-14.20.53:342][922]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.01.09-14.20.53:343][922]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.01.09-14.20.53:345][922]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.09-14.20.53:348][922]LogUObjectHash: Compacting FUObjectHashTables data took   1.96ms
+[2023.01.09-14.20.53:380][923]LogPlayLevel: Display: Destroying online subsystem :Context_35
+[2023.01.09-14.20.54:473][ 51]LogTemp: Repeating last play command: Selected Viewport
+[2023.01.09-14.20.54:481][ 51]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.01.09-14.20.54:481][ 51]PIE: New page: PIE session: ThirdPersonExampleMap (9 Jan 2023, 14:20:54)
+[2023.01.09-14.20.54:513][ 51]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2023.01.09-14.20.54:525][ 51]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011332s)
+[2023.01.09-14.20.54:525][ 51]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2023.01.09-14.20.54:526][ 51]LogPlayLevel: PIE: World Init took: (0.000989s)
+[2023.01.09-14.20.54:526][ 51]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.012496s)
+[2023.01.09-14.20.54:550][ 51]LogUObjectHash: Compacting FUObjectHashTables data took   2.01ms
+[2023.01.09-14.20.54:550][ 51]LogAudio: Display: Creating Audio Device:                 Id: 11, Scope: Unique, Realtime: True
+[2023.01.09-14.20.54:550][ 51]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.01.09-14.20.54:550][ 51]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.01.09-14.20.54:550][ 51]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.01.09-14.20.54:550][ 51]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.01.09-14.20.54:550][ 51]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.01.09-14.20.54:550][ 51]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.01.09-14.20.54:550][ 51]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.01.09-14.20.54:550][ 51]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.01.09-14.20.54:551][ 51]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.01.09-14.20.54:551][ 51]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.01.09-14.20.54:551][ 51]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.01.09-14.20.54:551][ 51]LogAudioMixer: Display: Initializing audio mixer.
+[2023.01.09-14.20.54:554][ 51]LogAudioMixer: Display: 0: FrontLeft
+[2023.01.09-14.20.54:554][ 51]LogAudioMixer: Display: 1: FrontRight
+[2023.01.09-14.20.54:561][ 51]LogAudioMixer: Display: Using Audio Device Speakers (2- USB Audio CODEC )
+[2023.01.09-14.20.54:561][ 51]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.01.09-14.20.54:561][ 51]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.01.09-14.20.54:561][ 51]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.01.09-14.20.54:561][ 51]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.01.09-14.20.54:561][ 51]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.01.09-14.20.54:561][ 51]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2023.01.09-14.20.54:562][ 51]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.01.09-14.20.54:562][ 51]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.01.09-14.20.54:562][ 51]LogInit: FAudioDevice initialized.
+[2023.01.09-14.20.54:562][ 51]LogAudio: Display: Audio Device (ID: 11) registered with world 'ThirdPersonExampleMap'.
+[2023.01.09-14.20.54:566][ 51]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2023.01.09-14.20.54:569][ 51]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2023.01.09-14.20.54
+[2023.01.09-14.20.54:570][ 51]LogWorld: Bringing up level for play took: 0.003524
+[2023.01.09-14.20.54:570][ 51]LogOnline: OSS: Creating online subsystem instance for: :Context_36
+[2023.01.09-14.20.54:574][ 51]PIE: Server logged in
+[2023.01.09-14.20.54:575][ 51]PIE: Play in editor total start time 0.096 seconds.
+[2023.01.09-14.21.04:056][ 66]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.09-14.21.04:056][ 66]LogWorld: BeginTearingDown for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2023.01.09-14.21.04:057][ 66]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2023.01.09-14.21.04:057][ 66]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.09-14.21.04:069][ 66]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.01.09-14.21.04:104][ 66]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.09-14.21.04:125][ 66]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.09-14.21.04:125][ 66]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.01.09-14.21.04:126][ 66]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.01.09-14.21.04:131][ 66]LogUObjectHash: Compacting FUObjectHashTables data took   1.97ms
+[2023.01.09-14.21.04:164][ 67]LogPlayLevel: Display: Destroying online subsystem :Context_36
+[2023.01.09-14.21.04:543][106]LogUObjectHash: Compacting FUObjectHashTables data took   1.98ms
+[2023.01.09-14.21.04:565][106]LogSavePackage: Moving '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Saved/ThirdPersonExampleMapA6DF08BD462B9B2FB93DE3A78AA3420F.tmp' to '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2023.01.09-14.21.04:621][106]LogSavePackage: Moving '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Saved/ThirdPersonExampleMap_BuiltData39B21F2F480FC2836F9A1CAC53B620D4.tmp' to '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2023.01.09-14.21.04:635][106]AssetCheck: New page: Asset Save: multiple assets
+[2023.01.09-14.21.04:635][106]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData
+[2023.01.09-14.21.04:635][106]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2023.01.09-14.24.04:299][185]LogEditorViewport: Clicking on Actor (LMB): BP_NPC_C (BP_NPC)
+[2023.01.09-14.24.06:201][389]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2023.01.09-14.24.06:222][389]LogSavePackage: Moving '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Saved/ThirdPersonExampleMap3FE38297486F52F5064EB0879DB14064.tmp' to '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2023.01.09-14.24.06:280][389]LogSavePackage: Moving '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Saved/ThirdPersonExampleMap_BuiltDataC57AF79C4A36AAC26F2271B107EE89B2.tmp' to '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2023.01.09-14.24.06:291][389]AssetCheck: New page: Asset Save: multiple assets
+[2023.01.09-14.24.06:291][389]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData
+[2023.01.09-14.24.06:291][389]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2023.01.09-14.24.07:297][509]LogEditorViewport: Clicking on Actor (LMB): Enemy_Imp_C (Enemy_Imp)
+[2023.01.09-14.24.10:616][882]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2023.01.09-14.24.10:635][882]LogEditorClassViewer: Warning: Class /Engine/Tutorial/InWorldBlueprintEditing/TutorialAssets/IWBE_Blutility.IWBE_Blutility_C has parent /Script/Blutility.PlacedEditorUtilityBase, but this parent is not found. The Class will not be shown in ClassViewer.
+[2023.01.09-14.24.28:534][461]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/Imp/Animations/ImpEnemy_AnimBP" FILE="../../../../../repos/GDES703-Game-Craft/TimelessParadox/Content/Enemy/Imp/Animations/ImpEnemy_AnimBP.uasset" SILENT=true
+[2023.01.09-14.24.28:544][461]LogSavePackage: Moving '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Saved/ImpEnemy_AnimBP9E30D4404D540FAACDD8F8B47881C73F.tmp' to '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Content/Enemy/Imp/Animations/ImpEnemy_AnimBP.uasset'
+[2023.01.09-14.24.28:554][461]AssetCheck: New page: Asset Save: ImpEnemy_AnimBP
+[2023.01.09-14.24.28:554][461]LogContentValidation: Display: Validating AnimBlueprint /Game/Enemy/Imp/Animations/ImpEnemy_AnimBP.ImpEnemy_AnimBP
+[2023.01.09-14.24.36:901][182]BlueprintLog: New page: Compile ImpEnemy_AnimBP
+[2023.01.09-14.24.36:944][182]LogUObjectHash: Compacting FUObjectHashTables data took   2.23ms
+[2023.01.09-14.24.40:486][483]LogTemp: Repeating last play command: Selected Viewport
+[2023.01.09-14.24.40:494][483]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.01.09-14.24.40:494][483]PIE: New page: PIE session: ThirdPersonExampleMap (9 Jan 2023, 14:24:40)
+[2023.01.09-14.24.40:524][483]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2023.01.09-14.24.40:534][483]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009878s)
+[2023.01.09-14.24.40:535][483]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2023.01.09-14.24.40:535][483]LogPlayLevel: PIE: World Init took: (0.001137s)
+[2023.01.09-14.24.40:535][483]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.011186s)
+[2023.01.09-14.24.40:560][483]LogUObjectHash: Compacting FUObjectHashTables data took   2.44ms
+[2023.01.09-14.24.40:560][483]LogAudio: Display: Creating Audio Device:                 Id: 12, Scope: Unique, Realtime: True
+[2023.01.09-14.24.40:560][483]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.01.09-14.24.40:560][483]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.01.09-14.24.40:560][483]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.01.09-14.24.40:560][483]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.01.09-14.24.40:560][483]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.01.09-14.24.40:560][483]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.01.09-14.24.40:560][483]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.01.09-14.24.40:560][483]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.01.09-14.24.40:561][483]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.01.09-14.24.40:561][483]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.01.09-14.24.40:561][483]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.01.09-14.24.40:561][483]LogAudioMixer: Display: Initializing audio mixer.
+[2023.01.09-14.24.40:564][483]LogAudioMixer: Display: 0: FrontLeft
+[2023.01.09-14.24.40:564][483]LogAudioMixer: Display: 1: FrontRight
+[2023.01.09-14.24.40:570][483]LogAudioMixer: Display: Using Audio Device Speakers (2- USB Audio CODEC )
+[2023.01.09-14.24.40:570][483]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.01.09-14.24.40:570][483]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.01.09-14.24.40:570][483]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.01.09-14.24.40:571][483]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.01.09-14.24.40:571][483]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.01.09-14.24.40:571][483]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2023.01.09-14.24.40:572][483]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.01.09-14.24.40:572][483]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.01.09-14.24.40:572][483]LogInit: FAudioDevice initialized.
+[2023.01.09-14.24.40:572][483]LogAudio: Display: Audio Device (ID: 12) registered with world 'ThirdPersonExampleMap'.
+[2023.01.09-14.24.40:576][483]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2023.01.09-14.24.40:579][483]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2023.01.09-14.24.40
+[2023.01.09-14.24.40:580][483]LogWorld: Bringing up level for play took: 0.003037
+[2023.01.09-14.24.40:580][483]LogOnline: OSS: Creating online subsystem instance for: :Context_37
+[2023.01.09-14.24.40:584][483]PIE: Server logged in
+[2023.01.09-14.24.40:584][483]PIE: Play in editor total start time 0.093 seconds.
+[2023.01.09-14.24.47:438][301]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.09-14.24.47:438][301]LogWorld: BeginTearingDown for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2023.01.09-14.24.47:438][301]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2023.01.09-14.24.47:438][301]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.09-14.24.47:449][301]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.01.09-14.24.47:485][301]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.09-14.24.47:507][301]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.01.09-14.24.47:507][301]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.01.09-14.24.47:508][301]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.01.09-14.24.47:509][301]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.09-14.24.47:512][301]LogUObjectHash: Compacting FUObjectHashTables data took   1.97ms
+[2023.01.09-14.24.47:544][302]LogPlayLevel: Display: Destroying online subsystem :Context_37
+[2023.01.09-14.25.04:856][ 65]BlueprintLog: New page: Compile ImpEnemy_AnimBP
+[2023.01.09-14.25.04:899][ 65]LogUObjectHash: Compacting FUObjectHashTables data took   2.31ms
+[2023.01.09-14.25.05:277][ 88]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/Imp/Animations/ImpEnemy_AnimBP" FILE="../../../../../repos/GDES703-Game-Craft/TimelessParadox/Content/Enemy/Imp/Animations/ImpEnemy_AnimBP.uasset" SILENT=true
+[2023.01.09-14.25.05:291][ 88]LogSavePackage: Moving '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Saved/ImpEnemy_AnimBP30DFE2994F0C764776AF169CB427AD97.tmp' to '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Content/Enemy/Imp/Animations/ImpEnemy_AnimBP.uasset'
+[2023.01.09-14.25.05:303][ 88]AssetCheck: New page: Asset Save: ImpEnemy_AnimBP
+[2023.01.09-14.25.05:303][ 88]LogContentValidation: Display: Validating AnimBlueprint /Game/Enemy/Imp/Animations/ImpEnemy_AnimBP.ImpEnemy_AnimBP
+[2023.01.09-14.25.09:130][468]LogTemp: Repeating last play command: Selected Viewport
+[2023.01.09-14.25.09:138][468]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.01.09-14.25.09:138][468]PIE: New page: PIE session: ThirdPersonExampleMap (9 Jan 2023, 14:25:09)
+[2023.01.09-14.25.09:184][468]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2023.01.09-14.25.09:193][468]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010119s)
+[2023.01.09-14.25.09:194][468]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2023.01.09-14.25.09:194][468]LogPlayLevel: PIE: World Init took: (0.001076s)
+[2023.01.09-14.25.09:194][468]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.011360s)
+[2023.01.09-14.25.09:218][468]LogUObjectHash: Compacting FUObjectHashTables data took   2.51ms
+[2023.01.09-14.25.09:219][468]LogAudio: Display: Creating Audio Device:                 Id: 13, Scope: Unique, Realtime: True
+[2023.01.09-14.25.09:219][468]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.01.09-14.25.09:219][468]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.01.09-14.25.09:219][468]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.01.09-14.25.09:220][468]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.01.09-14.25.09:220][468]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.01.09-14.25.09:220][468]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.01.09-14.25.09:220][468]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.01.09-14.25.09:220][468]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.01.09-14.25.09:220][468]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.01.09-14.25.09:220][468]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.01.09-14.25.09:220][468]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.01.09-14.25.09:220][468]LogAudioMixer: Display: Initializing audio mixer.
+[2023.01.09-14.25.09:223][468]LogAudioMixer: Display: 0: FrontLeft
+[2023.01.09-14.25.09:223][468]LogAudioMixer: Display: 1: FrontRight
+[2023.01.09-14.25.09:229][468]LogAudioMixer: Display: Using Audio Device Speakers (2- USB Audio CODEC )
+[2023.01.09-14.25.09:229][468]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.01.09-14.25.09:229][468]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.01.09-14.25.09:229][468]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.01.09-14.25.09:230][468]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.01.09-14.25.09:230][468]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.01.09-14.25.09:230][468]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2023.01.09-14.25.09:230][468]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.01.09-14.25.09:230][468]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.01.09-14.25.09:230][468]LogInit: FAudioDevice initialized.
+[2023.01.09-14.25.09:230][468]LogAudio: Display: Audio Device (ID: 13) registered with world 'ThirdPersonExampleMap'.
+[2023.01.09-14.25.09:239][468]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2023.01.09-14.25.09:241][468]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2023.01.09-14.25.09
+[2023.01.09-14.25.09:242][468]LogWorld: Bringing up level for play took: 0.003089
+[2023.01.09-14.25.09:242][468]LogOnline: OSS: Creating online subsystem instance for: :Context_38
+[2023.01.09-14.25.09:246][468]PIE: Server logged in
+[2023.01.09-14.25.09:247][468]PIE: Play in editor total start time 0.112 seconds.
+[2023.01.09-14.25.16:547][339]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.09-14.25.16:547][339]LogWorld: BeginTearingDown for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2023.01.09-14.25.16:547][339]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2023.01.09-14.25.16:547][339]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.09-14.25.16:557][339]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.01.09-14.25.16:592][339]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.09-14.25.16:614][339]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.01.09-14.25.16:614][339]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.01.09-14.25.16:615][339]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.01.09-14.25.16:617][339]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.09-14.25.16:620][339]LogUObjectHash: Compacting FUObjectHashTables data took   1.98ms
+[2023.01.09-14.25.16:674][340]LogWindows: LaunchURL https://docs.unrealengine.com/4.27/en//index.html?utm_source=editor&utm_medium=docs&utm_campaign=help_menu
+[2023.01.09-14.25.16:678][340]LogPlayLevel: Display: Destroying online subsystem :Context_38
+[2023.01.09-14.25.18:492][395]LogUObjectHash: Compacting FUObjectHashTables data took   1.89ms
+[2023.01.09-14.25.18:512][395]LogSavePackage: Moving '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Saved/ThirdPersonExampleMap76C274574665D73F072B308D3248BE7F.tmp' to '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2023.01.09-14.25.18:568][395]LogSavePackage: Moving '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Saved/ThirdPersonExampleMap_BuiltData082E064A497547EEF23483BCF9E1841F.tmp' to '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2023.01.09-14.25.18:582][395]AssetCheck: New page: Asset Save: multiple assets
+[2023.01.09-14.25.18:582][395]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData
+[2023.01.09-14.25.18:582][395]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2023.01.09-14.25.59:173][103]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 E:\UNI\Masters\Game Craft\ImpTemp\WalkingImp001.fbx)
+[2023.01.09-14.25.59:180][103]LogFbx: Loading FBX Scene from E:\UNI\Masters\Game Craft\ImpTemp\WalkingImp001.fbx
+[2023.01.09-14.25.59:197][103]LogFbx: FBX Scene Loaded Succesfully
+[2023.01.09-14.26.02:564][103]LogSlate: Window 'FBX Import Options' being destroyed
+[2023.01.09-14.26.02:584][103]LogFbx: SortedLinks :(0) IMP
+[2023.01.09-14.26.02:584][103]LogFbx: SortedLinks :(1) QuickRigCharacter_Hips
+[2023.01.09-14.26.02:584][103]LogFbx: SortedLinks :(2) QuickRigCharacter_LeftUpLeg
+[2023.01.09-14.26.02:584][103]LogFbx: SortedLinks :(3) QuickRigCharacter_LeftLeg
+[2023.01.09-14.26.02:584][103]LogFbx: SortedLinks :(4) joint1
+[2023.01.09-14.26.02:584][103]LogFbx: SortedLinks :(5) joint3
+[2023.01.09-14.26.02:584][103]LogFbx: SortedLinks :(6) joint5
+[2023.01.09-14.26.02:584][103]LogFbx: SortedLinks :(7) QuickRigCharacter_LeftFoot
+[2023.01.09-14.26.02:584][103]LogFbx: SortedLinks :(8) QuickRigCharacter_LeftToeBase
+[2023.01.09-14.26.02:584][103]LogFbx: SortedLinks :(9) QuickRigCharacter_LeftToeBase_end
+[2023.01.09-14.26.02:584][103]LogFbx: SortedLinks :(10) QuickRigCharacter_RightUpLeg
+[2023.01.09-14.26.02:584][103]LogFbx: SortedLinks :(11) QuickRigCharacter_RightLeg
+[2023.01.09-14.26.02:584][103]LogFbx: SortedLinks :(12) joint4
+[2023.01.09-14.26.02:584][103]LogFbx: SortedLinks :(13) joint2
+[2023.01.09-14.26.02:584][103]LogFbx: SortedLinks :(14) QuickRigCharacter_RightFoot
+[2023.01.09-14.26.02:584][103]LogFbx: SortedLinks :(15) QuickRigCharacter_RightToeBase
+[2023.01.09-14.26.02:584][103]LogFbx: SortedLinks :(16) QuickRigCharacter_RightToeBase_end
+[2023.01.09-14.26.02:584][103]LogFbx: SortedLinks :(17) QuickRigCharacter_Spine
+[2023.01.09-14.26.02:584][103]LogFbx: SortedLinks :(18) QuickRigCharacter_Spine1
+[2023.01.09-14.26.02:584][103]LogFbx: SortedLinks :(19) QuickRigCharacter_Spine2
+[2023.01.09-14.26.02:584][103]LogFbx: SortedLinks :(20) QuickRigCharacter_LeftShoulder
+[2023.01.09-14.26.02:584][103]LogFbx: SortedLinks :(21) QuickRigCharacter_LeftArm
+[2023.01.09-14.26.02:584][103]LogFbx: SortedLinks :(22) QuickRigCharacter_LeftForeArm
+[2023.01.09-14.26.02:584][103]LogFbx: SortedLinks :(23) QuickRigCharacter_LeftHand
+[2023.01.09-14.26.02:584][103]LogFbx: SortedLinks :(24) QuickRigCharacter_LeftHand_end
+[2023.01.09-14.26.02:584][103]LogFbx: SortedLinks :(25) QuickRigCharacter_RightShoulder
+[2023.01.09-14.26.02:584][103]LogFbx: SortedLinks :(26) QuickRigCharacter_RightArm
+[2023.01.09-14.26.02:584][103]LogFbx: SortedLinks :(27) QuickRigCharacter_RightForeArm
+[2023.01.09-14.26.02:585][103]LogFbx: SortedLinks :(28) QuickRigCharacter_RightHand
+[2023.01.09-14.26.02:585][103]LogFbx: SortedLinks :(29) QuickRigCharacter_RightHand_end
+[2023.01.09-14.26.02:585][103]LogFbx: SortedLinks :(30) QuickRigCharacter_Neck
+[2023.01.09-14.26.02:585][103]LogFbx: SortedLinks :(31) QuickRigCharacter_Head
+[2023.01.09-14.26.02:585][103]LogFbx: SortedLinks :(32) QuickRigCharacter_Head_end
+[2023.01.09-14.26.02:585][103]LogFbx: Parsing AnimStack IMP|QuickRigCharacter_Reference|mixamo.com|Layer0
+[2023.01.09-14.26.02:904][103]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Enemy/Imp/Animations/mixamo/WalkingImp001.WalkingImp001
+[2023.01.09-14.26.02:904][103]LogFactory: FactoryCreateFile: AnimSequence with FbxFactory (0 0 E:\UNI\Masters\Game Craft\ImpTemp\Walking.fbx)
+[2023.01.09-14.26.02:929][103]LogFbx: Loading FBX Scene from E:\UNI\Masters\Game Craft\ImpTemp\Walking.fbx
+[2023.01.09-14.26.03:103][103]LogFbx: FBX Scene Loaded Succesfully
+[2023.01.09-14.26.03:107][103]FBXImport: Error: Mesh contains IMP bone as root but animation doesn't contain the root track.
+Import failed. 
+[2023.01.09-14.26.03:107][103]FBXImport: Error: Import failed. 
+[2023.01.09-14.26.04:553][103]LogSlate: Window 'Message' being destroyed
+[2023.01.09-14.26.04:556][103]Message dialog closed, result: Ok, title: Message, text: Failed to import 'E:\UNI\Masters\Game Craft\ImpTemp\Walking.fbx'. Failed to create asset '/Game/Enemy/Imp/Animations/mixamo/Walking'.
+Please see Output Log for details.
+[2023.01.09-14.26.04:556][103]LogAssetTools: Warning: Failed to import 'E:\UNI\Masters\Game Craft\ImpTemp\Walking.fbx'. Failed to create asset '/Game/Enemy/Imp/Animations/mixamo/Walking'.
+Please see Output Log for details.
+[2023.01.09-14.26.05:873][259]LogSlate: Window 'Message Log' being destroyed
+[2023.01.09-14.26.05:877][259]LogSlate: Window 'Message Log' being destroyed
+[2023.01.09-14.26.07:047][393]LogAssetEditorSubsystem: Opening Asset editor for AnimSequence /Game/Enemy/Imp/Animations/mixamo/WalkingImp001.WalkingImp001
+[2023.01.09-14.26.11:583][769]LogSavePackage: Moving '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Saved/WalkingImp00171ADFDE947E7E0957B039590BFBE0881.tmp' to '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Content/Enemy/Imp/Animations/mixamo/WalkingImp001.uasset'
+[2023.01.09-14.26.11:597][769]AssetCheck: New page: Asset Save: WalkingImp001
+[2023.01.09-14.26.11:597][769]LogContentValidation: Display: Validating AnimSequence /Game/Enemy/Imp/Animations/mixamo/WalkingImp001.WalkingImp001
+[2023.01.09-14.26.15:311][ 52]LogWorld: UWorld::CleanupWorld for World_26, bSessionEnded=true, bCleanupResources=true
+[2023.01.09-14.26.15:311][ 52]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.09-14.26.24:658][842]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/Imp/Animations/ImpEnemy_BSP" FILE="../../../../../repos/GDES703-Game-Craft/TimelessParadox/Content/Enemy/Imp/Animations/ImpEnemy_BSP.uasset" SILENT=true
+[2023.01.09-14.26.24:668][842]LogSavePackage: Moving '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Saved/ImpEnemy_BSPD09F5417469CC2E7AE58AAB2A3D98F4A.tmp' to '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Content/Enemy/Imp/Animations/ImpEnemy_BSP.uasset'
+[2023.01.09-14.26.24:678][842]AssetCheck: New page: Asset Save: ImpEnemy_BSP
+[2023.01.09-14.26.24:678][842]LogContentValidation: Display: Validating BlendSpace /Game/Enemy/Imp/Animations/ImpEnemy_BSP.ImpEnemy_BSP
+[2023.01.09-14.26.39:431][189]Cmd: TRANSACTION UNDO
+[2023.01.09-14.26.39:431][189]LogEditorTransaction: Undo Adding Blend Grid Sample
+[2023.01.09-14.26.39:580][189]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2023.01.09-14.26.39:591][189]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_18:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2023.01.09-14.26.43:925][532]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/Imp/Animations/ImpEnemy_BSP" FILE="../../../../../repos/GDES703-Game-Craft/TimelessParadox/Content/Enemy/Imp/Animations/ImpEnemy_BSP.uasset" SILENT=true
+[2023.01.09-14.26.43:936][532]LogSavePackage: Moving '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Saved/ImpEnemy_BSP2A981044475A63B6A50B028ED1AED5B6.tmp' to '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Content/Enemy/Imp/Animations/ImpEnemy_BSP.uasset'
+[2023.01.09-14.26.43:945][532]AssetCheck: New page: Asset Save: ImpEnemy_BSP
+[2023.01.09-14.26.43:945][532]LogContentValidation: Display: Validating BlendSpace /Game/Enemy/Imp/Animations/ImpEnemy_BSP.ImpEnemy_BSP
+[2023.01.09-14.26.58:072][682]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/Imp/Animations/ImpEnemy_BSP" FILE="../../../../../repos/GDES703-Game-Craft/TimelessParadox/Content/Enemy/Imp/Animations/ImpEnemy_BSP.uasset" SILENT=true
+[2023.01.09-14.26.58:083][682]LogSavePackage: Moving '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Saved/ImpEnemy_BSP62ABB79E4D2DEF5FA31666897005C8C6.tmp' to '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Content/Enemy/Imp/Animations/ImpEnemy_BSP.uasset'
+[2023.01.09-14.26.58:093][682]AssetCheck: New page: Asset Save: ImpEnemy_BSP
+[2023.01.09-14.26.58:093][682]LogContentValidation: Display: Validating BlendSpace /Game/Enemy/Imp/Animations/ImpEnemy_BSP.ImpEnemy_BSP
+[2023.01.09-14.27.42:407][642]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/Imp/Animations/ImpEnemy_BSP" FILE="../../../../../repos/GDES703-Game-Craft/TimelessParadox/Content/Enemy/Imp/Animations/ImpEnemy_BSP.uasset" SILENT=true
+[2023.01.09-14.27.42:415][642]LogSavePackage: Moving '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Saved/ImpEnemy_BSP1822DD2D404B612A09179086B17AFDBF.tmp' to '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Content/Enemy/Imp/Animations/ImpEnemy_BSP.uasset'
+[2023.01.09-14.27.42:424][642]AssetCheck: New page: Asset Save: ImpEnemy_BSP
+[2023.01.09-14.27.42:424][642]LogContentValidation: Display: Validating BlendSpace /Game/Enemy/Imp/Animations/ImpEnemy_BSP.ImpEnemy_BSP
+[2023.01.09-14.28.30:137][958]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/Imp/Animations/ImpEnemy_BSP" FILE="../../../../../repos/GDES703-Game-Craft/TimelessParadox/Content/Enemy/Imp/Animations/ImpEnemy_BSP.uasset" SILENT=true
+[2023.01.09-14.28.30:144][958]LogSavePackage: Moving '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Saved/ImpEnemy_BSPA93D8DB94D64AE5829061D94675F591D.tmp' to '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Content/Enemy/Imp/Animations/ImpEnemy_BSP.uasset'
+[2023.01.09-14.28.30:153][958]AssetCheck: New page: Asset Save: ImpEnemy_BSP
+[2023.01.09-14.28.30:153][958]LogContentValidation: Display: Validating BlendSpace /Game/Enemy/Imp/Animations/ImpEnemy_BSP.ImpEnemy_BSP
+[2023.01.09-14.28.34:607][391]LogSlate: Window 'FocusPlayer_Task' being destroyed
+[2023.01.09-14.28.34:611][391]LogSlate: Window 'FocusPlayer_Task' being destroyed
+[2023.01.09-14.28.34:636][391]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2023.01.09-14.28.34:636][391]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.09-14.28.34:701][391]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2023.01.09-14.28.34:701][391]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.09-14.28.34:722][391]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2023.01.09-14.28.34:723][391]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.09-14.28.34:801][391]LogWorld: UWorld::CleanupWorld for World_18, bSessionEnded=true, bCleanupResources=true
+[2023.01.09-14.28.34:801][391]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.09-14.28.34:808][391]LogWorld: UWorld::CleanupWorld for World_17, bSessionEnded=true, bCleanupResources=true
+[2023.01.09-14.28.34:808][391]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.09-14.28.34:872][391]LogWorld: UWorld::CleanupWorld for World_19, bSessionEnded=true, bCleanupResources=true
+[2023.01.09-14.28.34:872][391]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.09-14.28.34:885][391]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2023.01.09-14.28.34:885][391]LogWorld: UWorld::CleanupWorld for World_23, bSessionEnded=true, bCleanupResources=true
+[2023.01.09-14.28.34:885][391]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.09-14.28.34:938][391]LogWorld: UWorld::CleanupWorld for World_24, bSessionEnded=true, bCleanupResources=true
+[2023.01.09-14.28.34:938][391]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.09-14.28.34:998][391]LogWorld: UWorld::CleanupWorld for World_25, bSessionEnded=true, bCleanupResources=true
+[2023.01.09-14.28.34:998][391]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.09-14.28.35:192][408]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2023.01.09-14.28.35:367][421]LogUObjectHash: Compacting FUObjectHashTables data took   2.34ms
+[2023.01.09-14.28.35:392][421]LogSavePackage: Moving '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Saved/ThirdPersonExampleMapAAB7D0B34C8F2CC641F4EBB71638A3B5.tmp' to '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2023.01.09-14.28.35:447][421]LogSavePackage: Moving '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Saved/ThirdPersonExampleMap_BuiltData01EA31F34861336E73FAB8ACC12A3BF3.tmp' to '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2023.01.09-14.28.35:460][421]AssetCheck: New page: Asset Save: multiple assets
+[2023.01.09-14.28.35:460][421]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData
+[2023.01.09-14.28.35:460][421]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2023.01.09-14.28.35:590][432]LogUObjectHash: Compacting FUObjectHashTables data took   1.99ms
+[2023.01.09-14.28.35:610][432]LogSavePackage: Moving '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Saved/ThirdPersonExampleMap730AA5C644A18609A144EBBD2CBB4470.tmp' to '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2023.01.09-14.28.35:665][432]LogSavePackage: Moving '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Saved/ThirdPersonExampleMap_BuiltData5403CEDB4D47D88CCD56FE8FFA499BA9.tmp' to '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2023.01.09-14.28.35:674][432]AssetCheck: New page: Asset Save: multiple assets
+[2023.01.09-14.28.35:674][432]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData
+[2023.01.09-14.28.35:674][432]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2023.01.09-14.28.36:172][487]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2023.01.09-14.28.36:192][487]LogSavePackage: Moving '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Saved/ThirdPersonExampleMap1DBDDF6B4A1C41BE790104B6B02E6762.tmp' to '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2023.01.09-14.28.36:247][487]LogSavePackage: Moving '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Saved/ThirdPersonExampleMap_BuiltData317B7E2544C245425029DBB47243E513.tmp' to '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2023.01.09-14.28.36:258][487]AssetCheck: New page: Asset Save: multiple assets
+[2023.01.09-14.28.36:258][487]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData
+[2023.01.09-14.28.36:258][487]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2023.01.09-14.28.36:806][549]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2023.01.09-14.28.36:826][549]LogSavePackage: Moving '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Saved/ThirdPersonExampleMap4150684D408097A8B71ED9898D503870.tmp' to '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2023.01.09-14.28.36:880][549]LogSavePackage: Moving '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Saved/ThirdPersonExampleMap_BuiltDataFF3EDF164336E2C43304F6878FCCD476.tmp' to '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2023.01.09-14.28.36:893][549]AssetCheck: New page: Asset Save: multiple assets
+[2023.01.09-14.28.36:893][549]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData
+[2023.01.09-14.28.36:893][549]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2023.01.09-14.28.50:068][833]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2023.01.09-14.28.50:090][833]LogSavePackage: Moving '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Saved/ThirdPersonExampleMap1C97A5EA43B1D96E4ED3B59E27354A36.tmp' to '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2023.01.09-14.28.50:144][833]LogSavePackage: Moving '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Saved/ThirdPersonExampleMap_BuiltData014B10624C74D87F8DD4A7AFEA12050C.tmp' to '../../../../../repos/GDES703-Game-Craft/TimelessParadox/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2023.01.09-14.28.50:154][833]AssetCheck: New page: Asset Save: multiple assets
+[2023.01.09-14.28.50:154][833]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData
+[2023.01.09-14.28.50:154][833]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
